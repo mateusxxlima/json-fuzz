@@ -1,0 +1,107 @@
+{
+    "$ref": "#/definitions/UserConfig",
+    "definitions": {
+      "UserConfig": {
+        "type": "object",
+        "additionalProperties": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                }
+              ],
+              "minItems": 2,
+              "maxItems": 2
+            },
+            {
+              "$ref": "#/definitions/{alias?:string;command?:string;desc?:string;description?:string;describe?:string;scripts?:UserConfig;prescript?:Valueof<UserConfig>;postscript?:Valueof<UserConfig>;env?:{[key:string]:string;};}"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        }
+      },
+      "{alias?:string;command?:string;desc?:string;description?:string;describe?:string;scripts?:UserConfig;prescript?:Valueof<UserConfig>;postscript?:Valueof<UserConfig>;env?:{[key:string]:string;};}": {
+        "type": "object",
+        "properties": {
+          "alias": {
+            "type": "string"
+          },
+          "command": {
+            "type": "string"
+          },
+          "desc": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "describe": {
+            "type": "string"
+          },
+          "scripts": {
+            "$ref": "#/definitions/UserConfig"
+          },
+          "prescript": {
+            "anyOf": [
+              {
+                "type": "array",
+                "items": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "string"
+                  }
+                ],
+                "minItems": 2,
+                "maxItems": 2
+              },
+              {
+                "$ref": "#/definitions/{alias?:string;command?:string;desc?:string;description?:string;describe?:string;scripts?:UserConfig;prescript?:Valueof<UserConfig>;postscript?:Valueof<UserConfig>;env?:{[key:string]:string;};}"
+              },
+              {
+                "type": "string"
+              }
+            ]
+          },
+          "postscript": {
+            "anyOf": [
+              {
+                "type": "array",
+                "items": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "string"
+                  }
+                ],
+                "minItems": 2,
+                "maxItems": 2
+              },
+              {
+                "$ref": "#/definitions/{alias?:string;command?:string;desc?:string;description?:string;describe?:string;scripts?:UserConfig;prescript?:Valueof<UserConfig>;postscript?:Valueof<UserConfig>;env?:{[key:string]:string;};}"
+              },
+              {
+                "type": "string"
+              }
+            ]
+          },
+          "env": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }

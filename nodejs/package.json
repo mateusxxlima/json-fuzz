@@ -1,0 +1,25 @@
+{
+  "name": "tcc-project",
+  "type": "module",
+  "version": "2.0.0",
+  "author": "Mateus Lima",
+  "license": "ISC",
+  "main": "./src/index.js",
+  "description": "",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@cfworker/json-schema": "^2.0.1",
+    "@exodus/schemasafe": "^1.3.0",
+    "@hyperjump/json-schema": "^1.9.8",
+    "ajv": "^8.17.1",
+    "another-json-schema": "^3.8.4",
+    "dotenv": "^16.4.5",
+    "json-schema-library": "^10.0.0-rc2",
+    "luxon": "^3.5.0",
+    "openai": "^4.56.1",
+    "schema-validator": "^3.3.1"
+  }
+}

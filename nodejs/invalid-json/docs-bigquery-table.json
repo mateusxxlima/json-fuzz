@@ -1,0 +1,1306 @@
+
+[
+    {"name": "id", "type": "INT64", "mode": "REQUIRED"},
+    {"name": "first_name", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "last_name", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "age", "type": "INT64", "mode": "NULLABLE"},
+    {"name": "email", "type": "STRING", "mode": "REQUIRED"},
+    {"name": "created_at", "type": "TIMESTAMP", "mode": "REQUIRED"},
+    {"name": "updated_at", "type": "TIMESTAMP", "mode": "NULLABLE"},
+    {"name": "is_active", "type": "BOOLEAN", "mode": "NULLABLE"},
+    {"name": "balance", "type": "FLOAT64", "mode": "NULLABLE"},
+    {"name": "preferences", "type": "JSON", "mode": "NULLABLE"},
+    {"name": "address", "type": "STRUCT", "mode": "REPEATED", "fields": [
+        {"name": "street", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "city", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "zipcode", "type": "STRING", "mode": "NULLABLE"}
+    ]},
+    {"name": "scores", "type": "STRUCT", "mode": "REPEATED", "fields": [
+        {"name": "subject", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "score", "type": "FLOAT64", "mode": "REQUIRED"}
+    ]},
+    {"name": "timestamp", "type": "DATETIME", "mode": "REQUIRED"},
+    {"name": "items", "type": "REPEATED", "mode": "NULLABLE", "fields": [
+        {"name": "item_id", "type": "INT64", "mode": "REQUIRED"},
+        {"name": "item_name", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "quantity", "type": "INT64", "mode": "REQUIRED"}
+    ]},
+    {"name": "hobbies", "type": "STRING", "mode": "REPEATED"},
+    {"name": "last_login", "type": "TIMESTAMP", "mode": "NULLABLE"},
+    {"name": "profile_picture", "type": "BYTES", "mode": "NULLABLE"},
+    {"name": "projects", "type": "REPEATED", "mode": "NULLABLE", "fields": [
+        {"name": "project_id", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "project_name", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "start_date", "type": "DATE", "mode": "REQUIRED"},
+        {"name": "end_date", "type": "DATE", "mode": "NULLABLE"}
+    ]},
+    {"name": "educations", "type": "REPEATED", "mode": "NULLABLE", "fields": [
+        {"name": "degree", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "institution", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "graduation_year", "type": "INT64", "mode": "REQUIRED"}
+    ]},
+    {"name": "feedback", "type": "STRUCT", "mode": "NULLABLE", "fields": [
+        {"name": "comments", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "rating", "type": "FLOAT64", "mode": "NULLABLE"}
+    ]},
+    {"name": "transactions", "type": "REPEATED", "mode": "NULLABLE", "fields": [
+        {"name": "transaction_id", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "amount", "type": "FLOAT64", "mode": "REQUIRED"},
+        {"name": "transaction_date", "type": "DATE", "mode": "REQUIRED"}
+    ]},
+    {"name": "tags", "type": "STRING", "mode": "REPEATED"},
+    {"name": "inventory", "type": "STRUCT", "mode": "NULLABLE", "fields": [
+        {"name": "product_id", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "quantity_available", "type": "INT64", "mode": "REQUIRED"},
+        {"name": "last_stocked", "type": "DATE", "mode": "NULLABLE"}
+    ]},
+    {"name": "last_purchase", "type": "TIMESTAMP", "mode": "NULLABLE"},
+    {"name": "notifications", "type": "REPEATED", "mode": "NULLABLE", "fields": [
+        {"name": "message", "type": "STRING", "mode": "NULLABLE"),
+        {"name": "is_read", "type": "BOOLEAN", "mode": "NULLABLE"},
+        {"name": "timestamp", "type": "TIMESTAMP", "mode": "NULLABLE"}
+    ]},
+    {"name": "language", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "geo_location", "type": "GEOGRAPHY", "mode": "NULLABLE"},
+    {"name": "is_verified", "type": "BOOLEAN", "mode": "REQUIRED"},
+    {"name": "login_attempts", "type": "INT64", "mode": "NULLABLE"},
+    {"name": "subscribers", "type": "INT64", "mode": "NULLABLE"},
+    {"name": "followers", "type": "INT64", "mode": "NULLABLE"},
+    {"name": "social_media_handles", "type": "STRUCT", "mode": "NULLABLE", "fields": [
+        {"name": "twitter", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "facebook", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "instagram", "type": "STRING", "mode": "NULLABLE"}
+    ]},
+    {"name": "campaigns", "type": "REPEATED", "mode": "NULLABLE", "fields": [
+        {"name": "campaign_id", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "campaign_name", "type": "STRING", "mode": "REQUIRED"}
+    ]},
+    {"name": "meta", "type": "STRUCT", "mode": "NULLABLE", "fields": [
+        {"name": "created_by", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "updated_by", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "version", "type": "INT64", "mode": "REQUIRED"}
+    ]},
+    {"name": "session_id", "type": "STRING", "mode": "REQUIRED"},
+    {"name": "ip_address", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "user_agent", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "security_question", "type": "STRUCT", "mode": "NULLABLE", "fields": [
+        {"name": "question", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "answer", "type": "STRING", "mode": "REQUIRED"}
+    ]},
+    {"name": "api_limits", "type": "STRUCT", "mode": "NULLABLE", "fields": [
+        {"name": "daily_limit", "type": "INT64", "mode": "REQUIRED"},
+        {"name": "hourly_limit", "type": "INT64", "mode": "REQUIRED"},
+        {"name": "remaining_requests", "type": "INT64", "mode": "REQUIRED"}
+    ]},
+    {"name": "complaints", "type": "REPEATED", "mode": "NULLABLE", "fields": [
+        {"name": "complaint_id", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "description", "type": "STRING", "mode": "NULLABLE"}
+    ]}
+]
+
+[
+    {"name": "user_id", "type": "INT64", "mode": "REQUIRED"},
+    {"name": "user_name", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "is_active", "type": "BOOLEAN", "mode": "REQUIRED"},
+    {"name": "created_at", "type": "TIMESTAMP", "mode": "REQUIRED"},
+    {"name": "age", "type": "INT64", "mode": "NULLABLE"},
+    {"name": "last_login", "type": "DATETIME", "mode": "NULLABLE"},
+    {"name": "profile_picture", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "preferences", "type": "JSON", "mode": "NULLABLE"},
+    {"name": "address", "type": "STRUCT", "mode": "NULLABLE", "fields": [
+        {"name": "street", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "city", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "zip_code", "type": "STRING", "mode": "NULLABLE"}
+    ]},
+    {"name": "hobbies", "type": "STRING", "mode": "REPEATED"},
+    {"name": "account_balance", "type": "FLOAT64", "mode": "NULLABLE"},
+    {"name": "transaction_history", "type": "REPEATED", "mode": "REPEATED", "fields": [
+        {"name": "transaction_id", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "amount", "type": "FLOAT64", "mode": "REQUIRED"},
+        {"name": "transaction_date", "type": "TIMESTAMP", "mode": "REQUIRED"}
+    ]},
+    {"name": "products", "type": "REPEATED", "mode": "REPEATED", "fields": [
+        {"name": "product_id", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "product_name", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "price", "type": "FLOAT64", "mode": "REQUIRED"},
+        {"name": "available_stock", "type": "INT64", "mode": "REQUIRED"}
+    ]},
+    {"name": "settings", "type": "STRUCT", "mode": "NULLABLE", "fields": [
+        {"name": "notifications", "type": "BOOLEAN", "mode": "NULLABLE"},
+        {"name": "language", "type": "STRING", "mode": "NULLABLE"}
+    ]},
+    {"name": "session_ids", "type": "STRING", "mode": "REPEATED"},
+    {"name": "meta_data", "type": "JSON", "mode": "NULLABLE"},
+    {"name": "is_verified", "type": "BOOLEAN", "mode": "REQUIRED"},
+    {"name": "registration_date", "type": "DATE", "mode": "REQUIRED"},
+    {"name": "last_update", "type": "DATETIME", "mode": "NULLABLE"},
+    {"name": "children", "type": "REPEATED", "mode": "REPEATED", "fields": [
+        {"name": "child_name", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "birthdate", "type": "DATE", "mode": "REQUIRED"}
+    ]},
+    {"name": "payment_methods", "type": "REPEATED", "mode": "REPEATED", "fields": [
+        {"name": "method_type", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "account_number", "type": "STRING", "mode": "REQUIRED"}
+    ]},
+    {"name": "feedback", "type": "STRUCT", "mode": "NULLABLE", "fields": [
+        {"name": "rating", "type": "FLOAT64", "mode": "NULLABLE"},
+        {"name": "comment", "type": "STRING", "mode": "NULLABLE"}
+    ]},
+    {"name": "job_history", "type": "REPEATED", "mode": "REPEATED", "fields": [
+        {"name": "job_title", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "employment_duration", "type": "STRING", "mode": "REQUIRED"}
+    ]},
+    {"name": "income", "type": "FLOAT64", "mode": "NULLABLE"},
+    {"name": "favorite_color", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "profile_views", "type": "INT64", "mode": "NULLABLE"},
+    {"name": "is_subscribed", "type": "BOOLEAN", "mode": "REPEATED"},
+    {"name": "session_durations", "type": "INT64", "mode": "REPEATED"},
+    {"name": "document_uploads", "type": "REPEATED", "mode": "REPEATED", "fields": [
+        {"name": "document_type", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "upload_date", "type": "TIMESTAMP", "mode": "REQUIRED"}
+    ]},
+    {"name": "online_status", "type": "STRING", "mode": "NULLABLE"},
+    
+    /* Edge cases */
+    
+    {"name": "edge_case_string_empty", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "edge_case_string_max_length", "type": "STRING", "mode": "NULLABLE"}, 
+    {"name": "edge_case_integer_min", "type": "INT64", "mode": "REQUIRED"},
+    {"name": "edge_case_integer_max", "type": "INT64", "mode": "REQUIRED"}, 
+    {"name": "edge_case_float_min", "type": "FLOAT64", "mode": "NULLABLE"},
+    {"name": "edge_case_float_max", "type": "FLOAT64", "mode": "NULLABLE"},
+    {"name": "edge_case_boolean_true", "type": "BOOLEAN", "mode": "REQUIRED"},
+    {"name": "edge_case_boolean_false", "type": "BOOLEAN", "mode": "REQUIRED"},
+    
+    {"name": "nested_empty_struct", "type": "STRUCT", "mode": "NULLABLE", "fields": []},
+    {"name": "nested_struct_with_empty_name", "type": "STRUCT", "mode": "NULLABLE", "fields": [
+        {"name": "", "type": "STRING", "mode": "REQUIRED"}
+    ]},
+    
+    {"name": "cities", "type": "STRING", "mode": "REPEATED"},
+    {"name": "unusual_field", "type": "BYTES", "mode": "NULLABLE"},
+    {"name": "extra_non_compliant_field", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "duplicate_field", "type": "STRING", "mode": "NULLABLE"},
+    
+    {"name": "nonexistent_field", "type": "STRUCT", "mode": "NULLABLE", "fields": [
+        {"name": "nonexistent_name", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "nonexistent_type", "type": "Foo", "mode": "REQUIRED"}
+    ]},
+    
+    {"name": "max_depth_struct", "type": "STRUCT", "mode": "NULLABLE", "fields": [
+        {"name": "inner_struct", "type": "STRUCT", "mode": "NULLABLE", "fields": [
+            {"name": "deeper_struct", "type": "STRUCT", "mode": "NULLABLE", "fields": [
+                {"name": "deepest_name", "type": "STRING", "mode": "NULLABLE"}
+            ]}
+        ]}
+    ]},
+    
+    {"name": "time_range", "type": "REPEATED", "fields": [
+        {"name": "start_time", "type": "DATETIME", "mode": "REQUIRED"},
+        {"name": "end_time", "type": "DATETIME", "mode": "REQUIRED"}
+    ]},
+    
+    /* Variations */
+    
+    {"name": "temp_fields", "type": "REPEATED", "mode": "REPEATED", "fields": [
+        {"name": "temp_name", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "temp_value", "type": "FLOAT64", "mode": "NULLABLE"}
+    ]},
+    
+    {"name": "image_metadata", "type": "STRUCT", "mode": "NULLABLE", "fields": [
+        {"name": "url", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "alt_text", "type": "STRING", "mode": "NULLABLE"}
+    ]},
+    
+    {"name": "pageviews", "type": "REPEATED", "mode": "REPEATED", "fields": [
+        {"name": "timestamp", "type": "DATETIME", "mode": "REQUIRED"},
+        {"name": "url", "type": "STRING", "mode": "REQUIRED"}
+    ]},
+    
+    {"name": "tags", "type": "STRING", "mode": "REPEATED"},
+    {"name": "search_history", "type": "REPEATED", "mode": "REPEATED", "fields": [
+        {"name": "query", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "search_date", "type": "DATETIME", "mode": "REQUIRED"}
+    ]}
+]
+
+[
+    {"name": "id", "type": "INT64", "mode": "REQUIRED"},
+    {"name": "name", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "age", "type": "INTEGER", "mode": "REQUIRED"},
+    {"name": "salary", "type": "FLOAT64", "mode": "NULLABLE"},
+    {"name": "is_active", "type": "BOOLEAN", "mode": "REQUIRED"},
+    {"name": "created_at", "type": "DATETIME", "mode": "NULLABLE"},
+    {"name": "location", "type": "GEOGRAPHY", "mode": "NULLABLE"},
+    {"name": "json_data", "type": "JSON", "mode": "REPEATED"},
+    {"name": "address", "type": "STRUCT", "mode": "NULLABLE", "fields": [{"name": "street", "type": "STRING"}, {"name": "city", "type": "STRING"}, {"name": "zipcode", "type": "STRING"}]},
+    {"name": "projects", "type": "RECORD", "mode": "REPEATED", "fields": [{"name": "project_id", "type": "STRING"}, {"name": "project_name", "type": "STRING"}]},
+    {"name": "optionalField", "type": "STRING"},
+    {"name": "voidField", "type": "STRING", "mode": "REPEATED"},
+    {"name": "divorce_date", "type": "DATE", "mode": "NULLABLE"},
+    {"name": "employment_status", "type": "STRING", "mode": "REQUIRED"},
+    {"name": "email", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "phones", "type": "STRUCT", "mode": "NULLABLE", "fields": [{"name": "home", "type": "STRING"}, {"name": "work", "type": "STRING"}]},
+    {"name": "startDate", "type": "DATE", "mode": "NULLABLE"},
+    {"name": "endDate", "type": "DATE", "mode": "NULLABLE"},
+    {"name": "nickname", "type": "STRING"},
+    {"name": "notes", "type": "STRING", "mode": "REPEATED"},
+    {"name": "weight", "type": "FLOAT", "mode": "NULLABLE"},
+    {"name": "height", "type": "FLOAT", "mode": "NULLABLE"},
+    {"name": "contract", "type": "STRUCT", "mode": "NULLABLE", "fields": [{"name": "contract_start", "type": "DATE"}, {"name": "contract_end", "type": "DATE"}]},
+    {"name": "hobbies", "type": "STRING", "mode": "REPEATED"},
+    {"name": "preferences", "type": "JSON", "mode": "REPEATED"},
+    {"name": "spouse", "type": "STRUCT", "mode": "NULLABLE", "fields": [{"name": "name", "type": "STRING"}, {"name": "anniversary", "type": "DATE"}]},
+    {"name": "children", "type": "RECORD", "mode": "REPEATED", "fields": [{"name": "child_id", "type": "INT64"}, {"name": "child_name", "type": "STRING"}]},
+    {"name": "annual_bonus", "type": "FLOAT64", "mode": "NULLABLE"},
+    {"name": "project_details", "type": "STRUCT", "fields": [{"name": "project_description", "type": "STRING"}, {"name": "budget", "type": "FLOAT64"}]},
+    {"name": "date_of_birth", "type": "DATE"},
+    {"name": "user_preferences", "type": "JSON", "mode": "NULLABLE"},
+    {"name": "interests", "type": "STRING", "mode": "REPEATED"},
+    {"name": "nationality", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "pet", "type": "STRUCT", "mode": "NULLABLE", "fields": [{"name": "type", "type": "STRING"}, {"name": "name", "type": "STRING"}, {"name": "age", "type": "INTEGER"}]},
+    {"name": "is_verified", "type": "BOOLEAN", "mode": "NULLABLE"},
+    {"name": "project_code", "type": "STRING", "mode": "REQUIRED"},
+    {"name": "employment_history", "type": "REPEATED", "items": {"type": "STRUCT", "fields": [{"name": "company", "type": "STRING"}, {"name": "position", "type": "STRING"}, {"name": "duration", "type": "INTEGER"}]}},
+    {"name": "special_char_field", "type": "STRING"},
+    {"name": "nested_example", "type": "STRUCT", "mode": "NULLABLE", "fields": [{"name": "info", "type": "STRING"}, {"name": "details", "type": "REPEATED", "items": {"type": "STRUCT", "fields": [{"name": "detail_name", "type": "STRING"}, {"name": "value", "type": "STRING"}]}}}]},
+    {"name": "file_upload", "type": "BYTES"},
+    {"name": "account_balance", "type": "NUMERIC", "mode": "REQUIRED"},
+    {"name": "age_limit", "type": "INTEGER"},
+    {"name": "url", "type": "STRING"},
+    {"name": "is_admin", "type": "BOOLEAN"},
+    {"name": "session_token", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "session_expiry", "type": "DATETIME", "mode": "NULLABLE"},
+    {"name": "submit_date", "type": "DATETIME"},
+    {"name": "product_ids", "type": "STRING", "mode": "REPEATED"},
+    {"name": "category", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "event_date", "type": "TIMESTAMP"},
+    {"name": "logins", "type": "INTEGER"},
+    {"name": "visit_frequency", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "verification_codes", "type": "STRING", "mode": "REPEATED"},
+    {"name": "last_login", "type": "DATETIME"},
+    {"name": "permissions", "type": "STRUCT", "fields": [{"name": "can_edit", "type": "BOOLEAN"}, {"name": "can_view", "type": "BOOLEAN"}]},
+    {"name": "color_preferences", "type": "STRING", "mode": "REPEATED"},
+    {"name": "questionnaire", "type": "JSON", "mode": "NULLABLE"},
+    {"name": "recognition_level", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "connected_devices", "type": "REPEATED", "items": {"type": "STRUCT", "fields": [{"name": "device_name", "type": "STRING"}, {"name": "device_type", "type": "STRING"}]}},
+    {"name": "feedback", "type": "STRING", "mode": "REPEATED"},
+    {"name": "user_settings", "type": "JSON", "mode": "NULLABLE"},
+    {"name": "daily_steps", "type": "INTEGER"},
+    {"name": "target_steps", "type": "INTEGER"},
+    {"name": "first_name", "type": "STRING"},
+    {"name": "last_name", "type": "STRING"},
+    {"name": "signup_date", "type": "TIMESTAMP"},
+    {"name": "tags", "type": "STRING", "mode": "REPEATED"},
+    {"name": "source", "type": "STRING", "mode": "REQUIRED"},
+    {"name": "import_file", "type": "BYTES"}
+]
+
+[
+    {"name": "id", "type": "INT64", "mode": "REQUIRED"},
+    {"name": "name", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "age", "type": "INTEGER", "mode": "REQUIRED"},
+    {"name": "isActive", "type": "BOOLEAN", "mode": "NULLABLE"},
+    {"name": "createdAt", "type": "TIMESTAMP", "mode": "REQUIRED"},
+    {"name": "lastLogin", "type": "DATETIME", "mode": "NULLABLE"},
+    {"name": "profile", "type": "STRUCT", "mode": "NULLABLE", "fields": [{"name": "bio", "type": "STRING"}, {"name": "website", "type": "STRING"}]},
+    {"name": "scores", "type": "REPEATED", "mode": "REPEATED", "fields": [{"name": "subject", "type": "STRING"}, {"name": "score", "type": "FLOAT64"}]},
+    {"name": "location", "type": "GEOGRAPHY", "mode": "NULLABLE"},
+    {"name": "preferences", "type": "JSON", "mode": "NULLABLE"},
+    {"name": "hobbies", "type": "REPEATED", "mode": "REPEATED", "fields": [{"name": "hobby", "type": "STRING"}]},
+    {"name": "margin", "type": "NUMERIC", "mode": "NULLABLE"},
+    {"name": "balance", "type": "BIGNUMERIC", "mode": "REQUIRED"},
+    {"name": "birthdate", "type": "DATE", "mode": "NULLABLE"},
+    {"name": "addresses", "type": "REPEATED", "mode": "REPEATED", "fields": [{"name": "street", "type": "STRING"}, {"name": "city", "type": "STRING"}, {"name": "code", "type": "STRING"}]},
+    {"name": "settings", "type": "STRUCT", "mode": "NULLABLE", "fields": [{"name": "theme", "type": "STRING"}, {"name": "notifications", "type": "BOOLEAN"}]},
+    {"name": "products", "type": "REPEATED", "mode": "REPEATED", "fields": [{"name": "productId", "type": "STRING"}, {"name": "price", "type": "FLOAT"}]},
+    {"name": "sessionId", "type": "STRING", "mode": "REQUIRED"},
+    {"name": "loginCount", "type": "INT64", "mode": "NULLABLE"},
+    {"name": "email", "type": "STRING", "mode": "REQUIRED"},
+    {"name": "subscription", "type": "ENUM", "mode": "NULLABLE"},
+    {"name": "updatedAt", "type": "TIMESTAMP", "mode": "NULLABLE"},
+    {"name": "isVerified", "type": "BOOLEAN", "mode": "NULLABLE"},
+    {"name": "additionalInfo", "type": "STRUCT", "mode": "NULLABLE", "fields": [{"name": "description", "type": "STRING"}, {"name": "value", "type": "STRING"}]},
+    {"name": "cart", "type": "REPEATED", "mode": "REPEATED", "fields": [{"name": "itemId", "type": "STRING"}, {"name": "quantity", "type": "INT64"}]},
+    {"name": "transactionDate", "type": "DATE", "mode": "REQUIRED"},
+    {"name": "loyaltyPoints", "type": "INT64", "mode": "NULLABLE"},
+    {"name": "active"， "type": "BOOLEAN", "mode": "NULLABLE"},
+    {"name": "tags", "type": "REPEATED", "mode": "REPEATED", "fields": [{"name": "tag", "type": "STRING"}]},
+    {"name": "referralId", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "physicalAddress", "type": "STRUCT", "mode": "NULLABLE", "fields": [{"name": "street", "type": "STRING"}, {"name": "zip", "type": "STRING"}]},
+    {"name": "status", "type": "STRING", "mode": "REQUIRED"},
+    {"name": "comments", "type": "REPEATED", "mode": "REPEATED", "fields": [{"name": "comment", "type": "STRING"}, {"name": "createdAt", "type": "DATETIME"}]},
+    {"name": "purchases", "type": "REPEATED", "mode": "REPEATED", "fields": [{"name": "item", "type": "STRING"}, {"name": "purchaseDate", "type": "TIMESTAMP"}]},
+    {"name": "password", "type": "STRING", "mode": "REQUIRED"},
+    {"name": "region", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "deviceId", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "userRole", "type": "STRING", "mode": "REQUIRED"},
+    {"name": "language", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "optIn", "type": "BOOLEAN", "mode": "NULLABLE"},
+    {"name": "metadata", "type": "JSON", "mode": "NULLABLE"},
+    {"name": "source", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "lastUpdated", "type": "TIMESTAMP", "mode": "NULLABLE"},
+    {"name": "favoriteColors", "type": "REPEATED", "mode": "REPEATED", "fields": [{"name": "color", "type": "STRING"}]},
+    {"name": "contactNumbers", "type": "REPEATED", "mode": "REPEATED", "fields": [{"name": "type", "type": "STRING"}, {"name": "number", "type": "STRING"}]},
+    {"name": "employmentStatus", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "salary", "type": "NUMERIC", "mode": "NULLABLE"},
+    {"name": "socialLinks", "type": "REPEATED", "mode": "REPEATED", "fields": [{"name": "platform", "type": "STRING"}, {"name": "url", "type": "STRING"}]},
+    {"name": "userSettings", "type": "STRUCT", "mode": "NULLABLE", "fields": [{"name": "notificationsEnabled", "type": "BOOLEAN"}, {"name": "darkMode", "type": "BOOLEAN"}]},
+    {"name": "rating", "type": "FLOAT64", "mode": "NULLABLE"},
+    {"name": "isActiveMember", "type": "BOOLEAN", "mode": "NULLABLE"},
+    {"name": "jobApplications", "type": "REPEATED", "mode": "REPEATED", "fields": [{"name": "jobId", "type": "STRING"}, {"name": "appliedDate", "type": "DATE"}]},
+    {"name": "customerFeedback", "type": "STRUCT", "mode": "NULLABLE", "fields": [{"name": "feedbackId", "type": "STRING"}, {"name": "comment", "type": "STRING"}]},
+    {"name": "insights", "type": "JSON", "mode": "NULLABLE"},
+    {"name": "timeSpentOnSite", "type": "FLOAT64", "mode": "NULLABLE"},
+    {"name": "careerOverview", "type": "STRUCT", "mode": "NULLABLE", "fields": [{"name": "title", "type": "STRING"}, {"name": "company", "type": "STRING"}]},
+    {"name": "productReviews", "type": "REPEATED", "mode": "REPEATED", "fields": [{"name": "productId", "type": "STRING"}, {"name": "review", "type": "STRING"}]},
+    {"name": "hasChildren", "type": "BOOLEAN", "mode": "NULLABLE"},
+    {"name": "skills", "type": "REPEATED", "mode": "REPEATED", "fields": [{"name": "skill", "type": "STRING"}, {"name": "proficiencyLevel", "type": "STRING"}]},
+    {"name": "businessID", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "city", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "likes", "type": "REPEATED", "mode": "REPEATED", "fields": [{"name": "like", "type": "STRING"}]},
+    {"name": "role", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "websiteAnalytics", "type": "STRUCT", "mode": "NULLABLE", "fields": [{"name": "visits", "type": "INT64"}, {"name": "uniqueVisitors", "type": "INT64"}]},
+    {"name": "partnership", "type": "STRUCT", "mode": "NULLABLE", "fields": [{"name": "partnerId", "type": "STRING"}, {"name": "beginDate", "type": "DATE"}, {"name": "endDate", "type": "DATE"}]},
+    {"name": "participation", "type": "BOOLEAN", "mode": "NULLABLE"},
+    {"name": "locationCoordinates", "type": "GEOGRAPHY", "mode": "NULLABLE"}
+]
+
+[
+    {"name": "id", "type": "INT64", "mode": "REQUIRED"},
+    {"name": "name", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "age", "type": "INTEGER", "mode": "NULLABLE"},
+    {"name": "salary", "type": "FLOAT64", "mode": "NULLABLE"},
+    {"name": "is_active", "type": "BOOLEAN", "mode": "NULLABLE"},
+    {"name": "joined_date", "type": "DATE", "mode": "NULLABLE"},
+    {"name": "last_login", "type": "DATETIME", "mode": "NULLABLE"},
+    {"name": "preferences", "type": "JSON", "mode": "REPEATED"},
+    {"name": "address", "type": "STRUCT", "mode": "NULLABLE", "fields": [
+        {"name": "street", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "city", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "zipcode", "type": "STRING", "mode": "NULLABLE"}
+    ]},
+    {"name": "hobbies", "type": "RECORD", "mode": "REPEATED", "fields": [
+        {"name": "hobby_name", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "experience_years", "type": "INTEGER", "mode": "NULLABLE"}
+    ]},
+    {"name": "bio", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "special_character", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "null_field_test", "type": "STRING", "mode": "NULLABLE", "description": "Test null value"},
+    {"name": "empty_field_test", "type": "STRING", "mode": "NULLABLE", "description": ""},
+    {"name": "nested_struct", "type": "STRUCT", "mode": "NULLABLE", "fields": [
+        {"name": "detail", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "active", "type": "BOOLEAN", "mode": "NULLABLE"}
+    ]},
+    {"name": "geo_location", "type": "GEOGRAPHY", "mode": "NULLABLE"},
+    {"name": "bytes_field", "type": "BYTES", "mode": "NULLABLE"},
+    {"name": "large_num", "type": "BIGNUMERIC", "mode": "NULLABLE"},
+    {"name": "complex_record", "type": "RECORD", "mode": "REPEATED", "fields": [
+        {"name": "location", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "tags", "type": "STRING", "mode": "REPEATED"}
+    ]},
+    {"name": "mixed_types", "type": "RECORD", "mode": "NULLABLE", "fields": [
+        {"name": "text_field", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "int_field", "type": "INTEGER", "mode": "NULLABLE"},
+        {"name": "float_field", "type": "FLOAT", "mode": "NULLABLE"}
+    ]},
+    {"name": "edge_case_test", "type": "STRING", "mode": "NULLABLE", "description": "Descripción con caracteres especiales: á, é, í, ó, ú"},
+    {"name": "empty_array", "type": "REPEATED", "mode": "NULLABLE"},
+    {"name": "single_value_array", "type": "STRING", "mode": "REPEATED"},
+    {"name": "large_text", "type": "STRING", "mode": "NULLABLE", "description": "x".repeat(1000)},
+    {"name": "bool_field", "type": "BOOLEAN", "mode": "NULLABLE"},
+    {"name": "multilevel_struct", "type": "STRUCT", "mode": "NULLABLE", "fields": [
+        {"name": "first_level", "type": "RECORD", "mode": "NULLABLE", "fields": [
+            {"name": "second_level", "type": "STRUCT", "mode": "NULLABLE", "fields": [
+                {"name": "deep_field", "type": "STRING", "mode": "NULLABLE"}
+            ]}
+        ]}
+    ]},
+    {"name": "date_in_past", "type": "DATE", "mode": "NULLABLE"},
+    {"name": "date_in_future", "type": "DATE", "mode": "NULLABLE"},
+    {"name": "empty_string", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "optional_desc", "type": "STRING", "mode": "NULLABLE", "description": "optional description"},
+    {"name": "deeply_nested_record", "type": "RECORD", "mode": "NULLABLE", "fields": [
+        {"name": "level1", "type": "STRUCT", "mode": "NULLABLE", "fields": [
+            {"name": "level2", "type": "STRUCT", "mode": "NULLABLE", "fields": [
+                {"name": "level3", "type": "STRING", "mode": "NULLABLE"}
+            ]}
+        ]}
+    ]},
+    {"name": "missing_mode", "type": "STRING"},
+    {"name": "extra_field_test", "type": "STRING", "mode": "NULLABLE", "extra": "unexpected"},
+    {"name": "no_description", "type": "STRING", "mode": "NULLABLE", "description": null},
+    {"name": "single_struct_field", "type": "STRUCT", "mode": "REQUIRED", "fields": [
+        {"name": "field_name", "type": "STRING", "mode": "REQUIRED"}
+    ]},
+    {"name": "complicated_struct", "type": "STRUCT", "mode": "NULLABLE", "fields": [
+        {"name": "nested1", "type": "STRUCT", "mode": "NULLABLE", "fields": [
+            {"name": "field1", "type": "STRING", "mode": "NULLABLE"},
+            {"name": "field2", "type": "INTEGER", "mode": "NULLABLE"}
+        ]},
+        {"name": "nested2", "type": "RECORD", "mode": "REPEATED", "fields": [
+            {"name": "sub_field1", "type": "FLOAT", "mode": "NULLABLE"}
+        ]}
+    ]},
+    {"name": "boolean_test", "type": "BOOLEAN", "mode": "REQUIRED"},
+    {"name": "sample_struct", "type": "STRUCT", "mode": "NULLABLE", "fields": [
+        {"name": "inner_field", "type": "STRING", "mode": "NULLABLE"}
+    ]},
+    {"name": "conditional_field", "type": "STRUCT", "mode": "REQUIRED", "fields": [
+        {"name": "conditional_inner", "type": "STRING", "mode": "REQUIRED"}
+    ]},
+    {"name": "struct_with_repeated", "type": "STRUCT", "mode": "NULLABLE", "fields": [
+        {"name": "tags", "type": "STRING", "mode": "REPEATED"}
+    ]},
+    {"name": "numeric_precision_test", "type": "NUMERIC", "mode": "REPEATED"},
+    {"name": "tiny_field", "type": "STRING", "mode": "NULLABLE", "description": "Tiny Field"},
+    {"name": "invalid_enum_test", "type": "INVALID_TYPE", "mode": "NULLABLE"},
+    {"name": "extra_fields", "type": "STRING", "mode": "NULLABLE", "extra_field": "unexpected"},
+    {"name": "nested_repeated_struct", "type": "RECORD", "mode": "REPEATED", "fields": [
+        {"name": "name", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "data", "type": "STRUCT", "mode": "REPEATED", "fields": [
+            {"name": "info", "type": "STRING", "mode": "NULLABLE"}
+        ]}
+    ]},
+    {"name": "multi_language_description", "type": "STRING", "mode": "NULLABLE", "description": "Description in English: Lorem Ipsum. Descripción en español: Lorem Ipsum."},
+    {"name": "minimum_integer", "type": "INTEGER", "mode": "NULLABLE"},
+    {"name": "maximum_integer", "type": "INTEGER", "mode": "NULLABLE"},
+    {"name": "complex_boolean", "type": "BOOLEAN", "mode": "NULLABLE", "description": "Complex structure with boolean"},
+    {"name": "implicit_null_value_check", "type": "STRING"},
+    {"name": "unconventional_name", "type": "STRING", "mode": "NULLABLE", "description": "Field with unusual names &*#@"},
+    {"name": "regular_expression_test", "type": "STRING", "mode": "NULLABLE", "description": "/[a-zA-Z0-9]/"},
+    {"name": "field_with_at_symbol", "type": "STRING", "mode": "NULLABLE", "description": "Field Name with @ symbol"},
+    {"name": "database_reference", "type": "STRUCT", "mode": "REQUIRED", "fields": [
+        {"name": "db_name", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "is_remote", "type": "BOOLEAN", "mode": "NULLABLE"}
+    ]},
+    {"name": "character_boundary_test", "type": "STRING", "mode": "NULLABLE", "description": "Test with special characters °, @, #!"},
+    {"name": "asci_character_test", "type": "STRING", "mode": "NULLABLE", "description": "ASCII characters A-Z"},
+    {"name": "unicode_character_test", "type": "STRING", "mode": "NULLABLE", "description": "Unicode characters 你好"},
+    {"name": "timestamp_field", "type": "TIMESTAMP", "mode": "NULLABLE"},
+    {"name": "complex_array", "type": "REPEATED", "mode": "NULLABLE", "items": [
+        {"name": "item_name", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "item_value", "type": "FLOAT", "mode": "NULLABLE"}
+    ]},
+    {"name": "multiple_schema_field", "type": "RECORD", "mode": "REPEATED", "fields": [
+        {"name": "name", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "value", "type": "FLOAT", "mode": "REQUIRED"}
+    ]}
+]
+
+[
+    {"name": "id", "type": "INT64", "mode": "REQUIRED"},
+    {"name": "user_name", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "age", "type": "INTEGER", "mode": "REQUIRED", "description": "Age of the user"},
+    {"name": "balance", "type": "FLOAT64", "mode": "NULLABLE"},
+    {"name": "created_at", "type": "TIMESTAMP", "mode": "REQUIRED"},
+    {"name": "is_active", "type": "BOOLEAN", "mode": "NULLABLE"},
+    {"name": "preferences", "type": "JSON", "mode": "NULLABLE"},
+    {"name": "address", "type": "STRUCT", "mode": "NULLABLE", "fields": [
+        {"name": "street", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "city", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "postcode", "type": "STRING", "mode": "REQUIRED"}
+    ]},
+    {"name": "tags", "type": "ARRAY", "mode": "REPEATED", "description": "List of tags associated with the record"},
+    {"name": "location", "type": "GEOGRAPHY", "mode": "NULLABLE"},
+    {"name": "metadata", "type": "RECORD", "mode": "NULLABLE", "fields": [
+        {"name": "created_by", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "updated_by", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "version", "type": "INTEGER", "mode": "REQUIRED"}
+    ]},
+    {"name": "order_count", "type": "INTEGER", "mode": "REQUIRED", "description": "Number of orders made by user"},
+    {"name": "last_login", "type": "DATETIME", "mode": "NULLABLE"},
+    {"name": "session_ids", "type": "STRING", "mode": "REPEATED"},
+    {"name": "current_subscription", "type": "STRUCT", "mode": "NULLABLE", "fields": [
+        {"name": "type", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "expiry_date", "type": "DATE", "mode": "NULLABLE"}
+    ]},
+    {"name": "likes", "type": "INTEGER", "mode": "REPEATED"},
+    {"name": "comments", "type": "REPEATED", "mode": "NULLABLE", "description": "User comments"},
+    {"name": "preferences", "type": "JSON", "mode": "NULLABLE"},
+    {"name": "average_score", "type": "FLOAT", "mode": "NULLABLE"},
+    {"name": "signup_date", "type": "DATE", "mode": "REQUIRED"},
+    {"name": "ethnicity", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "emails", "type": "REPEATED", "mode": "NULLABLE", "description": "User email addresses"},
+    {"name": "company", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "language", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "achievements", "type": "REPEATED", "mode": "NULLABLE"},
+    {"name": "risk_score", "type": "FLOAT64", "mode": "NULLABLE"},
+    {"name": "last_purchase", "type": "TIMESTAMP", "mode": "NULLABLE"},
+    {"name": "points", "type": "INT64", "mode": "NULLABLE"},
+    {"name": "description", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "parent_id", "type": "INT64", "mode": "NULLABLE"},
+    {"name": "status", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "photo", "type": "BYTES", "mode": "NULLABLE"},
+    {"name": "custom_fields", "type": "RECORD", "mode": "NULLABLE", "fields": [
+        {"name": "field1", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "field2", "type": "INT64", "mode": "NULLABLE"}
+    ]},
+    {"name": "hobbies", "type": "STRING", "mode": "REPEATED", "description": "User hobbies"},
+    {"name": "notes", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "is_verified", "type": "BOOLEAN", "mode": "NULLABLE"},
+    {"name": "blockchain_id", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "last_updated", "type": "DATETIME", "mode": "NULLABLE"},
+    {"name": "contact", "type": "RECORD", "mode": "NULLABLE", "fields": [
+        {"name": "phone", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "email", "type": "STRING", "mode": "NULLABLE"}
+    ]},
+    {"name": "is_deleted", "type": "BOOLEAN", "mode": "NULLABLE"},
+    {"name": "birthday", "type": "DATE", "mode": "NULLABLE"},
+    {"name": "purchase_history", "type": "ARRAY", "mode": "REPEATED", "description": "Record of purchases"},
+    {"name": "url", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "last_purchase_amount", "type": "FLOAT64", "mode": "NULLABLE"},
+    {"name": "social_links", "type": "RECORD", "mode": "NULLABLE", "fields": [
+        {"name": "facebook", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "twitter", "type": "STRING", "mode": "NULLABLE"}
+    ]},
+    {"name": "watchlist", "type": "REPEATED", "mode": "NULLABLE"},
+    {"name": "messages", "type": "ARRAY", "mode": "REPEATED", "description": "User messages"},
+    {"name": "skills", "type": "STRING", "mode": "REPEATED"},
+    {"name": "occupation", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "state", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "country", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "promotion_code", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "extra_data", "type": "RECORD", "mode": "NULLABLE", "fields": [
+        {"name": "key", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "value", "type": "STRING", "mode": "NULLABLE"}
+    ]},
+    {"name": "liked_articles", "type": "REPEATED", "mode": "NULLABLE"},
+    {"name": "questionnaire", "type": "RECORD", "mode": "NULLABLE", "fields": [
+        {"name": "q1", "type": "BOOLEAN", "mode": "NULLABLE"},
+        {"name": "q2", "type": "STRING", "mode": "NULLABLE"}
+    ]},
+    {"name": "current_city", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "pets", "type": "STRING", "mode": "REPEATED"},
+    {"name": "membership_status", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "reward_points", "type": "INT64", "mode": "NULLABLE"},
+    {"name": "total_spent", "type": "FLOAT64", "mode": "NULLABLE"},
+    {"name": "newsletter", "type": "BOOLEAN", "mode": "NULLABLE"},
+    {"name": "two_factor_status", "type": "BOOLEAN", "mode": "NULLABLE"},
+    {"name": "bio", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "kpis", "type": "RECORD", "mode": "NULLABLE", "fields": [
+        {"name": "kpi1", "type": "FLOAT64", "mode": "NULLABLE"},
+        {"name": "kpi2", "type": "FLOAT64", "mode": "NULLABLE"}
+    ]}
+]
+ 
+
+This JSON array contains diverse examples targeting different types, modes, and nested structures as outlined by the provided JSON schema for BigQuery table specifications.
+[
+    {"name": "id", "type": "INT64", "mode": "REQUIRED"},
+    {"name": "name", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "age", "type": "INTEGER", "mode": "NULLABLE"},
+    {"name": "is_active", "type": "BOOLEAN", "mode": "REQUIRED"},
+    {"name": "balance", "type": "FLOAT64", "mode": "NULLABLE"},
+    {"name": "created_at", "type": "TIMESTAMP", "mode": "NULLABLE"},
+    {"name": "location", "type": "GEOGRAPHY", "mode": "NULLABLE"},
+    {"name": "birth_date", "type": "DATE", "mode": "NULLABLE"},
+    {"name": "last_login", "type": "DATETIME", "mode": "NULLABLE"},
+    {"name": "profile_image", "type": "BYTES", "mode": "NULLABLE"},
+    {"name": "bio", "type": "STRING", "mode": "NULLABLE", "description": "User biography"},
+    {"name": "tags", "type": "STRING", "mode": "REPEATED"},
+    {"name": "preferences", "type": "STRUCT", "mode": "NULLABLE", "fields": [
+        {"name": "theme", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "notifications", "type": "BOOLEAN", "mode": "REQUIRED"}
+    ]},
+    {"name": "documents", "type": "RECORD", "mode": "REPEATED", "fields": [
+        {"name": "doc_id", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "doc_type", "type": "STRING", "mode": "REQUIRED"}
+    ]},
+    {"name": "event_log", "type": "STRUCT", "mode": "NULLABLE", "fields": [
+        {"name": "event_time", "type": "TIMESTAMP", "mode": "REQUIRED"},
+        {"name": "event_type", "type": "STRING", "mode": "REQUIRED"}
+    ]},
+    {"name": "status", "type": "STRING", "mode": "REQUIRED"},
+    {"name": "items", "type": "REPEATED", "mode": "NULLABLE"},
+    {"name": "project_id", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "description", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "is_verified", "type": "BOOL", "mode": "NULLABLE"},
+    {"name": "rating", "type": "FLOAT64", "mode": "NULLABLE", "description": "User rating"},
+    {"name": "updated_at", "type": "DATETIME", "mode": "NULLABLE"},
+    {"name": "preferences", "type": "STRUCT", "mode": "NULLABLE", "fields": [
+        {"name": "language", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "currency", "type": "STRING", "mode": "NULLABLE"}
+    ]},
+    {"name": "other_fields", "type": "STRUCT", "mode": "NULLABLE", "fields": [
+        {"name": "field_one", "type": "NUMERIC", "mode": "NULLABLE"},
+        {"name": "field_two", "type": "BOOL", "mode": "NULLABLE"}
+    ]},
+    {"name": "login_time", "type": "TIMESTAMP", "mode": "NULLABLE"},
+    {"name": "last_updated", "type": "DATETIME", "mode": "NULLABLE"},
+    {"name": "session_count", "type": "INTEGER", "mode": "NULLABLE"},
+    {"name": "last_event", "type": "STRUCT", "mode": "NULLABLE", "fields": [
+        {"name": "event_name", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "event_value", "type": "FLOAT64", "mode": "NULLABLE"}
+    ]},
+    {"name": "data", "type": "RECORD", "mode": "NULLABLE", "fields": [
+        {"name": "fieldA", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "fieldB", "type": "INTEGER", "mode": "NULLABLE"},
+        {"name": "fieldC", "type": "BOOLEAN", "mode": "REQUIRED"}
+    ]},
+    {"name": "category", "type": "STRING", "mode": "REQUIRED"},
+    {"name": "nullable_field", "type": "STRING"},
+    {"name": "complex_field", "type": "STRUCT", "mode": "REPEATED", "fields": [
+        {"name": "sub_field1", "type": "FLOAT64", "mode": "REQUIRED"},
+        {"name": "sub_field2", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "sub_field3", "type": "BOOLEAN", "mode": "REQUIRED"}
+    ]},
+    {"name": "hobbies", "type": "STRING", "mode": "REPEATED"},
+    {"name": "is_subscribed", "type": "BOOL", "mode": "REQUIRED"},
+    {"name": "api_keys", "type": "REPEATED", "mode": "NULLABLE"},
+    {"name": "role", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "scorecard", "type": "RECORD", "mode": "NULLABLE", "fields": [
+        {"name": "score", "type": "NUMERIC", "mode": "REQUIRED"},
+        {"name": "date_given", "type": "DATE", "mode": "NULLABLE"}
+    ]},
+    {"name": "avatar", "type": "BYTES", "mode": "NULLABLE"},
+    {"name": "skills", "type": "REPEATED", "mode": "NULLABLE"},
+    {"name": "preferences", "type": "STRUCT", "mode": "REQUIRED", "fields": [
+        {"name": "theme", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "privacy", "type": "STRING", "mode": "NULLABLE"}
+    ]},
+    {"name": "nested_field", "type": "RECORD", "mode": "NULLABLE", "fields": [
+        {"name": "sub1", "type": "STRUCT", "mode": "NULLABLE", "fields": [
+            {"name": "clearance", "type": "BOOLEAN", "mode": "NULLABLE"},
+            {"name": "expiration", "type": "DATE", "mode": "NULLABLE"}
+        ]}
+    ]},
+    {"name": "service_details", "type": "STRUCT", "mode": "NULLABLE", "fields": [
+        {"name": "service_id", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "service_type", "type": "STRING", "mode": "REQUIRED"}
+    ]},
+    {"name": "legacy_id", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "int_field", "type": "INTEGER", "mode": "REQUIRED"},
+    {"name": "bool_field", "type": "BOOLEAN", "mode": "REQUIRED"},
+    {"name": "array_of_structs", "type": "REPEATED", "mode": "NULLABLE", "fields": [
+        {"name": "sub_struct_a", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "sub_struct_b", "type": "BOOLEAN", "mode": "NULLABLE"}
+    ]},
+    {"name": "single_nested", "type": "STRUCT", "mode": "NULLABLE", "fields": [
+        {"name": "x", "type": "FLOAT64", "mode": "NULLABLE"},
+        {"name": "y", "type": "FLOAT64", "mode": "NULLABLE"}
+    ]},
+    {"name": "feedback", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "version", "type": "STRING", "mode": "REQUIRED"},
+    {"name": "metadata", "type": "STRUCT", "mode": "NULLABLE", "fields": [
+        {"name": "created_by", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "updated_by", "type": "STRING", "mode": "NULLABLE"}
+    ]},
+    {"name": "access_level", "type": "STRING", "mode": "REQUIRED"},
+    {"name": "overwrite", "type": "BOOLEAN", "mode": "NULLABLE"},
+    {"name": "preferences", "type": "STRUCT", "mode": "REQUIRED", "fields": [
+        {"name": "allow_notifications", "type": "BOOLEAN", "mode": "NULLABLE"},
+        {"name": "default_language", "type": "STRING", "mode": "NULLABLE"},
+    ]},
+    {"name": "optional_field", "type": "STRING"},
+    {"name": "primary_email", "type": "STRING", "mode": "REQUIRED"},
+    {"name": "backup_email", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "organization", "type": "STRUCT", "mode": "NULLABLE", "fields": [
+        {"name": "org_name", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "org_id", "type": "STRING", "mode": "REQUIRED"}
+    ]}
+]
+
+[
+    {"name": "id", "type": "INT64", "mode": "REQUIRED"},
+    {"name": "name", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "age", "type": "INTEGER", "mode": "NULLABLE"},
+    {"name": "is_active", "type": "BOOLEAN", "mode": "REQUIRED"},
+    {"name": "created_at", "type": "TIMESTAMP", "mode": "NULLABLE"},
+    {"name": "salary", "type": "FLOAT64", "mode": "NULLABLE"},
+    {"name": "address", "type": "STRING", "mode": "NULLABLE", "description": "Home address"},
+    {"name": "birth_date", "type": "DATE", "mode": "NULLABLE"},
+    {"name": "last_login", "type": "DATETIME", "mode": "NULLABLE"},
+    {"name": "preferences", "type": "STRING", "mode": "REPEATED"},
+    {"name": "balance", "type": "NUMERIC", "mode": "NULLABLE"},
+    {"name": "transactions", "type": "REPEATED", "mode": "NULLABLE", "fields": [{"name": "transaction_id", "type": "STRING", "mode": "REQUIRED"}, {"name": "amount", "type": "FLOAT64", "mode": "REQUIRED"}]},
+    {"name": "documents", "type": "REPEATED", "mode": "NULLABLE", "fields": [{"name": "document_id", "type": "STRING", "mode": "REQUIRED"}, {"name": "document_type", "type": "STRING", "mode": "NULLABLE"}]},
+    {"name": "settings", "type": "STRUCT", "mode": "NULLABLE", "fields": [{"name": "language", "type": "STRING", "mode": "NULLABLE"}, {"name": "notifications", "type": "BOOLEAN", "mode": "REQUIRED"}]},
+    {"name": "geo", "type": "GEOGRAPHY", "mode": "NULLABLE"},
+    {"name": "tags", "type": "STRING", "mode": "REPEATED"},
+    {"name": "user_meta", "type": "STRUCT", "mode": "NULLABLE", "fields": [{"name": "last_update", "type": "TIMESTAMP", "mode": "REQUIRED"}, {"name": "created_by", "type": "STRING", "mode": "NULLABLE"}]},
+    {"name": "subordinates", "type": "REPEATED", "mode": "NULLABLE", "fields": [{"name": "sub_id", "type": "INT64", "mode": "REQUIRED"}, {"name": "sub_name", "type": "STRING", "mode": "NULLABLE"}]},
+    {"name": "nested_struct", "type": "STRUCT", "mode": "NULLABLE", "fields": [{"name": "level_1", "type": "STRUCT", "fields": [{"name": "level_2", "type": "STRING", "mode": "NULLABLE"}]}]}},
+    {"name": "preferences", "type": "STRING", "mode": "REPEATED"},
+    {"name": "session_data", "type": "RECORD", "mode": "NULLABLE", "fields": [{"name": "session_id", "type": "STRING", "mode": "REQUIRED"}, {"name": "expires_at", "type": "TIMESTAMP", "mode": "NULLABLE"}]},
+    {"name": "empty_required", "type": "STRING", "mode": "REQUIRED", "description": ""},
+    {"name": "content", "type": "JSON", "mode": "NULLABLE"},
+    {"name": "numeric_field", "type": "NUMERIC", "mode": "REQUIRED"},
+    {"name": "big_numeric_field", "type": "BIGNUMERIC", "mode": "NULLABLE"},
+    {"name": "empty_description", "type": "STRING", "mode": "NULLABLE", "description": ""},
+    {"name": "conditional_field", "type": "STRUCT", "mode": "NULLABLE", "fields": [{"name": "condition", "type": "BOOLEAN", "mode": "REQUIRED"}, {"name": "data", "type": "STRING", "mode": "NULLABLE"}]},
+    {"name": "array_of_structs", "type": "STRUCT", "mode": "NULLABLE", "fields": [{"name": "array_field", "type": "REPEATED", "mode": "NULLABLE", "fields": [{"name": "struct_field1", "type": "STRING", "mode": "REQUIRED"}, {"name": "struct_field2", "type": "INT64", "mode": "NULLABLE"}]}]}},
+    {"name": "data_export", "type": "REPEATED", "mode": "NULLABLE", "fields": [{"name": "file_url", "type": "STRING", "mode": "REQUIRED"}, {"name": "upload_date", "type": "TIMESTAMP", "mode": "NULLABLE"}]},
+    {"name": "complex_structure", "type": "STRUCT", "mode": "NULLABLE", "fields": [{"name": "info", "type": "STRING", "mode": "NULLABLE"}, {"name": "more_info", "type": "ARRAY", "mode": "NULLABLE", "fields": [{"name": "field_1", "type": "STRING", "mode": "REQUIRED"}, {"name": "field_2", "type": "FLOAT64", "mode": "NULLABLE"}]}]}},
+    {"name": "nullable_array", "type": "REPEATED", "mode": "NULLABLE"},
+    {"name": "regular_string", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "max_length_string", "type": "STRING", "mode": "NULLABLE", "description": "A string that could potentially meet length boundaries."},
+    {"name": "geo_data", "type": "GEOGRAPHY", "mode": "REQUIRED"},
+    {"name": "complex_nested_array", "type": "REPEATED", "mode": "NULLABLE", "fields": [{"name": "nested_field", "type": "STRUCT", "mode": "NULLABLE", "fields": [{"name": "sub_field", "type": "STRING", "mode": "NULLABLE"}]}]}},
+    {"name": "odd_nested_struct", "type": "STRUCT", "mode": "NULLABLE", "fields": [{"name": "level_1", "type": "STRUCT", "mode": "NULLABLE", "fields": [{"name": "level_2", "type": "BOOLEAN", "mode": "REQUIRED"}]}]}},
+    {"name": "basic_record", "type": "RECORD", "mode": "NULLABLE", "fields": [{"name": "element_one", "type": "STRING", "mode": "REQUIRED"}, {"name": "element_two", "type": "BOOLEAN", "mode": "NULLABLE"}]},
+    {"name": "aggregate_records", "type": "REPEATED", "mode": "NULLABLE", "fields": [{"name": "record_id", "type": "STRING", "mode": "REQUIRED"}, {"name": "value", "type": "FLOAT64", "mode": "REQUIRED"}]},
+    {"name": "limited_types", "type": "BOOLEAN", "mode": "NULLABLE"},
+    {"name": "deeply_nested", "type": "STRUCT", "mode": "NULLABLE", "fields": [{"name": "first_layer", "type": "STRUCT", "mode": "NULLABLE", "fields": [{"name": "second_layer", "type": "STRUCT", "mode": "NULLABLE", "fields": [{"name": "third_layer", "type": "STRING", "mode": "NULLABLE"}]}]}]}},
+    {"name": "minimal_struct", "type": "STRUCT", "mode": "REQUIRED", "fields": []},
+    {"name": "shared_struct", "type": "STRUCT", "mode": "NULLABLE", "fields": [{"name": "field_1", "type": "STRING", "mode": "NULLABLE"}, {"name": "field_2", "type": "STRING", "mode": "NULLABLE"}]},
+    {"name": "duplicate_field_names", "type": "STRUCT", "mode": "NULLABLE", "fields": [{"name": "field", "type": "STRING", "mode": "NULLABLE"}, {"name": "field", "type": "INTEGER", "mode": "NULLABLE"}]},
+    {"name": "large_booleans", "type": "BOOLEAN", "mode": "NULLABLE"},
+    {"name": "test_integer", "type": "INTEGER", "mode": "REQUIRED"},
+    {"name": "case_sensitive_name", "type": "STRING", "mode": "REQUIRED"},
+    {"name": "empty_modes", "type": "STRING", "mode": "REQUIRED"},
+    {"name": "multiple_enums", "type": "STRING", "mode": "REPEATED"},
+    {"name": "deep_array", "type": "REPEATED", "mode": "NULLABLE", "fields": [{"name": "nested", "type": "STRUCT", "fields": [{"name": "deep", "type": "DOUBLE", "mode": "NULLABLE"}]}]}},
+    {"name": "inverted_conditions", "type": "STRUCT", "mode": "NULLABLE", "fields": [{"name": "one", "type": "STRUCT", "mode": "NULLABLE"}, {"name": "two", "type": "STRUCT", "mode": "REQUIRED"}]},
+    {"name": "data_id", "type": "STRING", "mode": "REQUIRED"},
+    {"name": "object_array", "type": "REPEATED", "mode": "NULLABLE", "fields": [{"name": "key", "type": "STRING", "mode": "REQUIRED"}, {"name": "value", "type": "STRING", "mode": "REQUIRED"}]},
+    {"name": "complex_key_value", "type": "RECORD", "mode": "NULLABLE", "fields": [{"name": "key", "type": "STRING", "mode": "REQUIRED"}, {"name": "value", "type": "STRING", "mode": "REQUIRED"}]},
+    {"name": "additional_properties", "type": "STRUCT", "mode": "NULLABLE", "fields": [{"name": "extra_field", "type": "STRING", "mode": "NULLABLE"}]},
+    {"name": "optional_fields_test", "type": "STRING", "mode": "NULLABLE", "description": "Test for optional fields"},
+    {"name": "blank_struct", "type": "STRUCT", "mode": "NULLABLE", "fields": []},
+    {"name": "dynamic_records", "type": "REPEATED", "mode": "NULLABLE", "fields": [{"name": "dynamic_field", "type": "STRING", "mode": "REQUIRED"}]},
+    {"name": "self_referencing", "type": "STRUCT", "mode": "NULLABLE", "fields": [{"name": "reference_to_self", "type": "STRUCT", "mode": "NULLABLE"}]},
+    {"name": "basic_array", "type": "REPEATED", "mode": "NULLABLE"},
+    {"name": "high_precision_float", "type": "FLOAT64", "mode": "NULLABLE"},
+    {"name": "very_large_integer", "type": "INT64", "mode": "NULLABLE"},
+    {"name": "binary_data", "type": "BYTES", "mode": "REQUIRED"},
+    {"name": "conditional_mode_field", "type": "FLOAT64", "mode": "NULLABLE", "description": "May be needed for specific conditions"},
+    {"name": "prohibited_field", "type": "STRING", "mode": "REQUIRED"},
+    {"name": "expected_empty_array", "type": "REPEATED", "mode": "NULLABLE"},
+    {"name": "error_handling_field", "type": "STRUCT", "mode": "NULLABLE", "fields": [{"name": "error_code", "type": "INT64", "mode": "REQUIRED"}, {"name": "error_message", "type": "STRING", "mode": "NULLABLE"}]},
+    {"name": "mixed_data_types", "type": "REPEATED", "mode": "NULLABLE", "fields": [{"name": "mixed_field", "type": "STRING", "mode": "REPEATED"}, {"name": "int_field", "type": "INTEGER", "mode": "NULLABLE"}]}
+]
+
+[
+    {"name": "id", "type": "INT64", "mode": "REQUIRED"},
+    {"name": "name", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "age", "type": "INTEGER", "mode": "NULLABLE"},
+    {"name": "is_active", "type": "BOOLEAN", "mode": "REQUIRED"},
+    {"name": "created_at", "type": "TIMESTAMP", "mode": "REQUIRED"},
+    {"name": "updated_at", "type": "DATETIME", "mode": "NULLABLE"},
+    {"name": "tags", "type": "STRING", "mode": "REPEATED"},
+    {"name": "location", "type": "GEOGRAPHY", "mode": "NULLABLE"},
+    {"name": "salary", "type": "FLOAT64", "mode": "NULLABLE"},
+    {"name": "valid_from", "type": "DATE", "mode": "NULLABLE"},
+    {"name": "valid_to", "type": "DATE", "mode": "NULLABLE"},
+    {"name": "preferences", "type": "STRUCT", "mode": "NULLABLE", "fields": [{"name": "color", "type": "STRING"}, {"name": "size", "type": "STRING"}]},
+    {"name": "details", "type": "RECORD", "mode": "NULLABLE", "fields": [{"name": "email", "type": "STRING"}, {"name": "phone", "type": "STRING"}]},
+    {"name": "transactions", "type": "REPEATED", "mode": "REPEATED", "fields": [{"name": "amount", "type": "FLOAT64"}, {"name": "date", "type": "TIMESTAMP"}]},
+    {"name": "bio", "type": "STRING", "mode": "NULLABLE", "description": "User biography"},
+    {"name": "account_balance", "type": "NUMERIC", "mode": "REQUIRED"},
+    {"name": "level", "type": "INTEGER", "mode": "NULLABLE"},
+    {"name": "null_field", "type": "STRING", "mode": "NULLABLE", "description": "This field is intentionally left null"},
+    {"name": "array_field", "type": "REPEATED", "mode": "REPEATED", "description": "A field that can have multiple values", "fields": [{"name": "item", "type": "STRING"}]},
+    {"name": "settings", "type": "STRUCT", "mode": "NULLABLE", "fields": [{"name": "notifications", "type": "BOOLEAN"}, {"name": "language", "type": "STRING"}]},
+    {"name": "nested_records", "type": "RECORD", "mode": "REPEATED", "fields": [{"name": "key", "type": "STRING"}, {"name": "value", "type": "STRING"}]},
+    {"name": "legacy_data", "type": "BYTES", "mode": "NULLABLE"},
+    {"name": "is_verified", "type": "BOOLEAN", "mode": "NULLABLE"},
+    {"name": "created_by", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "updated_by", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "array_of_structs", "type": "REPEATED", "mode": "REPEATED", "fields": [{"name": "item", "type": "STRUCT", "fields": [{"name": "id", "type": "STRING"}, {"name": "quantity", "type": "INTEGER"}]}]}},
+    {"name": "timestamp_field", "type": "TIMESTAMP", "mode": "NULLABLE"},
+    {"name": "null_array", "type": "REPEATED", "mode": "REPEATED"},
+    {"name": "max_value", "type": "NUMERIC", "mode": "NULLABLE"},
+    {"name": "is_deleted", "type": "BOOLEAN", "mode": "REQUIRED"},
+    {"name": "list_of_strings", "type": "REPEATED", "mode": "REPEATED"},
+    {"name": "user_id", "type": "INT64", "mode": "REQUIRED"},
+    {"name": "preferences", "type": "STRUCT", "mode": "REQUIRED", "fields": [{"name": "theme", "type": "STRING"}, {"name": "notifications_enabled", "type": "BOOLEAN"}]},
+    {"name": "created_date", "type": "DATE", "mode": "NULLABLE"},
+    {"name": "modified_date", "type": "DATETIME", "mode": "NULLABLE"},
+    {"name": "array_of_numbers", "type": "REPEATED", "mode": "REPEATED", "fields": [{"name": "number", "type": "FLOAT64"}]},
+    {"name": "status", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "version", "type": "INTEGER", "mode": "NULLABLE"},
+    {"name": "user_preferences", "type": "REPEATED", "mode": "REPEATED", "fields": [{"name": "preference_item", "type": "STRUCT", "fields": [{"name": "type", "type": "STRING"}, {"name": "value", "type": "STRING"}]}]}},
+    {"name": "empty_field", "type": "STRING", "mode": "NULLABLE", "description": ""},
+    {"name": "complex_structure", "type": "STRUCT", "mode": "NULLABLE", "fields": [{"name": "field1", "type": "STRING"}, {"name": "field2", "type": "REPEATED", "items": {"type": "STRING"}}]} ,
+    {"name": "multi_type_field", "type": "RECORD", "mode": "NULLABLE", "fields": [{"name": "name", "type": "STRING"}, {"name": "value", "type": "FLOAT64"}]},
+    {"name": "field_with_description", "type": "STRING", "mode": "NULLABLE", "description": "A simple string field"},
+    {"name": "field_with_special_characters", "type": "STRING", "mode": "NULLABLE", "description": "Field with !@#$%^&*() special characters"},
+    {"name": "measures", "type": "REPEATED", "mode": "REPEATED", "fields": [{"name": "height", "type": "FLOAT64"}, {"name": "width", "type": "FLOAT64"}]},
+    {"name": "config", "type": "STRUCT", "mode": "NULLABLE", "fields": [{"name": "enabled", "type": "BOOLEAN"}, {"name": "url", "type": "STRING"}]},
+    {"name": "roles", "type": "REPEATED", "mode": "REPEATED", "fields": [{"name": "role", "type": "STRING"}]},
+    {"name": "fallback", "type": "REQUIRED", "mode": "NULLABLE"},
+    {"name": "default_value", "type": "NUMBER", "mode": "REQUIRED"},
+    {"name": "percentage", "type": "FLOAT64", "mode": "REPEATED"},
+    {"name": "immutable_field", "type": "STRING", "mode": "REQUIRED"},
+    {"name": "required_empty", "type": "STRING", "mode": "REQUIRED", "description": ""},
+    {"name": "large_text", "type": "STRING", "mode": "NULLABLE", "description": "Lorem Ipsum text to ensure large payload"},
+    {"name": "mixed_data", "type": "REPEATED", "mode": "REPEATED", "items": {"type": "STRING", "description": "Field that can hold mixed data types"}},
+    {"name": "container", "type": "STRUCT", "mode": "NULLABLE", "fields": [{"name": "element", "type": "STRING"}]},
+    {"name": "long_url", "type": "STRING", "mode": "NULLABLE", "description": "A very long URL exceeding typical lengths to test validation."},
+    {"name": "flag", "type": "BOOLEAN", "mode": "NULLABLE"},
+    {"name": "multi_mode_field", "type": "REPEATED", "mode": "REPEATED", "fields": [{"name": "multi_value", "type": "STRUCT", "fields": [{"name": "id", "type": "STRING"}, {"name": "value", "type": "INTEGER"}]}]}},
+    {"name": "extensive_description_field", "type": "STRING", "mode": "NULLABLE", "description": "This field has a very detailed and expressive description meant to test the maximum character length of descriptions."},
+    {"name": "field_with_array", "type": "REPEATED", "mode": "REPEATED", "fields": [{"name": "sub_field", "type": "STRING"}]},
+    {"name": "large_record_set", "type": "REPEATED", "mode": "REPEATED", "fields": [{"name": "sub_records", "type": "RECORD", "fields": [{"name": "key", "type": "STRING"}, {"name": "value", "type": "FLOAT64"}]}]},
+    {"name": "column_object", "type": "STRUCT", "mode": "NULLABLE", "fields": [{"name": "key", "type": "STRING"}, {"name": "value", "type": "STRING"}]},
+    {"name": "nested_arrays", "type": "REPEATED", "mode": "REPEATED", "items": {"type": "REPEATED", "items": {"type": "STRING"}}},
+    {"name": "complex_preferences", "type": "STRUCT", "mode": "NULLABLE", "fields": [{"name": "settings", "type": "STRUCT", "fields": [{"name": "sound", "type": "BOOLEAN"}, {"name": "theme", "type": "STRING"}]}]}},
+    {"name": "user_data", "type": "REPEATED", "mode": "REPEATED", "fields": [{"name": "username", "type": "STRING"}, {"name": "email", "type": "STRING"}]},
+    {"name": "unique_keys", "type": "REPEATED", "mode": "REPEATED", "fields": [{"name": "key", "type": "STRING"}]},
+    {"name": "timestamp_list", "type": "REPEATED", "mode": "REPEATED", "fields": [{"name": "timestamp", "type": "TIMESTAMP"}]},
+    {"name": "scale", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "numeric_values", "type": "REPEATED", "mode": "REPEATED", "items": {"type": "FLOAT64"}},
+    {"name": "list_of_booleans", "type": "REPEATED", "mode": "REPEATED", "items": {"type": "BOOLEAN"}},
+    {"name": "object_field", "type": "STRUCT", "mode": "NULLABLE", "fields": [{"name": "inner_field", "type": "STRING"}]},
+    {"name": "edge_case", "type": "STRING", "mode": "REQUIRED"},
+    {"name": "status_code", "type": "INTEGER", "mode": "NULLABLE"},
+    {"name": "user_feedback", "type": "STRUCT", "mode": "NULLABLE", "fields": [{"name": "comment", "type": "STRING"}, {"name": "rating", "type": "INTEGER"}]}
+]
+
+[
+    {"name": "field1", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "field2", "type": "INT64", "mode": "REQUIRED", "description": "An integer field"},
+    {"name": "field3", "type": "FLOAT", "mode": "REPEATED"},
+    {"name": "field_struct", "type": "STRUCT", "mode": "NULLABLE", "fields": [{"name": "subfield1", "type": "STRING"}]},
+    {"name": "field4", "type": "BOOL", "mode": "REQUIRED"},
+    {"name": "field5", "type": "TIMESTAMP", "mode": "NULLABLE"},
+    {"name": "field6", "type": "RECORD", "mode": "REPEATED", "fields": [{"name": "innerField1", "type": "DATE"}, {"name": "innerField2", "type": "INTEGER"}]},
+    {"name": "field7", "type": "NUMERIC", "mode": "NULLABLE", "description": "A numeric field with high precision"},
+    {"name": "field8", "type": "FLOAT64", "mode": "REQUIRED"},
+    {"name": "field9", "type": "GEOGRAPHY", "mode": "NULLABLE"},
+    {"name": "field10", "type": "BYTES", "mode": "REPEATED"},
+    {"name": "field11", "type": "STRING", "mode": "NULLABLE", "description": "Optional textual description"},
+    {"name": "field12", "type": "STRUCT", "mode": "REQUIRED", "fields": [{"name": "nestedField", "type": "FLOAT64"}]},
+    {"name": "field13", "type": "RECORD", "mode": "NULLABLE", "fields": []},
+    {"name": "field14", "type": "BOOLEAN", "mode": "REQUIRED", "description": "True or False"},
+    {"name": "field15", "type": "DATETIME", "mode": "NULLABLE"},
+    {"name": "field16", "type": "INTEGER", "mode": "REQUIRED"},
+    {"name": "field17", "type": "JSON", "mode": "NULLABLE"},
+    {"name": "field18", "type": "STRUCT", "mode": "NULLABLE", "fields": [{"name": "deep_nested", "type": "RECORD", "fields": [{"name": "fieldA", "type": "STRING"}]}]}},
+    {"name": "field19", "type": "DATE", "mode": "REQUIRED"},
+    {"name": "field20", "type": "TIMESTAMP", "mode": "NULLABLE", "description": "Time of event"},
+    {"name": "field21", "type": "FLOAT", "mode": "REPEATED"},
+    {"name": "field22", "type": "GEOGRAPHY", "mode": "REQUIRED"},
+    {"name": "field23", "type": "BOOLEAN", "mode": "NULLABLE", "description": "Indicates a choice"},
+    {"name": "field24", "type": "RECORD", "mode": "REPEATED", "fields": [{"name": "recField1", "type": "STRING"}, {"name": "recField2", "type": "UINT64"}]},
+    {"name": "field25", "type": "STRING", "mode": "REPEATED"},
+    {"name": "field26", "type": "INT64", "mode": "NULLABLE", "description": "Storage size in bytes"},
+    {"name": "field27", "type": "FLOAT64", "mode": "NULLABLE"},
+    {"name": "field28", "type": "STRUCT", "mode": "REQUIRED", "fields": [{"name": "field1", "type": "STRING"}, {"name": "field2", "type": "BOOL"}]}},
+    {"name": "field29", "type": "INTEGER", "mode": "REPEATED"},
+    {"name": "field30", "type": "NUMERIC", "mode": "REQUIRED"},
+    {"name": "field31", "type": "RECORD", "mode": "NULLABLE", "fields": [{"name": "fieldX", "type": "FLOAT"}]},
+    {"name": "field32", "type": "TIMESTAMP", "mode": "NULLABLE"},
+    {"name": "field33", "type": "BOOLEAN", "mode": "REPEATED", "description": "Multiple choices"},
+    {"name": "field34", "type": "STRING", "mode": "REQUIRED", "description": "User name"},
+    {"name": "field35", "type": "DATETIME", "mode": "NULLABLE"},
+    {"name": "field36", "type": "STRUCT", "mode": "REPEATED", "fields": [{"name": "level1", "type": "RECORD", "fields": [{"name": "level2Field", "type": "STRING"}]}]}},
+    {"name": "field37", "type": "FLOAT64", "mode": "NULLABLE"},
+    {"name": "field38", "type": "UINT64", "mode": "REQUIRED"},
+    {"name": "field39", "type": "RECORD", "mode": "REQUIRED", "fields": [{"name": "fieldA", "type": "BOOLEAN"}]},
+    {"name": "field40", "type": "VARCHAR", "mode": "NULLABLE"},
+    {"name": "field41", "type": "REPEATED", "mode": "REPEATED", "fields": [{"name": "fieldName", "type": "JSON"}]},
+    {"name": "field42", "type": "STRUCT", "mode": "REQUIRED", "fields": [{"name": "subFieldA", "type": "STRING"}, {"name": "subFieldB", "type": "INTEGER"}]},
+    {"name": "field43", "type": "RECORD", "mode": "REPEATED", "fields": [{"name": "entry", "type": "STRING"}]},
+    {"name": "field44", "type": "INTEGER", "mode": "NULLABLE"},
+    {"name": "field45", "type": "NUMERIC", "mode": "REQUIRED"},
+    {"name": "field46", "type": "FLOAT64", "mode": "REPEATED"},
+    {"name": "field47", "type": "JSON", "mode": "NULLABLE"},
+    {"name": "field48", "type": "BOOLEAN", "mode": "REQUIRED"},
+    {"name": "field49", "type": "STRUCT", "mode": "REQUIRED", "fields": [{"name": "level1Field", "type": "TIMESTAMP"}]},
+    {"name": "field50", "type": "TIMESTAMP", "mode": "NULLABLE"},
+    {"name": "field51", "type": "STRING", "mode": "REQUIRED"},
+    {"name": "field52", "type": "REPEAT_FIELD", "mode": "REPEATED"},
+    {"name": "field53", "type": "REAL", "mode": "NULLABLE"},
+    {"name": "field54", "type": "RECORD", "mode": "REQUIRED", "fields": [{"name": "recFieldA", "type": "FLOAT"}]},
+    {"name": "field55", "type": "BOOLEAN", "mode": "REQUIRED", "description": "Is the user active?"},
+    {"name": "field56", "type": "STRUCT", "mode": "NULLABLE", "fields": []},
+    {"name": "field57", "type": "TIMESTAMP", "mode": "NULLABLE"},
+    {"name": "field58", "type": "STRING", "mode": "REQUIRED"},
+    {"name": "field59", "type": "STRING", "mode": "REPEATED"},
+    {"name": "field60", "type": "RECORD", "mode": "REQUIRED", "fields": [{"name": "subFieldX", "type": "DATE"}]},
+    {"name": "field61", "type": "NUMERIC", "mode": "NULLABLE", "description": "Price value"},
+    {"name": "field62", "type": "STRUCT", "mode": "NULLABLE", "fields": [{"name": "field1", "type": "TIME"}]},
+    {"name": "field63", "type": "STRUCT", "mode": "REPEATED", "fields": []},
+    {"name": "field64", "type": "DATE", "mode": "REQUIRED"},
+    {"name": "field65", "type": "BOOLEAN", "mode": "REQUIRED"},
+    {"name": "field66", "type": "GEOGRAPHY", "mode": "NULLABLE"},
+    {"name": "field67", "type": "DATETIME", "mode": "REQUIRED"},
+    {"name": "field68", "type": "REPEATED", "mode": "REPEATED"},
+    {"name": "field69", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "field70", "type": "FLOAT64", "mode": "NULLABLE"},
+    {"name": "field71", "type": "STRUCT", "mode": "REQUIRED", "fields": [{"name": "structField", "type": "STRING"}, {"name": "anotherField", "type": "FLOAT64"}]},
+    {"name": "field72", "type": "RECORD", "mode": "NULLABLE"},
+    {"name": "field73", "type": "STRING", "mode": "REPEATED"},
+    {"name": "field74", "type": "FLOAT", "mode": "REQUIRED"},
+    {"name": "field75", "type": "BOOL", "mode": "NULLABLE"},
+    {"name": "field76", "type": "BIGNUMERIC", "mode": "REQUIRED"},
+    {"name": "field77", "type": "DATE", "mode": "NULLABLE"},
+    {"name": "field78", "type": "STRUCT", "mode": "REPEATED", "fields": [{"name": "field1", "type": "INT64"}]},
+    {"name": "field79", "type": "STRING", "mode": "REPEATED"},
+    {"name": "field80", "type": "RECORD", "mode": "REPEATED", "fields": [{"name": "fieldA", "type": "FLOAT64"}]},
+    {"name": "field81", "type": "TIMESTAMP", "mode": "REQUIRED"},
+    {"name": "field82", "type": "INTEGER", "mode": "NULLABLE", "description": "ID field"},
+    {"name": "field83", "type": "NUMERIC", "mode": "REQUIRED"},
+    {"name": "field84", "type": "DATETIME", "mode": "REQUIRED"},
+    {"name": "field85", "type": "FLOAT64", "mode": "NULLABLE"},
+    {"name": "field86", "type": "BOOLEAN", "mode": "REQUIRED"},
+    {"name": "field87", "type": "STRUCT", "mode": "NULLABLE", "fields": [{"name": "subField", "type": "STRING"}]},
+    {"name": "field88", "type": "RECORD", "mode": "REQUIRED", "fields": []},
+    {"name": "field89", "type": "STRING", "mode": "REPEATED"},
+    {"name": "field90", "type": "BOOLEAN", "mode": "NULLABLE"},
+    {"name": "field91", "type": "STRUCT", "mode": "REQUIRED", "fields": [{"name": "structField1", "type": "INT64"}]},
+    {"name": "field92", "type": "FLOAT", "mode": "REPEATED"},
+    {"name": "field93", "type": "NUMERIC", "mode": "NULLABLE"},
+    {"name": "field94", "type": "RECORD", "mode": "REQUIRED", "fields": [{"name": "fieldRec1", "type": "STRING"}, {"name": "fieldRec2", "type": "DATE"}]},
+    {"name": "field95", "type": "BOOL", "mode": "REPEATED"},
+    {"name": "field96", "type": "STRING", "mode": "REPEATED"},
+    {"name": "field97", "type": "STRUCT", "mode": "NULLABLE"},
+    {"name": "field98", "type": "JSON", "mode": "REQUIRED"},
+    {"name": "field99", "type": "DATETIME", "mode": "NULLABLE"},
+    {"name": "field100", "type": "FLOAT64", "mode": "REPEATED"}
+]
+
+[
+    {"name": "user_id", "type": "INT64", "mode": "REQUIRED"},
+    {"name": "username", "type": "STRING", "mode": "REQUIRED"},
+    {"name": "email", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "signup_date", "type": "TIMESTAMP", "mode": "REQUIRED"},
+    {"name": "is_active", "type": "BOOLEAN", "mode": "REQUIRED"},
+    {"name": "age", "type": "INTEGER", "mode": "NULLABLE"},
+    {"name": "preferences", "type": "STRING", "mode": "REPEATED"},
+    {"name": "last_login", "type": "TIMESTAMP", "mode": "NULLABLE"},
+    {"name": "profile", "type": "STRUCT", "mode": "NULLABLE", "fields": [
+        {"name": "bio", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "avatar_url", "type": "STRING", "mode": "NULLABLE"}
+    ]},
+    {"name": "location", "type": "GEOGRAPHY", "mode": "NULLABLE"},
+    {"name": "settings", "type": "STRUCT", "mode": "NULLABLE", "fields": [
+        {"name": "theme", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "notifications_enabled", "type": "BOOLEAN", "mode": "REQUIRED"}
+    ]},
+    {"name": "purchase_history", "type": "REPEATED", "mode": "NULLABLE", "fields": [
+        {"name": "item_id", "type": "INT64", "mode": "REQUIRED"},
+        {"name": "purchase_date", "type": "TIMESTAMP", "mode": "REQUIRED"},
+        {"name": "amount", "type": "FLOAT64", "mode": "REQUIRED"}
+    ]},
+    {"name": "subscription", "type": "STRUCT", "mode": "NULLABLE", "fields": [
+        {"name": "status", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "start_date", "type": "TIMESTAMP", "mode": "REQUIRED"},
+        {"name": "end_date", "type": "TIMESTAMP", "mode": "NULLABLE"}
+    ]},
+    {"name": "metadata", "type": "STRUCT", "mode": "NULLABLE", "fields": [
+        {"name": "last_updated", "type": "TIMESTAMP", "mode": "REQUIRED"},
+        {"name": "created_by", "type": "STRING", "mode": "REQUIRED"}
+    ]},
+    {"name": "friends", "type": "REPEATED", "mode": "NULLABLE", "fields": [
+        {"name": "friend_id", "type": "INT64", "mode": "REQUIRED"},
+        {"name": "friend_since", "type": "TIMESTAMP", "mode": "NULLABLE"}
+    ]},
+    {"name": "devices", "type": "REPEATED", "mode": "NULLABLE", "fields": [
+        {"name": "device_id", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "device_type", "type": "STRING", "mode": "REQUIRED"}
+    ]},
+    {"name": "comments", "type": "REPEATED", "mode": "NULLABLE", "fields": [
+        {"name": "comment_id", "type": "INT64", "mode": "REQUIRED"},
+        {"name": "user_id", "type": "INT64", "mode": "REQUIRED"},
+        {"name": "comment_text", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "created_at", "type": "TIMESTAMP", "mode": "REQUIRED"}
+    ]},
+    {"name": "transactions", "type": "REPEATED", "mode": "NULLABLE", "fields": [
+        {"name": "transaction_id", "type": "INT64", "mode": "REQUIRED"},
+        {"name": "transaction_amount", "type": "FLOAT64", "mode": "REQUIRED"},
+        {"name": "transaction_date", "type": "TIMESTAMP", "mode": "REQUIRED"}
+    ]},
+    {"name": "groups", "type": "REPEATED", "mode": "NULLABLE", "fields": [
+        {"name": "group_id", "type": "INT64", "mode": "REQUIRED"},
+        {"name": "group_name", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "role", "type": "STRING", "mode": "NULLABLE"}
+    ]},
+    {"name": "social_media", "type": "STRUCT", "mode": "NULLABLE", "fields": [
+        {"name": "twitter", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "facebook", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "instagram", "type": "STRING", "mode": "NULLABLE"}
+    ]},
+    {"name": "billing_info", "type": "STRUCT", "mode": "NULLABLE", "fields": [
+        {"name": "card_number", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "expiry_date", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "billing_address", "type": "STRING", "mode": "REQUIRED"}
+    ]},
+    {"name": "badges", "type": "REPEATED", "mode": "NULLABLE", "fields": [
+        {"name": "badge_id", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "date_earned", "type": "TIMESTAMP", "mode": "REQUIRED"}
+    ]},
+    
+    // Edge case: Empty user information
+    {"name": "empty_user", "type": "STRUCT", "mode": "NULLABLE", "fields": []},
+
+    // Edge case: Minimum required fields
+    {"name": "minimal_user", "type": "STRUCT", "mode": "REQUIRED", "fields": [
+        {"name": "user_id", "type": "INT64", "mode": "REQUIRED"},
+        {"name": "username", "type": "STRING", "mode": "REQUIRED"}
+    ]},
+
+    // Edge case: Only required fields partially filled
+    {"name": "partial_user", "type": "STRUCT", "mode": "NULLABLE", "fields": [
+        {"name": "email", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "signup_date", "type": "TIMESTAMP", "mode": "REQUIRED"},
+        {"name": "username", "type": "STRING", "mode": "REQUIRED"}
+    ]},
+
+    // Edge case: All `NULLABLE` modes
+    {"name": "null_user_fields", "type": "STRUCT", "mode": "NULLABLE", "fields": [
+        {"name": "bio", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "age", "type": "INTEGER", "mode": "NULLABLE"},
+        {"name": "location", "type": "GEOGRAPHY", "mode": "NULLABLE"}
+    ]},
+
+    // Edge case: A non-structured field using repeated mode
+    {"name": "hobbies", "type": "REPEATED", "mode": "NULLABLE", "fields": [
+        {"name": "hobby_name", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "hobby_duration", "type": "INTEGER", "mode": "NULLABLE"}
+    ]},
+
+    // Edge case: Non-standard types in fields
+    {"name": "unusual_field", "type": "STRING", "mode": "REQUIRED", "description": "This is an unusual field"},
+    
+    // Edge case: Different boolean representation
+    {"name": "is_subscribed", "type": "BOOL", "mode": "REQUIRED"},
+    
+    // Test NULLABLE with empty string
+    {"name": "test_empty_string", "type": "STRING", "mode": "NULLABLE", "description": ""},
+
+    // Edge case: Multiple repetition of same nested structure
+    {"name": "nested_repeated", "type": "REPEATED", "mode": "NULLABLE", "fields": [
+        {"name": "nested_id", "type": "INT64", "mode": "REQUIRED"},
+        {"name": "nested_value", "type": "STRING", "mode": "REQUIRED"}
+    ]},
+    
+    // Edge case: Struct with no fields
+    {"name": "empty_struct", "type": "STRUCT", "mode": "NULLABLE", "fields": []},
+
+    // Edge case: Large number of repetitions
+    {"name": "large_repeated_data", "type": "REPEATED", "mode": "NULLABLE", "fields": [
+        {"name": "data_point", "type": "FLOAT64", "mode": "REQUIRED"}
+    ]},
+
+    // Complexity with all modes mixed
+    {"name": "complex_mixed_modes", "type": "STRUCT", "mode": "NULLABLE", "fields": [
+        {"name": "mandatory_field", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "optional_field", "type": "STRING", "mode": "NULLABLE"},
+        {"name": "repeated_field", "type": "REPEATED", "mode": "NULLABLE", "fields": [
+            {"name": "sub_field", "type": "INT64", "mode": "REQUIRED"}
+        ]}
+    ]}
+]
+
+[
+    {"name": "id", "type": "INT64", "mode": "REQUIRED"},
+    {"name": "name", "type": "STRING"},
+    {"name": "created_at", "type": "TIMESTAMP", "mode": "REQUIRED"},
+    {"name": "is_active", "type": "BOOLEAN", "mode": "NULLABLE"},
+    {"name": "score", "type": "FLOAT64", "mode": "NULLABLE"},
+    {"name": "tags", "type": "STRING", "mode": "REPEATED"},
+    {"name": "profile", "type": "STRUCT", "fields": [
+        {"name": "age", "type": "INT64", "mode": "NULLABLE"},
+        {"name": "bio", "type": "STRING"}
+    ]},
+    {"name": "address", "type": "STRUCT", "fields": [
+        {"name": "street", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "city", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "zipcode", "type": "STRING", "mode": "NULLABLE"}
+    ]},
+    {"name": "data", "type": "JSON", "mode": "NULLABLE"},
+    {"name": "", "type": "STRING"}, // edge case with empty name
+    {"name": "invalid_type", "type": "INVALID_TYPE"} , // invalid field type
+    {"name": "event", "type": "STRUCT", "fields": [
+        {"name": "event_type", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "event_time", "type": "DATETIME", "mode": "REQUIRED"}
+    ]},
+    {"name": "location", "type": "GEOGRAPHY"},
+    {"name": "age", "type": "INT64", "mode": "NULLABLE"},
+    {"name": "roles", "type": "STRING", "mode": "REPEATED"},
+    {"name": "preferences", "type": "JSON", "mode": "NULLABLE"},
+    {"name": "image_url", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "parent", "type": "STRUCT", "fields": [
+        {"name": "father", "type": "STRING"},
+        {"name": "mother", "type": "STRING"}
+    ]},
+    {"name": "projects", "type": "REPEATED", "mode": "NULLABLE", "fields": [
+        {"name": "project_id", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "project_name", "type": "STRING", "mode": "REQUIRED"}
+    ]},
+    {"name": "listed_items", "type": "STRUCT", "fields": [
+        {"name": "items", "type": "STRING", "mode": "REPEATED"},
+        {"name": "total", "type": "INT64"}
+    ]},
+    {"name": "shipment", "type": "STRUCT", "fields": [
+        {"name": "address", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "tracking_number", "type": "STRING", "mode": "NULLABLE"}
+    ]},
+    {"name": "nested_list", "type": "STRUCT", "fields": [
+        {"name": "sub_items", "type": "REPEATED", "mode": "NULLABLE", "fields": [
+            {"name": "name", "type": "STRING"},
+            {"name": "value", "type": "INT64"}
+        ]}
+    ]},
+    {"name": "access_logs", "type": "REPEATED", "mode": "NULLABLE", "fields": [
+        {"name": "timestamp", "type": "TIMESTAMP"},
+        {"name": "action", "type": "STRING"}
+    ]},
+    {"name": "origin", "type": "STRUCT", "fields": [
+        {"name": "country", "type": "STRING"},
+        {"name": "region", "type": "STRING", "mode": "NULLABLE"}
+    ]},
+    {"name": "employee_count", "type": "INT64", "mode": "NULLABLE"},
+    {"name": "website", "type": "STRING"},
+    {"name": "date_of_birth", "type": "DATE", "mode": "NULLABLE"},
+    {"name": "other_info", "type": "RECORD", "fields": [
+        {"name": "hobbies", "type": "STRING", "mode": "REPEATED"},
+        {"name": "gender", "type": "STRING"}
+    ]},
+    {"name": "extra_fields", "type": "STRUCT", "fields": [
+        {"name": "notes", "type": "STRING"},
+        {"name": "reminders", "type": "STRING", "mode": "REPEATED"}
+    ]},
+    {"name": "rating", "type": "FLOAT64"},
+    {"name": "notes", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "multiple_types", "type": "STRUCT", "fields": [
+        {"name": "value", "type": "FLOAT64"},
+        {"name": "unit", "type": "STRING"}
+    ]},
+    {"name": "status", "type": "STRING"},
+    {"name": "acting_roles", "type": "REPEATED", "mode": "NULLABLE"},
+    {"name": "file_size", "type": "FLOAT64", "mode": "NULLABLE"},
+    {"name": "metadata", "type": "JSON"},
+    {"name": "last_updated", "type": "DATETIME", "mode": "NULLABLE"},
+    {"name": "response_time", "type": "FLOAT64"},
+    {"name": "meeting_invites", "type": "REPEATED", "mode": "NULLABLE"},
+    {"name": "products", "type": "REPEATED", "mode": "NULLABLE", "fields": [
+        {"name": "product_id", "type": "STRING"},
+        {"name": "quantity", "type": "INT64"}
+    ]},
+    {"name": "high_scores", "type": "STRUCT", "fields": [
+        {"name": "user_id", "type": "STRING"},
+        {"name": "score", "type": "FLOAT64"}
+    ]},
+    {"name": "order", "type": "STRUCT", "fields": [
+        {"name": "order_id", "type": "STRING"},
+        {"name": "total_amount", "type": "FLOAT64"}
+    ]},
+    {"name": "subscription_details", "type": "STRUCT", "fields": [
+        {"name": "plan", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "start_date", "type": "DATE"}
+    ]},
+    {"name": "student_records", "type": "STRUCT", "fields": [
+        {"name": "student_id", "type": "STRING"},
+        {"name": "grades", "type": "REPEATED", "mode": "NULLABLE"}
+    ]},
+    {"name": "meta_data", "type": "RECORD", "fields": [
+        {"name": "created_at", "type": "TIMESTAMP"},
+        {"name": "updated_at", "type": "TIMESTAMP"}
+    ]},
+    {"name": "doc_links", "type": "STRING", "mode": "REPEATED"},
+    {"name": "external_ids", "type": "STRING", "mode": "REPEATED"},
+    {"name": "optional_field", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "preferences", "type": "STRUCT", "fields": [
+        {"name": "theme", "type": "STRING"},
+        {"name": "notifications", "type": "BOOLEAN"}
+    ]},
+    {"name": "documents", "type": "REPEATED", "fields": [
+        {"name": "doc_id", "type": "STRING"},
+        {"name": "doc_type", "type": "STRING"}
+    ]},
+    {"name": "language", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "work_history", "type": "REPEATED", "fields": [
+        {"name": "company", "type": "STRING"},
+        {"name": "position", "type": "STRING"}
+    ]},
+    {"name": "user_feedback", "type": "STRUCT", "fields": [
+        {"name": "comments", "type": "STRING"},
+        {"name": "rating", "type": "FLOAT64"}
+    ]},
+    {"name": "session", "type": "STRUCT", "fields": [
+        {"name": "session_id", "type": "STRING"},
+        {"name": "duration", "type": "INT64"}
+    ]},
+    {"name": "roles_assigned", "type": "REPEATED", "mode": "NULLABLE"},
+    {"name": "social_links", "type": "STRING", "mode": "REPEATED"},
+    {"name": "api_keys", "type": "STRING", "mode": "REPEATED"},
+    {"name": "session_tokens", "type": "REPEATED", "mode": "NULLABLE", "fields": [
+        {"name": "token", "type": "STRING"},
+        {"name": "expiry", "type": "DATETIME"}
+    ]},
+    {"name": "session_data", "type": "STRUCT", "fields": [
+        {"name": "ip_address", "type": "STRING"},
+        {"name": "user_agent", "type": "STRING"},
+        {"name": "login_time", "type": "DATETIME", "mode": "NULLABLE"}
+    ]},
+    {"name": "location_data", "type": "GEOGRAPHY"},
+    {"name": "team_details", "type": "STRUCT", "fields": [
+        {"name": "team_name", "type": "STRING"},
+        {"name": "members", "type": "REPEATED", "mode": "NULLABLE"}
+    ]}
+]
+
+[
+    {"name": "id", "type": "INT64", "mode": "REQUIRED"},
+    {"name": "name", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "age", "type": "INTEGER", "mode": "NULLABLE"},
+    {"name": "isActive", "type": "BOOLEAN", "mode": "REQUIRED"},
+    {"name": "balance", "type": "FLOAT64", "mode": "NULLABLE"},
+    {"name": "roles", "type": "STRING", "mode": "REPEATED"},
+    {"name": "createdAt", "type": "TIMESTAMP", "mode": "REQUIRED"},
+    {"name": "updatedAt", "type": "TIMESTAMP", "mode": "REQUIRED"},
+    {"name": "profile", "type": "STRUCT", "mode": "NULLABLE", "fields": [{"name": "bio", "type": "STRING"}, {"name": "avatar", "type": "STRING"}]},
+    {"name": "preferences", "type": "STRUCT", "mode": "NULLABLE", "fields": [{"name": "newsletter", "type": "BOOLEAN"}, {"name": "theme", "type": "STRING"}]},
+    {"name": "location", "type": "GEOGRAPHY", "mode": "NULLABLE"},
+    {"name": "settings", "type": "STRUCT", "mode": "REQUIRED", "fields": [{"name": "privacy", "type": "BOOLEAN"}, {"name": "language", "type": "STRING"}]},
+    {"name": "addresses", "type": "REPEATED", "mode": "REPEATED", "fields": [{"name": "street", "type": "STRING"}, {"name": "city", "type": "STRING"}]},
+    {"name": "meta", "type": "STRUCT", "mode": "NULLABLE", "fields": [{"name": "views", "type": "INTEGER"}, {"name": "likes", "type": "INTEGER"}]},
+    {"name": "isVerified", "type": "BOOLEAN", "mode": "NULLABLE"},
+    {"name": "accountType", "type": "STRING", "mode": "REQUIRED"},
+    {"name": "metadata", "type": "JSON", "mode": "NULLABLE"},
+    {"name": "tags", "type": "STRING", "mode": "REPEATED"},
+    {"name": "timestamp", "type": "DATETIME", "mode": "REQUIRED"},
+    {"name": "nullField", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "numericValue", "type": "NUMERIC", "mode": "NULLABLE"},
+    {"name": "bigNumericValue", "type": "BIGNUMERIC", "mode": "NULLABLE"},
+    {"name": "paymentMethod", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "preferences", "type": "REPEATED", "mode": "REPEATED", "fields": [{"name": "email_notifications", "type": "BOOLEAN"}, {"name": "sms_notifications", "type": "BOOLEAN"}]},
+    {"name": "lastLogin", "type": "TIMESTAMP", "mode": "NULLABLE"},
+    {"name": "timeSpent", "type": "FLOAT", "mode": "NULLABLE"},
+    {"name": "totalAmount", "type": "FLOAT64", "mode": "REQUIRED"},
+    {"name": "comments", "type": "STRING", "mode": "REPEATED"},
+    {"name": "subscription", "type": "STRUCT", "mode": "NULLABLE", "fields": [{"name": "status", "type": "STRING"}, {"name": "startDate", "type": "DATE"}]},
+    {"name": "contacts", "type": "STRUCT", "mode": "REPEATED", "fields": [{"name": "email", "type": "STRING"}, {"name": "phone", "type": "STRING"}]},
+    {"name": "transactionId", "type": "STRING", "mode": "REQUIRED"},
+    {"name": "orderDetails", "type": "STRUCT", "mode": "REQUIRED", "fields": [{"name": "productId", "type": "STRING"}, {"name": "quantity", "type": "INTEGER"}]},
+    {"name": "status", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "startDate", "type": "DATE", "mode": "NULLABLE"},
+    {"name": "endDate", "type": "DATE", "mode": "NULLABLE"},
+    {"name": "sessionId", "type": "STRING", "mode": "REQUIRED"},
+    {"name": "device", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "numericalField", "type": "INTEGER", "mode": "NULLABLE"},
+    {"name": "items", "type": "REPEATED", "mode": "REPEATED", "fields": [{"name": "itemId", "type": "STRING"}, {"name": "itemName", "type": "STRING"}]},
+    {"name": "customField", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "nestedField", "type": "STRUCT", "mode": "REPEATED", "fields": [{"name": "subField1", "type": "STRING"}, {"name": "subField2", "type": "BOOLEAN"}]},
+    {"name": "nonMandatoryField", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "createdBy", "type": "STRING", "mode": "REQUIRED"},
+    {"name": "commentsRef", "type": "REPEATED", "mode": "REPEATED", "fields": [{"name": "commentId", "type": "STRING"}, {"name": "commentText", "type": "STRING"}]},
+    {"name": "shippingAddress", "type": "STRUCT", "mode": "NULLABLE", "fields": [{"name": "street", "type": "STRING"}, {"name": "zipCode", "type": "STRING"}]},
+    {"name": "shippedAt", "type": "DATETIME", "mode": "NULLABLE"},
+    {"name": "shipped", "type": "BOOLEAN", "mode": "NULLABLE"},
+    {"name": "shipmentTracking", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "details", "type": "STRUCT", "mode": "NULLABLE", "fields": [{"name": "weight", "type": "FLOAT64"}, {"name": "dimensions", "type": "STRING"}]},
+    {"name": "options", "type": "REPEATED", "mode": "REPEATED", "fields": [{"name": "optionName", "type": "STRING"}, {"name": "optionValue", "type": "STRING"}]},
+    {"name": "isDeleted", "type": "BOOLEAN", "mode": "NULLABLE"},
+    {"name": "nestingTest", "type": "STRUCT", "mode": "REQUIRED", "fields": [{"name": "level1", "type": "STRUCT", "mode": "REPEATED", "fields": [{"name": "level1_field", "type": "STRING"}]}]},
+    {"name": "flag", "type": "BOOLEAN", "mode": "NULLABLE"},
+    {"name": "userId", "type": "STRING", "mode": "REQUIRED"},
+    {"name": "visitHistory", "type": "REPEATED", "mode": "REPEATED", "fields": [{"name": "date", "type": "DATETIME"}, {"name": "location", "type": "STRING"}]},
+    {"name": "ipAddress", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "session": "STRUCT", "mode": "REQUIRED", "fields": [{"name": "sessionId", "type": "STRING"}, {"name": "startTime", "type": "DATETIME"}, {"name": "endTime", "type": "DATETIME"}]},
+    {"name": "currency", "type": "STRING", "mode": "REQUIRED"},
+    {"name": "performance", "type": "FLOAT64", "mode": "NULLABLE"},
+    {"name": "isPremium", "type": "BOOLEAN", "mode": "NULLABLE"},
+    {"name": "lastTeapotOperation", "type": "TIMESTAMP", "mode": "NULLABLE"},
+    {"name": "source", "type": "STRING", "mode": "REQUIRED"},
+    {"name": "users", "type": "REPEATED", "mode": "REPEATED", "fields": [{"name": "userId", "type": "STRING"}, {"name": "role", "type": "STRING"}]},
+    {"name": "expiryDate", "type": "DATE", "mode": "NULLABLE"},
+    {"name": "customField2", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "isTest", "type": "BOOLEAN", "mode": "NULLABLE"},
+    {"name": "authToken", "type": "STRING", "mode": "REQUIRED"},
+    {"name": "campaign", "type": "STRUCT", "mode": "NULLABLE", "fields": [{"name": "campaignId", "type": "STRING"}, {"name": "campaignName", "type": "STRING"}]}
+]
