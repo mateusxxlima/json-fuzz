@@ -1,56 +1,14 @@
+local jsonschema = require("jsonschema") -- Biblioteca que vai fazer a validação
 local lfs = require("lfs")  -- Para manipulação de arquivos e diretórios
 local json = require("dkjson")  -- Biblioteca para manipulação de JSON
 
 -- Caminhos dos diretórios
 local SCHEMAS_PATH = "./../schemas/"
-local DOCS_PATH = "./../json-docs/"
+local DOCS_PATH = "./../generated-docs/"
 local NUM_FILES = 10
 
--- Função principal
-function main()
-    local names = getNames()
-    local schemas = getSchemas(names, SCHEMAS_PATH)
-
-    for i, schema in ipairs(schemas) do
-        local name = names[i]
-        local docs = getDocsForOneSchema(name, DOCS_PATH)
-
-        print("Validando:", name)
-        for j, doc in ipairs(docs) do
-            -- Validar o documento com o esquema
-            local valid, errors = validateJSON(schema, doc)
-            if not valid then
-                print("Documento: " .. j .. " - " .. name .. " não é válido")
-                print(doc)
-                for _, err in ipairs(errors) do
-                    print("- " .. err)
-                end
-            end
-        end
-    end
-end
-
--- Função para validar JSON com base em um esquema
-function validateJSON(schema, doc)
-    -- Aqui você pode usar uma biblioteca de validação JSON em Lua, como `jsonschema`
-    -- Como Lua não tem uma biblioteca nativa de validação JSON, este é um exemplo simplificado.
-    -- Você precisará instalar uma biblioteca como `lua-jsonschema` ou implementar sua própria lógica de validação.
-    -- Este exemplo apenas verifica se o documento é um JSON válido.
-    local ok, parsedDoc = pcall(json.decode, doc)
-    if not ok then
-        return false, {"Documento JSON inválido"}
-    end
-
-    -- Simulação de validação (substitua por uma lógica real de validação)
-    if not parsedDoc then
-        return false, {"Erro ao analisar o documento JSON"}
-    end
-
-    return true, {}
-end
-
--- Função para obter os nomes dos arquivos no diretório de esquemas
 function getNames()
+	print("Getting names...")
     local names = {}
     local i = 1
 
@@ -69,6 +27,7 @@ end
 
 -- Função para carregar os esquemas JSON
 function getSchemas(names, path)
+	print("Getting schemas...")
     local schemas = {}
 
     for i, name in ipairs(names) do
@@ -87,6 +46,7 @@ end
 
 -- Função para carregar os documentos JSON associados a um esquema
 function getDocsForOneSchema(name, path)
+	print("Getting docs of schema " .. name)
     local docs = {}
     local filePath = path .. name
     local file = io.open(filePath, "r")
@@ -110,5 +70,30 @@ function getDocsForOneSchema(name, path)
     return docs
 end
 
--- Executar o programa
-main()
+function validateJSON(name, schema, docs)
+	print("Validating " .. name .. "...")
+	local validator = jsonschema.generate_validator(schema)
+
+	for i, doc in ipairs(docs) do
+		local valid = validator(doc)
+		if not valid then
+			print("Doc " .. i .. " invalido para o schema " .. name)
+		end
+	end
+end
+
+function Main()
+	print("-=-=-=-=- STARTING VALIDATION WITH LUA -=-=-=-=-")
+	local names = getNames()
+	local schemas = getSchemas(names, SCHEMAS_PATH)
+
+
+	for i, name in ipairs(names) do
+		print("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-")
+    	local docs = getDocsForOneSchema(name, DOCS_PATH)
+    	validateJSON(name, schemas[i], docs)
+
+	end
+end
+
+Main()
