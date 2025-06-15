@@ -1,0 +1,9 @@
+{
+  "resources": {
+    "myBicepWithInvalidParams": {
+      "params": {
+        "param1": []
+      }
+    }
+  }
+}
