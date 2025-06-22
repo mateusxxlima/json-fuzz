@@ -26,8 +26,6 @@ func main() {
 
 		fmt.Println("Validating:", name)
 		for i, doc := range docs {
-
-			//Validating with */xeipuuv/gojsonschema*
 			documentLoader := gojsonschema.NewStringLoader(doc)
 			result, err := gojsonschema.Validate(schemaLoader, documentLoader)
 			if err != nil {
@@ -40,23 +38,6 @@ func main() {
 					fmt.Printf("- %s\n", desc)
 				}
 			}
-
-			//Validating with */qri-io/jsonschema*
-			/* ctx := context.Background()
-			rs := &jsonschema.Schema{}
-			if err := json.Unmarshal([]byte(schema), rs); err != nil {
-				panic("unmarshal schema: " + err.Error())
-			}
-			errs, err := rs.ValidateBytes(ctx, []byte(doc))
-			if err != nil {
-				panic(err)
-			}
-			if len(errs) > 0 {
-				fmt.Println("Error on doc:")
-				fmt.Println(doc)
-				fmt.Println(errs[0].Error())
-				os.Exit(1)
-			} */
 		}
 	}
 }
