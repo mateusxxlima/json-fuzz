@@ -1,0 +1,2859 @@
+{"name":"Collection A","source":"sourceA","type":"galaxy","version":"1.0"}
+{"name":"Collection B","source":"sourceB","type":"url","version":"2.0"}
+{"name":"Collection C","source":"sourceC","type":"file","version":"3.0"}
+{"name":"Collection D","source":"sourceD","type":"git","version":"4.0"}
+{"name":"Collection E","source":"sourceE","type":"dir","version":"5.0"}
+{"name":"Collection F","source":"sourceF","type":"subdirs","version":"6.0"}
+{"include":"includeA"}
+{"include":"includeB"}
+{"include":"includeC"}
+{"include":"includeD"}
+{"include":"includeE"}
+{"include":"includeF"}
+{"name":"Collection 1","source":"http://example.com","type":"url","version":"1.0"}
+{"name":"Collection 2","source":"file.txt","type":"file","version":"2.0"}
+{"name":"Collection 3","source":"git@github.com:user/repo.git","type":"git"}
+{"name":"Collection 4","source":"dir/path","type":"dir","version":"3.0"}
+{"name":"Collection 5","source":"subdir/path","type":"subdirs","version":"1.5"}
+{"name":"Collection 6","source":"http://example.com/collection","type":"url"}
+{"name":"Collection 7","source":"file2.txt","type":"file","version":"4.0"}
+{"name":"Collection 8","source":"git@github.com:user/repo2.git","type":"git","version":"master"}
+{"name":"Collection 9","source":"dir2/path","type":"dir"}
+{"name":"Collection 10","source":"subdir2/path","type":"subdirs","version":"2.5"}
+{"include":"include1"}
+{"include":"include3"}
+{"include":"include4"}
+{"include":"include5"}
+{"include":"include6"}
+{"include":"include7"}
+{"include":"include8"}
+{"include":"include9"}
+{"include":"include10"}
+{"include":"include11"}
+{"include":"include12"}
+{"include":"include13"}
+{"include":"include14"}
+{"include":"include15"}
+{"include":"include16"}
+{"include":"include17"}
+{"include":"include18"}
+{"include":"include19"}
+{"name":"collection1","source":"source1","type":"git","version":"1.0"}
+{"name":"collection2","source":"source2","type":"file","version":"2.0"}
+{"name":"collection3","source":"source3","type":"url","version":"3.0"}
+{"name":"collection4","source":"source4","type":"dir","version":"4.0"}
+{"name":"collection5","source":"source5","type":"galaxy","version":"5.0"}
+{"name":"collection6","source":"source6","type":"subdirs","version":"6.0"}
+{"name":"collection7","source":"source7","type":"git","version":"master"}
+{"name":"collection8","source":"source8","type":"hg","version":"latest"}
+{"name":"collection9","source":"source9","type":"file","version":"1.1"}
+{"name":"collection10","source":"source10","type":"url","version":"1.2"}
+{"include":"include1"}
+{"include":"include2"}
+{"include":"include3"}
+{"include":"include4"}
+{"include":"include5"}
+{"include":"include6"}
+{"include":"include7"}
+{"include":"include8"}
+{"include":"include9"}
+{"include":"include10"}
+{"include":"include11"}
+{"include":"include12"}
+{"include":"include13"}
+{"include":"include14"}
+{"include":"include15"}
+{"include":"include16"}
+{"name":"Collection1","source":"source1","type":"galaxy","version":"1.0"}
+{"name":"Collection2","source":"source2","type":"url","version":"2.0"}
+{"name":"Collection3","source":"source3","type":"file","version":"3.0"}
+{"name":"Collection4","source":"source4","type":"git","version":"4.0"}
+{"name":"Collection5","source":"source5","type":"dir","version":"5.0"}
+{"name":"Collection6","source":"source6","type":"subdirs","version":"6.0"}
+{"name":"Collection7","source":"source7","type":"galaxy","version":"1.1"}
+{"name":"Collection8","source":"source8","type":"url","version":"2.1"}
+{"name":"Collection9","source":"source9","type":"file","version":"3.1"}
+{"name":"Collection10","source":"source10","type":"git","version":"4.1"}
+{"name":"Collection11","source":"source11","type":"dir","version":"5.1"}
+{"name":"Collection12","source":"source12","type":"subdirs","version":"6.1"}
+{"name":"Collection13","source":"source13","type":"galaxy","version":"1.2"}
+{"name":"Collection14","source":"source14","type":"url","version":"2.2"}
+{"name":"Collection15","source":"source15","type":"file","version":"3.2"}
+{"name":"Collection16","source":"source16","type":"git","version":"4.2"}
+{"name":"Collection17","source":"source17","type":"dir","version":"5.2"}
+{"name":"Collection18","source":"source18","type":"subdirs","version":"6.2"}
+{"name":"Collection19","source":"source19","type":"galaxy","version":"1.3"}
+{"name":"Collection20","source":"source20","type":"url","version":"2.3"}
+{"include":"include1"}
+{"include":"include2"}
+{"include":"include3"}
+{"include":"include4"}
+{"include":"include5"}
+{"include":"include1"}
+{"include":"include2"}
+{"include":"include3"}
+{"include":"include4"}
+{"include":"include5"}
+{"include":"include6"}
+{"include":"include7"}
+{"include":"include8"}
+{"include":"include9"}
+{"include":"include10"}
+{"name":"collection1","source":"source1","type":"galaxy","version":"1.0.0"}
+{"name":"collection2","source":"source2","type":"url","version":"1.0.1"}
+{"name":"collection3","source":"source3","type":"file","version":"1.0.2"}
+{"name":"collection4","source":"source4","type":"git","version":"1.0.3"}
+{"name":"collection5","source":"source5","type":"dir","version":"1.0.4"}
+{"name":"collection6","source":"source6","type":"subdirs","version":"1.0.5"}
+{"include":"include1"}
+{"include":"include2"}
+{"include":"include3"}
+{"include":"include4"}
+{"include":"include5"}
+{"include":"include6"}
+{"include":"include7"}
+{"include":"include8"}
+{"include":"include9"}
+{"include":"include10"}
+{"include":"include11"}
+{"include":"include12"}
+{"include":"include13"}
+{"include":"include14"}
+{"include":"include15"}
+{"include":"include16"}
+{"include":"include17"}
+{"include":"include18"}
+{"include":"include19"}
+{"include":"include20"}
+{"include":"include21"}
+{"include":"include22"}
+{"include":"include23"}
+{"include":"include24"}
+{"include":"include25"}
+{"include":"include26"}
+{"include":"include27"}
+{"include":"include28"}
+{"include":"include29"}
+{"include":"include30"}
+{"include":"include31"}
+{"include":"include32"}
+{"include":"include33"}
+{"include":"include34"}
+{"include":"include35"}
+{"include":"include36"}
+{"include":"include37"}
+{"include":"include38"}
+{"include":"include39"}
+{"include":"include40"}
+{"include":"include41"}
+{"include":"include42"}
+{"include":"include43"}
+{"include":"include44"}
+{"include":"include45"}
+{"include":"include46"}
+{"include":{"include":"some_value"}}
+{"name":"Collection 1","source":"Source A","type":"galaxy","version":"1.0"}
+{"name":"Collection 2","source":"Source B","type":"url","version":"2.0"}
+{"name":"Collection 3","source":"Source C","type":"file","version":"3.0"}
+{"name":"Collection 4","source":"Source D","type":"git","version":"4.0"}
+{"name":"Collection 5","source":"Source E","type":"dir","version":"5.0"}
+{"name":"Collection 6","source":"Source F","type":"subdirs","version":"6.0"}
+{"include":"Include A"}
+{"include":"Include B"}
+{"include":"Include C"}
+{"include":"Include D"}
+{"include":"Include E"}
+{"include":"Include F"}
+{"include":"Include G"}
+{"include":"Include H"}
+{"include":"Include I"}
+{"include":"Include J"}
+{"include":"Include K"}
+{"include":"Include L"}
+{"include":"Include M"}
+{"include":"Include N"}
+{"include":"Include O"}
+{"include":"Include P"}
+{"include":"Include Q"}
+{"include":"Include R"}
+{"include":"Include S"}
+{"include":"Include T"}
+{"name":"Collection A","source":"http://example.com","type":"url","version":"1.0"}
+{"name":"Collection B","source":"file.txt","type":"file","version":"2.0"}
+{"name":"Collection C","source":"git@github.com:user/repo.git","type":"git","version":"master"}
+{"name":"Collection D","source":"/path/to/dir","type":"dir","version":"1.2.3"}
+{"name":"Collection E","source":"/path/to/subdirs","type":"subdirs","version":"0.1"}
+{"name":"Collection F","source":"http://example.org","type":"url","version":"3.0"}
+{"name":"Collection G","source":"git@github.com:user/repo.git","type":"git","version":"1.1"}
+{"name":"Collection H","source":"file.txt","type":"file","version":"2.1"}
+{"name":"Collection I","source":"/another/path/to/dir","type":"dir","version":"1.0.0"}
+{"name":"Collection J","source":"/another/path/to/subdirs","type":"subdirs","version":"2.2"}
+{"include":"include1"}
+{"include":"include2"}
+{"name":"Collection A","source":"sourceA","type":"galaxy","version":"1.0.0"}
+{"name":"Collection B","source":"sourceB","type":"url","version":"2.1.0"}
+{"name":"Collection C","source":"sourceC","type":"file","version":"3.2.0"}
+{"name":"Collection D","source":"sourceD","type":"git","version":"4.3.0"}
+{"name":"Collection E","source":"sourceE","type":"dir","version":"5.4.0"}
+{"name":"Collection F","source":"sourceF","type":"subdirs","version":"6.5.0"}
+{"include":"includeA"}
+{"include":"includeB"}
+{"include":"includeC"}
+{"include":"includeD"}
+{"include":"includeE"}
+{"include":"includeF"}
+{"name":"example1","source":"source1","type":"galaxy","version":"1.0"}
+{"name":"example2","source":"source2","type":"url","version":"2.0"}
+{"name":"example3","source":"source3","type":"file","version":"3.0"}
+{"name":"example4","source":"source4","type":"git","version":"4.0"}
+{"name":"example5","source":"source5","type":"dir","version":"5.0"}
+{"name":"example6","source":"source6","type":"subdirs","version":"6.0"}
+{"include":"include1"}
+{"include":"include2"}
+{"name":"example7","source":"source7","type":"galaxy"}
+{"name":"example8","source":"source8","type":"url"}
+{"name":"example9","source":"source9","type":"file"}
+{"name":"example10","source":"source10","type":"git"}
+{"name":"example11","source":"source11","type":"dir"}
+{"name":"example12","source":"source12","type":"subdirs"}
+{"include":"include3"}
+{"include":"include4"}
+{"name":"example13","source":"source13","type":"galaxy","version":"1.1"}
+{"name":"example14","source":"source14","type":"url","version":"2.1"}
+{"name":"example15","source":"source15","type":"file","version":"3.1"}
+{"name":"example16","source":"source16","type":"git","version":"4.1"}
+{"name":"example17","source":"source17","type":"dir","version":"5.1"}
+{"name":"example18","source":"source18","type":"subdirs","version":"6.1"}
+{"include":"include5"}
+{"include":"include6"}
+{"name":"example19","source":"source19","type":"galaxy","version":"1.2"}
+{"name":"example20","source":"source20","type":"url","version":"2.2"}
+{"name":"example21","source":"source21","type":"file","version":"3.2"}
+{"name":"example22","source":"source22","type":"git","version":"4.2"}
+{"name":"example23","source":"source23","type":"dir","version":"5.2"}
+{"name":"example24","source":"source24","type":"subdirs","version":"6.2"}
+{"include":"include7"}
+{"include":"include8"}
+{"name":"Collection A","source":"Source A","type":"galaxy","version":"1.0.0"}
+{"name":"Collection B","source":"Source B","type":"url","version":"2.0.0"}
+{"name":"Collection C","source":"Source C","type":"file","version":"3.0.0"}
+{"name":"Collection D","source":"Source D","type":"git","version":"4.0.0"}
+{"name":"Collection E","source":"Source E","type":"dir","version":"5.0.0"}
+{"name":"Collection F","source":"Source F","type":"subdirs","version":"6.0.0"}
+{"name":"Collection G","source":"Source G","type":"galaxy","version":"1.0.1"}
+{"name":"Collection H","source":"Source H","type":"url","version":"2.0.1"}
+{"name":"Collection I","source":"Source I","type":"file","version":"3.0.1"}
+{"name":"Collection J","source":"Source J","type":"git","version":"4.0.1"}
+{"name":"Collection K","source":"Source K","type":"dir","version":"5.0.1"}
+{"name":"Collection L","source":"Source L","type":"subdirs","version":"6.0.1"}
+{"name":"Collection M","source":"Source M","type":"galaxy","version":"1.0.2"}
+{"name":"Collection N","source":"Source N","type":"url","version":"2.0.2"}
+{"name":"Collection O","source":"Source O","type":"file","version":"3.0.2"}
+{"name":"Collection P","source":"Source P","type":"git","version":"4.0.2"}
+{"name":"Collection Q","source":"Source Q","type":"dir","version":"5.0.2"}
+{"name":"Collection R","source":"Source R","type":"subdirs","version":"6.0.2"}
+{"include":"includeA"}
+{"include":"includeB"}
+{"include":"includeC"}
+{"include":"includeD"}
+{"include":"includeE"}
+{"include":"includeF"}
+{"include":"includeG"}
+{"include":"includeH"}
+{"include":"includeI"}
+{"include":"includeJ"}
+{"include":"includeK"}
+{"include":"includeL"}
+{"include":"includeM"}
+{"include":"includeN"}
+{"include":"example1"}
+{"include":"example2"}
+{"include":"example3"}
+{"include":"example4"}
+{"include":"example5"}
+{"include":"example6"}
+{"include":"example7"}
+{"include":"example8"}
+{"include":"example9"}
+{"include":"example10"}
+{"name":"Collection A","source":"source_a","type":"git","version":"1.0"}
+{"name":"Collection B","source":"source_b","type":"url","version":"2.0"}
+{"name":"Collection C","source":"source_c","type":"file","version":"3.0"}
+{"name":"Collection D","source":"source_d","type":"galaxy","version":"4.0"}
+{"name":"Collection E","source":"source_e","type":"dir","version":"5.0"}
+{"name":"Collection F","source":"source_f","type":"subdirs","version":"6.0"}
+{"include":"include_a"}
+{"include":"include_c"}
+{"include":"include_d"}
+{"include":"include_e"}
+{"include":"include_f"}
+{"include":"include_g"}
+{"include":"include_h"}
+{"include":"include_i"}
+{"include":"include_j"}
+{"include":"include_k"}
+{"include":"include_l"}
+{"include":"include_m"}
+{"include":"include_n"}
+{"include":"include_o"}
+{"name":"example1","source":"source1","type":"galaxy","version":"1.0.0"}
+{"name":"example2","source":"source2","type":"url","version":"2.0.0"}
+{"name":"example3","source":"source3","type":"file","version":"3.0.0"}
+{"name":"example4","source":"source4","type":"git","version":"4.0.0"}
+{"name":"example5","source":"source5","type":"dir","version":"5.0.0"}
+{"name":"example6","source":"source6","type":"subdirs","version":"6.0.0"}
+{"include":"include1"}
+{"include":"include2"}
+{"include":"include3"}
+{"include":"include4"}
+{"include":"include5"}
+{"include":"include6"}
+{"name":"collection1","source":"http://example.com","type":"url","version":"1.0"}
+{"name":"collection2","source":"file.txt","type":"file","version":"2.0"}
+{"name":"collection3","source":"git@github.com:user/repo.git","type":"git","version":"master"}
+{"name":"collection4","source":"/path/to/dir","type":"dir","version":"3.0"}
+{"name":"collection5","source":"subdir","type":"subdirs","version":"4.0"}
+{"include":"some_include"}
+{"include":"another_include"}
+{"include":"include1"}
+{"include":"include2"}
+{"include":"include3"}
+{"include":"include4"}
+{"include":"include5"}
+{"include":"include6"}
+{"include":"include7"}
+{"include":"include8"}
+{"include":"include9"}
+{"name":"Collection A","source":"http://example.com","type":"url","version":"1.0.0"}
+{"name":"Collection B","source":"file.txt","type":"file","version":"2.0.0"}
+{"name":"Collection C","source":"git@github.com:user/repo.git","type":"git","version":"master"}
+{"name":"Collection D","source":"dir/path","type":"dir","version":"1.2.3"}
+{"name":"Collection E","source":"subdirs/path","type":"subdirs","version":"0.1.0"}
+{"name":"Collection F","source":"http://example.org","type":"url"}
+{"name":"Collection G","source":"localfile.txt","type":"file"}
+{"name":"Collection H","source":"git@github.com:user/repo.git","type":"git"}
+{"name":"Collection I","source":"dir/path","type":"dir"}
+{"name":"Collection J","source":"subdirs/path","type":"subdirs"}
+{"include":"include_file.yml"}
+{"include":"another_include.yml"}
+{"include":"test_include.yml"}
+{"include":"final_include.yml"}
+{"include":"edge_case_include.yml"}
+{"include":"complex_include.yml"}
+{"include":"example1"}
+{"include":"example2"}
+{"include":"example3"}
+{"include":"example4"}
+{"include":"example5"}
+{"include":"example6"}
+{"include":"example7"}
+{"include":"example8"}
+{"include":"example9"}
+{"include":"example10"}
+{"include":"example11"}
+{"include":"example12"}
+{"include":"example13"}
+{"include":"example14"}
+{"include":"example15"}
+{"include":"example16"}
+{"include":"example17"}
+{"include":"example18"}
+{"include":"example19"}
+{"include":"example20"}
+{"include":"example1"}
+{"include":"example2"}
+{"include":"example3"}
+{"include":"example4"}
+{"include":"example5"}
+{"include":"example6"}
+{"include":"example7"}
+{"include":"example8"}
+{"include":"example9"}
+{"include":"example10"}
+{"name":"Collection A","source":"sourceA","type":"git","version":"1.0"}
+{"name":"Collection B","source":"sourceB","type":"url","version":"2.0"}
+{"name":"Collection C","source":"sourceC","type":"file","version":"3.0"}
+{"name":"Collection D","source":"sourceD","type":"dir","version":"4.0"}
+{"name":"Collection E","source":"sourceE","type":"subdirs","version":"5.0"}
+{"include":"includeA"}
+{"name":"Collection I","source":"sourceI","type":"git","version":"latest"}
+{"include":"includeC"}
+{"name":"Collection M","source":"sourceM","type":"subdirs","version":"0.2"}
+{"include":"includeD"}
+{"name":"collection1","source":"source1","type":"galaxy","version":"1.0"}
+{"name":"collection2","source":"source2","type":"url","version":"2.0"}
+{"name":"collection3","source":"source3","type":"file","version":"3.0"}
+{"name":"collection4","source":"source4","type":"git","version":"4.0"}
+{"name":"collection5","source":"source5","type":"dir","version":"5.0"}
+{"name":"collection6","source":"source6","type":"subdirs","version":"6.0"}
+{"name":"collection7","source":"source7","type":"galaxy","version":"7.0"}
+{"name":"collection8","source":"source8","type":"url","version":"8.0"}
+{"name":"collection9","source":"source9","type":"file","version":"9.0"}
+{"name":"collection10","source":"source10","type":"git","version":"10.0"}
+{"include":"include1"}
+{"include":"include2"}
+{"include":"include3"}
+{"include":"include4"}
+{"include":"include5"}
+{"include":"include6"}
+{"include":"include7"}
+{"include":"include8"}
+{"include":"include9"}
+{"include":"include10"}
+{"include":"include11"}
+{"include":"include12"}
+{"name":"Example Collection 1","source":"source1","type":"galaxy","version":"1.0"}
+{"name":"Example Collection 2","source":"source2","type":"url","version":"2.0"}
+{"name":"Example Collection 3","source":"source3","type":"file","version":"3.0"}
+{"name":"Example Collection 4","source":"source4","type":"git","version":"4.0"}
+{"name":"Example Collection 5","source":"source5","type":"dir","version":"5.0"}
+{"name":"Example Collection 6","source":"source6","type":"subdirs","version":"6.0"}
+{"name":"Example Collection 7","source":"source7","type":"galaxy","version":"1.1"}
+{"name":"Example Collection 8","source":"source8","type":"url","version":"2.1"}
+{"name":"Example Collection 9","source":"source9","type":"file","version":"3.1"}
+{"name":"Example Collection 10","source":"source10","type":"git","version":"4.1"}
+{"name":"Example Collection 11","source":"source11","type":"dir","version":"5.1"}
+{"name":"Example Collection 12","source":"source12","type":"subdirs","version":"6.1"}
+{"include":"include1"}
+{"include":"include2"}
+{"include":"include3","roles":[{"name":"Role 7","scm":"git"}]}
+{"name":"Edge Case Collection","type":"file"}
+{"name":"Edge Case Collection 2","type":"git"}
+{"name":"Edge Case Collection 3","type":"dir"}
+{"name":"Edge Case Collection 4","type":"subdirs"}
+{"name":"","source":"sourceEmpty","type":"galaxy","version":"1.0"}
+{"name":"Collection with long name that exceeds normal length expectations","source":"sourceLong","type":"url","version":"1.0"}
+{"include":"include4","roles":[{"name":"Role 11","scm":"git","src":"src11","version":"master"}]}
+{"include":"include5"}
+{"include":"include6","roles":[{"name":"Role 15","scm":"hg","src":"src15","version":"master"}]}
+{"include":"include7"}
+{"include":"include8","roles":[{"name":"Role 19","scm":"git","src":"src19","version":"5.0"}]}
+{"name":"example1","source":"source1","type":"galaxy","version":"1.0"}
+{"name":"example2","source":"source2","type":"url","version":"1.1"}
+{"name":"example3","source":"source3","type":"file","version":"2.0"}
+{"name":"example4","source":"source4","type":"git","version":"master"}
+{"name":"example5","source":"source5","type":"dir","version":"0.1"}
+{"name":"example6","source":"source6","type":"subdirs","version":"1.0"}
+{"name":"example7","source":"source7","type":"galaxy"}
+{"name":"example8","source":"source8","type":"url","version":"2.1"}
+{"name":"example9","type":"file"}
+{"source":"source9","type":"git","version":"2.0"}
+{"name":"example10","source":"source10","type":"dir"}
+{"name":"example11","source":"source11","type":"subdirs","version":"3.0"}
+{"include":"include1"}
+{"include":"include2"}
+{"include":"include3"}
+{"include":"include4"}
+{"name":"edge_case1","source":"source_edge1","type":"galaxy","version":"1.0"}
+{"name":"edge_case2","source":"source_edge2","type":"url","version":"1.1"}
+{"name":"edge_case3","source":"source_edge3","type":"file","version":"2.0"}
+{"name":"edge_case4","source":"source_edge4","type":"git"}
+{"name":"edge_case5","source":"source_edge5","type":"dir","version":"0.1"}
+{"name":"edge_case6","source":"source_edge6","type":"subdirs","version":"1.0"}
+{"include":"include5"}
+{"include":"include6"}
+{"include":"include7"}
+{"include":"include8"}
+{"include":"include.yaml"}
+{"include":"include2.yaml"}
+{"include":"include3.yaml"}
+{"include":"include4.yaml"}
+{"include":"include5.yaml"}
+{"include":"include1"}
+{"include":"include2"}
+{"include":"include3"}
+{"include":"include4"}
+{"include":"include5"}
+{"include":"include6"}
+{"include":"include7"}
+{"include":"include8"}
+{"include":"include1"}
+{"include":"include2"}
+{"include":"include3"}
+{"include":"include4"}
+{"include":"include5"}
+{"include":"include6"}
+{"include":"include7"}
+{"include":"include8"}
+{"include":"include9"}
+{"include":"include10"}
+{"name":"Example Collection","source":"https://example.com","type":"url","version":"1.0.0"}
+{"name":"Another Collection","source":"file.txt","type":"file","version":"2.0.1"}
+{"name":"Galaxy Collection","source":"galaxy_name","type":"galaxy","version":"3.0.0"}
+{"name":"Git Collection","source":"https://github.com/example/repo.git","type":"git","version":"master"}
+{"name":"Directory Collection","source":"/path/to/dir","type":"dir","version":"1.2.3"}
+{"name":"Subdirectories Collection","source":"/path/to/subdirs","type":"subdirs","version":"0.1.0"}
+{"include":"some_include"}
+{"include":"include_one","roles":[{"name":"Role E"}]}
+{"include":"include_two","collections":[{"name":"Collection E","source":"source_e","type":"dir"}]}
+{"include":"include_three","roles":[{"name":"Role J"}]}
+{"include":"include_four","collections":[{"name":"Collection N","source":"source_n","type":"galaxy"}]}
+{"include":"include_five","roles":[{"name":"Role O","scm":"git","src":"src_o"}]}
+{"include":"include_six"}
+{"include":"include_seven","collections":[{"name":"Collection T","source":"source_t","type":"dir"}]}
+{"include":"include_eight"}
+{"include":"include_nine","roles":[{"name":"Role Y"}]}
+{"include":"include_ten","collections":[{"name":"Collection AA","source":"source_aa","type":"file"}]}
+{"include":"include_eleven","roles":[{"name":"Role AD","scm":"git","src":"src_ad"}]}
+{"include":"include_twelve","collections":[{"name":"Collection AG","source":"source_ag","type":"galaxy","version":"latest"}]}
+{"include":"example1"}
+{"include":"example2"}
+{"include":"example3"}
+{"include":"example4"}
+{"include":"example5"}
+{"include":"example6"}
+{"include":"example7"}
+{"include":"example8"}
+{"include":"example9"}
+{"include":"example10"}
+{"include":"edge_case1"}
+{"include":"edge_case2"}
+{"include":"edge_case3"}
+{"include":"edge_case4"}
+{"include":"edge_case5"}
+{"include":"edge_case6"}
+{"include":"edge_case7"}
+{"include":"edge_case8"}
+{"include":"edge_case9"}
+{"include":"edge_case10"}
+{"name":"collection1","source":"source1","type":"git","version":"1.0"}
+{"name":"collection2","source":"source2","type":"url","version":"2.0"}
+{"name":"collection3","source":"source3","type":"file","version":"3.0"}
+{"name":"collection4","source":"source4","type":"dir","version":"4.0"}
+{"name":"collection5","source":"source5","type":"subdirs","version":"5.0"}
+{"name":"collection6","source":"source6","type":"galaxy","version":"6.0"}
+{"include":"include1"}
+{"include":"include2"}
+{"name":"collection12","source":"source12","type":"galaxy"}
+{"name":"collection13","source":"source13","type":"url","version":"3.1"}
+{"include":"include3"}
+{"include":"include4"}
+{"include":"include5"}
+{"include":"include6"}
+{"include":"include7"}
+{"include":"include8"}
+{"include":"include9"}
+{"include":"include10"}
+{"include":"include11"}
+{"include":"include12"}
+{"include":"include13"}
+{"include":"include14"}
+{"include":"example_include_1"}
+{"include":"example_include_2"}
+{"include":"example_include_3"}
+{"include":"example_include_4"}
+{"include":"example_include_5"}
+{"include":"example_include_6"}
+{"include":"example_include_7"}
+{"include":"example_include_8"}
+{"include":"example_include_9"}
+{"include":"example_include_10"}
+{"include":"example_include_11"}
+{"name":"Example Collection 1","source":"source1","type":"git","version":"1.0.0"}
+{"name":"Example Collection 2","source":"source2","type":"url","version":"1.2.3"}
+{"name":"Example Collection 3","source":"source3","type":"file","version":"2.0.0"}
+{"name":"Example Collection 4","source":"source4","type":"dir","version":"1.0.0"}
+{"name":"Example Collection 5","source":"source5","type":"subdirs","version":"0.1.0"}
+{"name":"Collection with special chars: !@#$%^&*()","source":"source1","type":"git","version":"1.0.0"}
+{"name":"Empty string fields","source":"","type":"file","version":""}
+{"name":"Collection with long name","source":"source6","type":"url","version":"1.0.0"}
+{"name":"Collection with null version","source":"source7","type":"dir","version":null}
+{"name":"Collection with whitespace","source":"   ","type":"git","version":"1.0.0"}
+{"include":"include1"}
+{"include":"include2"}
+{"collections":[{"name":"Collection with invalid type","source":"source11","type":"invalid","version":"1.0.0"}]}
+{"roles":[{"name":"Role with invalid scm","scm":"invalid","src":"src7","version":"1.0.0"}]}
+{"include":"include3"}
+{"include":"include4"}
+{"include":"include5"}
+{"include":"include6"}
+{"collections":[{"name":"Collection with mixed case Type","source":"source31","type":"GiT","version":"1.0.0"}]}
+{"include":"include7"}
+{"roles":[{"name":"Role with mixed case Scm","scm":"GiT","src":"src18","version":"master"}]}
+{"include":"example1"}
+{"include":"example2"}
+{"include":"example3"}
+{"include":"example4"}
+{"include":"example5"}
+{"include":"example6"}
+{"include":"example7"}
+{"include":"example8"}
+{"include":"example9"}
+{"include":"example10"}
+{"include":"example11"}
+{"include":"example12"}
+{"include":"example13"}
+{"include":"example14"}
+{"include":"example15"}
+{"name":"Test Collection","source":"https://example.com","type":"url","version":"1.0.0"}
+{"name":"Test Collection 2","source":"file.txt","type":"file","version":"2.0.0"}
+{"name":"Test Collection 3","source":"git@github.com:user/repo.git","type":"git","version":"master"}
+{"name":"Test Collection 4","source":"directory/","type":"dir","version":"0.1.0"}
+{"name":"Test Collection 5","source":"subdir/","type":"subdirs","version":"0.2.0"}
+{"name":"Collection A","source":"https://example.com/a","type":"url","version":"1.1.1"}
+{"name":"Collection B","source":"file_a.txt","type":"file","version":"1.2.2"}
+{"name":"Collection C","source":"git@github.com:user/repo_b.git","type":"git","version":"1.3.3"}
+{"name":"Collection D","source":"dir_a/","type":"dir","version":"1.4.4"}
+{"name":"Collection E","source":"subdir_a/","type":"subdirs","version":"1.5.5"}
+{"include":"path/to/include"}
+{"include":""}
+{"collections":[{"name":"Collection with invalid type","source":"https://example.com/invalid-type","type":"invalid","version":"1.0.0"}]}
+{"roles":[{"name":"Role with invalid scm","scm":"invalid","src":"src_invalid","version":"1.0.0"}]}
+{"collections":[{"name":"Collection with null source","source":null,"type":"url","version":"1.0.0"}]}
+{"roles":[{"name":"Role with null src","scm":"git","src":null,"version":"1.0.0"}]}
+{"collections":[{"name":"Collection with non-string name","source":"https://example.com","type":"url","version":12345}]}
+{"roles":[{"name":"Role with non-string name","scm":"git","src":"src","version":12345}]}
+{"collections":[{"name":"Collection with boolean source","source":true,"type":"url","version":"1.0.0"}]}
+{"roles":[{"name":"Role with boolean src","scm":"git","src":true,"version":"1.0.0"}]}
+{"collections":[{"name":"Collection with array source","source":[],"type":"url","version":"1.0.0"}]}
+{"roles":[{"name":"Role with array src","scm":"git","src":[],"version":"1.0.0"}]}
+{"collections":[{"name":"Collection with object source","source":{},"type":"url","version":"1.0.0"}]}
+{"roles":[{"name":"Role with object src","scm":"git","src":{},"version":"1.0.0"}]}
+{"include":"include_path"}
+{"collections":[{"name":"Collection with only name","source":null,"type":null,"version":null}]}
+{"roles":[{"name":"Role with only name","scm":null,"src":null,"version":null}]}
+{"collections":[{"name":"Collection with additional properties","source":"https://example.com","type":"url","version":"1.0.0","extra":"value"}]}
+{"roles":[{"name":"Role with additional properties","scm":"git","src":"src","version":"1.0.0","extra":"value"}]}
+{"collections":[{"name":"Collection with empty array","source":[],"type":"url","version":"1.0.0"}]}
+{"roles":[{"name":"Role with empty array","scm":"git","src":[],"version":"1.0.0"}]}
+{"collections":[{"name":"Collection with mixed types","source":"https://example.com","type":"url","version":["1.0.0",2]}]}
+{"roles":[{"name":"Role with mixed types","scm":"git","src":"src","version":["1.0.0",2]}]}
+{"include":"example_include_1"}
+{"include":"example_include_2"}
+{"include":"example_include_3"}
+{"include":"special_include_1"}
+{"include":"special_include_2"}
+{"include":"edge_case_include_1"}
+{"include":"edge_case_include_2"}
+{"include":"minimal_include"}
+{"include":"edge_case_include_3"}
+{"include":"optional_include_1"}
+{"include":"optional_include_2"}
+{"include":"large_include_1"}
+{"include":"large_include_2"}
+{"include":"large_include_3"}
+{"include":"some_include"}
+{"include":"another_include"}
+{"include":"include_with_special_chars!@#"}
+{"include":"include_with_empty_value"}
+{"include":"include_with_long_string_1234567890"}
+{"include":"valid_include_with_special_characters_!@#"}
+{"name":"My Collection","source":"https://example.com","type":"url","version":"1.0"}
+{"name":"Another Collection","source":"file://path/to/file","type":"file","version":"2.0"}
+{"name":"Git Collection","source":"https://github.com/user/repo.git","type":"git","version":"master"}
+{"name":"Local Directory","source":"/local/dir","type":"dir","version":"1.0"}
+{"name":"Subdirectories","source":"/local/subdirs","type":"subdirs","version":"1.0"}
+{"include":"some/include/path"}
+{"include":"another/include/path"}
+{"include":"include/path/with/special/chars!@#"}
+{"include":"include/path/with/empty/value"}
+{"include":"include/with/numbers/123"}
+{"include":"include/path/with/spaces and more"}
+{"include":"include/path/with/long/value/that/contains/a/lots/of/characters"}
+{"include":"include/path/with/very/long/name/that/might/cause/edge/cases"}
+{"include":"include/path/with/various/special@chars!"}
+{"include":"include/path/with/whitespace and other characters"}
+{"include":"another/include/path/with/spaces"}
+{"include":"include/path/with/various/characters"}
+{"name":"Collection A","source":"sourceA","type":"galaxy","version":"1.0"}
+{"name":"Collection B","source":"sourceB","type":"url","version":"2.0"}
+{"name":"Collection C","source":"sourceC","type":"file","version":"3.0"}
+{"name":"Collection D","source":"sourceD","type":"git","version":"4.0"}
+{"name":"Collection E","source":"sourceE","type":"dir","version":"5.0"}
+{"name":"Collection F","source":"sourceF","type":"subdirs","version":"6.0"}
+{"include":"includeA"}
+{"include":"includeB"}
+{"include":"includeC","collections":[{"name":"Collection J","source":"sourceJ","type":"file","version":"1.2"}]}
+{"include":"includeD"}
+{"include":"includeE"}
+{"include":"includeF","roles":[{"name":"Role K","scm":"hg"}]}
+{"include":"includeG"}
+{"include":"includeH"}
+{"include":"includeI"}
+{"include":"includeJ"}
+{"include":"includeK"}
+{"include":"includeL"}
+{"include":"includeM"}
+{"include":"includeN"}
+{"include":"includeO"}
+{"include":"includeP"}
+{"include":"includeQ"}
+{"name":"Collection A","source":"source_a","type":"git","version":"1.0.0"}
+{"name":"Collection B","source":"source_b","type":"url","version":"2.0.0"}
+{"name":"Collection C","source":"source_c","type":"file","version":"3.0.0"}
+{"name":"Collection D","source":"source_d","type":"dir","version":"4.0.0"}
+{"name":"Collection E","source":"source_e","type":"subdirs","version":"5.0.0"}
+{"name":"Collection F","source":"source_f","type":"git","version":"6.0.0"}
+{"name":"Collection G","source":"source_g","type":"url","version":"7.0.0"}
+{"name":"Collection H","source":"source_h","type":"file","version":"8.0.0"}
+{"name":"Collection I","source":"source_i","type":"dir","version":"9.0.0"}
+{"name":"Collection J","source":"source_j","type":"subdirs","version":"10.0.0"}
+{"include":"include_a"}
+{"include":"include_b"}
+{"include":"include_c"}
+{"include":"include_d"}
+{"include":"include_e"}
+{"name":"example1","source":"source1","type":"galaxy","version":"1.0.0"}
+{"name":"example2","source":"source2","type":"url","version":"2.0.0"}
+{"name":"example3","source":"source3","type":"file","version":"3.0.0"}
+{"name":"example4","source":"source4","type":"git","version":"4.0.0"}
+{"name":"example5","source":"source5","type":"dir","version":"5.0.0"}
+{"name":"example6","source":"source6","type":"subdirs","version":"6.0.0"}
+{"include":"include1"}
+{"include":"include2"}
+{"include":"include3"}
+{"include":"include4"}
+{"include":"include5"}
+{"include":"include6"}
+{"include":"include7"}
+{"include":"include8"}
+{"include":"include9"}
+{"include":"include10"}
+{"include":"include11"}
+{"include":"include12"}
+{"include":"include13"}
+{"include":"include14"}
+{"name":"Test Collection 1","source":"https://example.com","type":"url","version":"1.0.0"}
+{"name":"Test Collection 2","source":"https://example.com","type":"file","version":"1.0.1"}
+{"name":"Test Collection 3","source":"https://example.com","type":"git","version":"1.0.2"}
+{"name":"Test Collection 4","source":"https://example.com","type":"dir","version":"1.0.3"}
+{"name":"Test Collection 5","source":"https://example.com","type":"subdirs","version":"1.0.4"}
+{"include":"role1"}
+{"include":"role2"}
+{"include":"role3"}
+{"include":"role4"}
+{"include":"role5"}
+{"include":"role6"}
+{"include":"role7"}
+{"include":"role8"}
+{"include":"role9"}
+{"include":"role10"}
+{"include":"another_file.yml"}
+{"include":"file.yml","roles":[{"name":"role7"}]}
+{"include":"another_file.yml","collections":[{"name":"collection12","type":"file"}]}
+{"include":"file.yml","roles":[{"name":"role15","scm":"git"}]}
+{"include":"file.yml","collections":[{"name":"collection16","type":"subdirs"}]}
+{"include":"another_file.yml","roles":[{"name":"role21","scm":"git"}]}
+{"include":"file.yml","collections":[{"name":"collection23","type":"dir"}]}
+{"include":"another_file.yml","roles":[{"name":"role28"}]}
+{"include":"file.yml","collections":[{"name":"collection27","type":"dir"}]}
+{"include":"another_file.yml","collections":[{"name":"collection31","type":"subdirs"}]}
+{"include":"file.yml","collections":[{"name":"collection35","type":"dir"}]}
+{"name":"Collection 1","source":"https://example.com","type":"url","version":"1.0"}
+{"name":"Collection 2","source":"local/path","type":"file","version":"2.0"}
+{"name":"Collection 3","source":"git://repo.git","type":"git","version":"3.0"}
+{"name":"Collection 4","source":"dir/path","type":"dir","version":"1.1"}
+{"name":"Collection 5","source":"subdir/path","type":"subdirs","version":"1.2"}
+{"name":"Collection 6","source":"https://anotherexample.com","type":"url","version":"1.0"}
+{"name":"Collection 7","source":"local/another/path","type":"file","version":"2.1"}
+{"name":"Collection 8","source":"git://anotherrepo.git","type":"git","version":"3.1"}
+{"name":"Collection 9","source":"dir/another/path","type":"dir","version":"1.3"}
+{"name":"Collection 10","source":"subdir/another/path","type":"subdirs","version":"1.4"}
+{"include":"collectionA"}
+{"include":"collectionB"}
+{"name":"Collection A","source":"sourceA","type":"git","version":"1.0.0"}
+{"name":"Collection B","source":"sourceB","type":"file","version":"2.0.0"}
+{"name":"Collection C","source":"sourceC","type":"url","version":"3.0.0"}
+{"name":"Collection D","source":"sourceD","type":"galaxy","version":"4.0.0"}
+{"name":"Collection E","source":"sourceE","type":"dir","version":"5.0.0"}
+{"name":"Collection F","source":"sourceF","type":"subdirs","version":"6.0.0"}
+{"name":"Collection G","source":"sourceG","type":"git","version":"master"}
+{"name":"Collection H","source":"sourceH","type":"file","version":"latest"}
+{"name":"Collection I","source":"sourceI","type":"url","version":"1.1.1"}
+{"name":"Collection J","source":"sourceJ","type":"galaxy","version":"2.1.1"}
+{"include":"includeA"}
+{"include":"includeB"}
+{"include":"includeC"}
+{"include":"includeD"}
+{"include":"includeE"}
+{"include":"includeF"}
+{"include":"includeG"}
+{"include":"includeH"}
+{"include":"example_include_1"}
+{"include":"example_include_2"}
+{"include":"example_include_3"}
+{"include":"example_include_4"}
+{"include":"example_include_5"}
+{"include":"example_include_6"}
+{"include":"example_include_7"}
+{"include":"example_include_8"}
+{"include":"example_include_9"}
+{"include":"example_include_10"}
+{"name":"Collection 1","source":"http://example.com","type":"url","version":"1.0"}
+{"name":"Collection 2","source":"file.txt","type":"file","version":"1.1"}
+{"name":"Collection 3","source":"git@github.com:example/repo.git","type":"git","version":"2.0"}
+{"name":"Collection 4","source":"dir/path","type":"dir","version":"1.2"}
+{"name":"Collection 5","source":"subdir/path","type":"subdirs","version":"1.3"}
+{"include":"include_file.yml"}
+{"include":"another_include.yml"}
+{"include":"empty_include.yml"}
+{"include":"file_with_special_chars_@#$.yml"}
+{"include":"mixed_include.yml"}
+{"include":"special_include_!@#.yml"}
+{"include":"include_with_long_name_for_testing.yml"}
+{"include":"some_other_include.yml"}
+{"include":"one_more_include.yml"}
+{"include":"final_include.yml"}
+{"name":"Collection A","source":"source A","type":"galaxy","version":"1.0"}
+{"name":"Collection B","source":"source B","type":"url","version":"2.0"}
+{"name":"Collection C","source":"source C","type":"file","version":"3.0"}
+{"name":"Collection D","source":"source D","type":"git","version":"4.0"}
+{"name":"Collection E","source":"source E","type":"dir","version":"5.0"}
+{"name":"Collection F","source":"source F","type":"subdirs","version":"6.0"}
+{"name":"Collection G","source":"source G","type":"galaxy"}
+{"name":"Collection H","source":"source H","type":"url","version":"1.0"}
+{"name":"Collection I","type":"file"}
+{"name":"Collection J","source":"source J"}
+{"type":"git"}
+{"name":"Collection K","source":"source K","type":"dir","version":"7.0"}
+{"name":"Collection L","source":"source L","type":"subdirs"}
+{"name":"Collection M","source":"source M","type":"galaxy","version":"1.1"}
+{"name":"Collection N","type":"url","version":"1.2"}
+{"source":"source N","type":"file","version":"1.3"}
+{"name":"Collection O","type":"git"}
+{"name":"Collection P","source":"source P","type":"subdirs","version":"1.4"}
+{"name":"Collection Q","type":"galaxy"}
+{"name":"Collection R","source":"source R","version":"1.5"}
+{"name":"Collection S","type":"url"}
+{"name":"Collection T","source":"source T","type":"file","version":"1.6"}
+{"name":"Collection U","type":"git"}
+{"include":"include1"}
+{"include":"include2"}
+{"include":"include3"}
+{"name":"Collection X","source":"source X","type":"galaxy","version":"1.7"}
+{"name":"Collection Y","source":"source Y","type":"url","version":"1.8"}
+{"name":"Collection Z","type":"file"}
+{"include":"include4"}
+{"name":"Collection AC","source":"source AC","type":"galaxy","version":"2.0"}
+{"name":"Collection AD","source":"source AD","type":"url","version":"2.1"}
+{"name":"Collection AE","type":"file","version":"2.2"}
+{"name":"Collection AF","source":"source AF","type":"git"}
+{"include":"include5"}
+{"include":"include6"}
+{"name":"Collection AN","source":"source AN","type":"galaxy","version":"4.0"}
+{"include":"http://example.com/include1"}
+{"include":"http://example.com/include2"}
+{"include":"http://example.com/include3"}
+{"name":"Collection1","source":"https://example.com","type":"url","version":"1.0"}
+{"name":"Collection2","source":"file://example/file","type":"file","version":"2.0"}
+{"name":"Collection3","source":"git://example/repo.git","type":"git","version":"master"}
+{"name":"Collection4","source":"dir://example/dir","type":"dir","version":"3.1"}
+{"name":"Collection5","source":"subdir://example/subdir","type":"subdirs","version":"4.0"}
+{"include":"http://example.com/include4"}
+{"include":"http://example.com/include5"}
+{"include":"http://example.com/include6"}
+{"include":"http://example.com/include7"}
+{"include":"http://example.com/include8"}
+{"include":"http://example.com/include9"}
+{"include":"http://example.com/include10"}
+{"include":"http://example.com/include11"}
+{"include":"http://example.com/include12"}
+{"include":"https://example.com/include"}
+{"include":"https://example.com/another-include"}
+{"collections":[{"name":"Invalid Type","source":"https://example.com","type":"invalid","version":"1.0.0"}]}
+{"include":"https://example.com/edge-case-include"}
+{"include":"https://example.com/requirement.include"}
+{"roles":[{"name":"Role with Invalid SCM","scm":"invalid","src":"https://github.com/example/repo","version":"1.0.0"}]}
+{"include":"https://example.com/yet-another-include"}
+{"roles":[{"name":"Role with Empty SCM","src":"https://github.com/example/repo","scm":"","version":"v2.0"}]}
+{"include":"https://example.com/collection/include"}
+{"roles":[{"name":"Role with Multiple SCM Types","scm":"git,hg","src":"https://github.com/example/repo","version":"1.0"}]}
+{"include":"some_include_string"}
+{"include":"another_include"}
+{"include":"include_with_special_characters_!@#$%^&*()"}
+{"include":""}
+{"include":"valid_include_string"}
+{"include":"another_valid_string"}
+{"include":"edge_case_include_1"}
+{"include":"include_edge_case_2"}
+{"include":"include_with_empty_string"}
+{"include":"include_with_max_length_string_12345678901234567890"}
+{"include":"example_include"}
+{"include":"single_include"}
+{"include":"another_include"}
+{"collections":[{"name":"collection_with_null_source","type":"file","version":"1.0.0","source":null}]}
+{"roles":[{"name":"role_with_null_src","scm":"git","src":null,"version":"master"}]}
+{"collections":[{"name":"collection_with_version_null","source":"https://example.com","type":"url","version":null}]}
+{"roles":[{"name":"role_with_version_null","scm":"hg","src":"https://example.com/repo","version":null}]}
+{"collections":[{"name":"collection_with_unexpected_type","source":"https://example.com","type":"unexpected_type","version":"1.0.0"}]}
+{"roles":[{"name":"role_with_invalid_scm","scm":"svn","src":"https://example.com/invalid/repo","version":"1.0.0"}]}
+{"include":"complex_include"}
+{"include":"new_include"}
+{"include":"simple_include"}
+{"include":"library"}
+{"include":"https://example.com/resource"}
+{"include":"file://local/path/to/resource"}
+{"include":"git://repository.git"}
+{"include":"https://another-example.com/resource"}
+{"include":"file://another/local/path/to/resource"}
+{"include":"git://another-repo.git"}
+{"include":"path/to/resource"}
+{"include":"another/path/to/resource"}
+{"include":"https://valid-url.com/resource"}
+{"include":"path/to/valid/resource"}
+{"include":"file://yet/another/resource"}
+{"include":"git://example-repo.git"}
+{"include":"https://complex-url.com/resource"}
+{"include":"file://yet/another/valid/resource"}
+{"name":"Collection A","source":"sourceA","type":"galaxy","version":"1.0"}
+{"name":"Collection B","source":"sourceB","type":"url","version":"2.0"}
+{"name":"Collection C","source":"sourceC","type":"file","version":"3.0"}
+{"name":"Collection D","source":"sourceD","type":"git","version":"4.0"}
+{"name":"Collection E","source":"sourceE","type":"dir","version":"5.0"}
+{"name":"Collection F","source":"sourceF","type":"subdirs","version":"6.0"}
+{"include":"includeA"}
+{"include":"includeB","roles":[{"name":"Role D","src":"srcD","version":"2.0"}]}
+{"include":"includeC"}
+{"include":"includeD","roles":[{"name":"Role H","src":"srcH","version":"2.1"}]}
+{"include":"includeE"}
+{"include":"includeF"}
+{"include":"includeG"}
+{"include":"includeH","roles":[{"name":"Role N","src":"srcN"}]}
+{"include":"includeI"}
+{"include":"includeJ","roles":[{"name":"Role Q","src":"srcQ","version":"3.4"}]}
+{"include":"includeK"}
+{"include":"includeL"}
+{"include":"includeM"}
+{"name":"example1","source":"https://example.com","type":"url","version":"1.0"}
+{"name":"example2","source":"file.txt","type":"file","version":"1.1"}
+{"name":"example3","source":"git@github.com:example/repo.git","type":"git","version":"master"}
+{"name":"example4","source":"dir/","type":"dir","version":"2.0"}
+{"name":"example5","source":"subdir/","type":"subdirs","version":"3.1"}
+{"include":"another_file.yml"}
+{"include":"include_file.txt"}
+{"include":"include_yml.yml"}
+{"name":"example_numeric","source":123,"type":"url","version":"1.0"}
+{"include":"just_include.txt"}
+{"include":"additional_include.yml"}
+{"include":"include_another_file.yml"}
+{"name":"edge_case1"}
+{"include":"include_file_2.yml"}
+{"include":"test.yml"}
+{"include":"test_file.yml"}
+{"name":"example_empty","type":"null"}
+{"include":"empty.yml"}
+{"name":"Collection A","source":"http://example.com","type":"url","version":"1.0"}
+{"name":"Collection B","source":"git@github.com:example/repo.git","type":"git","version":"2.1"}
+{"name":"Collection C","type":"file"}
+{"name":"Collection D","source":"/path/to/dir","type":"dir","version":"1.2.3"}
+{"name":"Collection E","source":"http://example.com","type":"galaxy","version":"latest"}
+{"include":"example1"}
+{"include":"example2"}
+{"include":"example3"}
+{"include":"example4"}
+{"include":"example5"}
+{"include":"example6"}
+{"include":"example7"}
+{"include":"example8"}
+{"include":"example9"}
+{"include":"example10"}
+{"name":"test1","source":"source1","type":"galaxy","version":"1.0"}
+{"name":"test2","source":"source2","type":"url","version":"1.1"}
+{"name":"test3","source":"source3","type":"file","version":"1.2"}
+{"name":"test4","source":"source4","type":"git","version":"1.3"}
+{"name":"test5","source":"source5","type":"dir","version":"1.4"}
+{"name":"test6","source":"source6","type":"subdirs","version":"1.5"}
+{"name":"test7","source":"source7","type":"galaxy","version":"1.6"}
+{"name":"test8","source":"source8","type":"url","version":"1.7"}
+{"name":"test9","source":"source9","type":"file","version":"1.8"}
+{"name":"test10","source":"source10","type":"git","version":"1.9"}
+{"include":"path/to/include"}
+{"include":"empty_path"}
+{"include":"another/path/to/include"}
+{"include":"single_include"}
+{"name":"col13","source":"src13","type":"file","version":"2.3"}
+{"include":"include/path"}
+{"include":"another_include"}
+{"include":"col_with_include"}
+{"include":"final_test_include"}
+{"collections":[{"name":"edge_case_4","source":"edge_src7","type":"dir","version":null}]}
+{"name":"Collection A","source":"source A","type":"file","version":"1.0.0"}
+{"name":"Collection B","source":"source B","type":"url","version":"2.0.0"}
+{"name":"Collection C","source":"source C","type":"git","version":"latest"}
+{"name":"Collection D","source":"source D","type":"galaxy","version":"1.5.0"}
+{"name":"Collection E","source":"source E","type":"dir","version":"1.2.3"}
+{"name":"Collection F","source":"source F","type":"subdirs","version":"3.4.5"}
+{"name":"Collection G","source":"source G","type":"git","version":"3.2.1"}
+{"source":"source H","type":"file"}
+{"name":"Collection I","source":"source I","type":"url","version":"0.0.1"}
+{"name":"Collection J","source":"source J","type":"git"}
+{"name":"Collection K","type":"galaxy","version":"2.3.4"}
+{"name":"Collection L","source":"source L","type":"dir"}
+{"name":"Collection M","type":"subdirs","version":"1.0.0"}
+{"source":"source M","type":"url","version":"2.0.0"}
+{"name":"Collection N","source":"source N","type":"file","version":"4.5.6"}
+{"name":"Collection O","source":"source O","type":"git","version":"master"}
+{"name":"Collection P","source":"source P","type":"galaxy","version":"0.1.0"}
+{"name":"Collection Q","source":"source Q","type":"dir","version":"2.2.2"}
+{"name":"Collection R","source":"source R","type":"subdirs","version":"1.3.2"}
+{"name":"Collection S","type":"file"}
+{"source":"source S","type":"url"}
+{"name":"Collection T","source":"source T","type":"git","version":"1.0.0"}
+{"name":"Collection U","source":"source U","type":"galaxy"}
+{"name":"Collection V","source":"source V","type":"dir","version":"latest"}
+{"name":"Collection W","source":"","type":"file","version":"1.2.0"}
+{"name":"Collection X","source":"source X","type":"subdirs"}
+{"name":"Collection Y","source":"source Y","type":"url","version":"3.3.3"}
+{"name":"Collection Z","source":"source Z","type":"git","version":"4.4.4"}
+{"name":"Collection AA","source":"source AA","type":"galaxy","version":"5.5.5"}
+{"name":"Collection AB","source":"source AB","type":"dir","version":"6.6.6"}
+{"name":"Collection AC","source":"source AC","type":"file"}
+{"name":"Collection AD","type":"url"}
+{"name":"Collection AE","source":"source AE","type":"git","version":"1.1.1"}
+{"name":"Collection AF","source":"source AF","type":"subdirs","version":"2.2.1"}
+{"include":"include A"}
+{"include":"include B"}
+{"include":"include C"}
+{"include":"include D"}
+{"include":"include E"}
+{"include":"include F"}
+{"include":"include G"}
+{"include":"include H"}
+{"include":"include I"}
+{"include":"include J"}
+{"name":"Collection A","source":"https://example.com","type":"url","version":"1.0"}
+{"name":"Collection B","source":"file://local/path","type":"file","version":"2.0"}
+{"name":"Collection C","source":"git://github.com/user/repo.git","type":"git","version":"master"}
+{"name":"Collection D","source":"/path/to/dir","type":"dir","version":"0.1"}
+{"name":"Collection E","source":"subdir","type":"subdirs","version":"0.0.1"}
+{"include":"some_include.yaml"}
+{"name":"Collection M","source":"subdir","type":"subdirs","version":"1.1"}
+{"include":"include_path.yml"}
+{"name":"Collection P","source":"https://example.org","type":"url"}
+{"include":"some_other_include.yml"}
+{"name":"Collection T","source":"https://gitlab.com/user/repo.git","type":"git","version":"1.0"}
+{"include":"final_include.yml"}
+{"name":"Collection W","source":"git://github.com/another/repo.git","type":"git","version":"v1.0"}
+{"include":"path_to_include.yml"}
+{"include":"include_here.yml"}
+{"name":"Collection AC","source":"https://example.com","type":"url","version":"2.0"}
+{"include":"include_file.yml"}
+{"include":"collection_include.yml"}
+{"include":"another_file.yml"}
+{"include":"final_file.yml"}
+{"name":"Collection A","source":"http://example.com/a","type":"url","version":"1.0"}
+{"name":"Collection B","source":"http://example.com/b","type":"file","version":"2.0"}
+{"name":"Collection C","source":"http://example.com/c","type":"git","version":"master"}
+{"name":"Collection D","source":"http://example.com/d","type":"galaxy","version":"3.0"}
+{"name":"Collection E","source":"http://example.com/e","type":"dir","version":"1.2"}
+{"name":"Collection F","source":"http://example.com/f","type":"subdirs","version":"1.1"}
+{"include":"some_include"}
+{"include":"include_one"}
+{"include":"include_two"}
+{"include":"include_five"}
+{"include":"include_six"}
+{"name":"Role S","scm":"git","src":"http://example.com/role-s"}
+{"include":"include_seven"}
+{"include":"include_eight"}
+{"include":"example_include_1"}
+{"include":"example_include_2"}
+{"include":"example_include_3"}
+{"include":"example_include_4"}
+{"include":"example_include_5"}
+{"include":"special_include_1"}
+{"include":"special_include_2"}
+{"include":"edge_case_include_1"}
+{"include":"edge_case_include_2"}
+{"include":"edge_case_include_3"}
+{"include":"edge_case_include_4"}
+{"name":"Example1","source":"source1","type":"url","version":"1.0"}
+{"name":"Example2","source":"source2","type":"file","version":"2.0"}
+{"name":"Example3","source":"source3","type":"git","version":"3.0"}
+{"name":"Example4","source":"source4","type":"dir","version":"4.0"}
+{"name":"Example5","source":"source5","type":"subdirs","version":"5.0"}
+{"include":"include1"}
+{"include":"include2"}
+{"name":"EdgeCase1","source":"","type":"url","version":"v1.0"}
+{"name":"EdgeCase2","source":"source10","type":"file","version":"0.0"}
+{"name":"EdgeCase3","source":"source11","type":"subdirs","version":"1.1"}
+{"include":"include3"}
+{"collections":[{"name":"CollectionL","source":"source15","type":"dir","version":null}]}
+{"include":"include4"}
+{"include":"include5"}
+{"roles":[{"name":"Role14","scm":"","src":"src11","version":"2.2"}]}
+{"include":"include6"}
+{"roles":[{"name":"Role16","scm":"git","src":"src13","version":null}]}
+{"include":"include7"}
+{"include":"include8"}
+{"include":"library"}
+{"include":"module"}
+{"include":"role"}
+{"include":"test_include"}
+{"include":"external"}
+{"include":"my_include"}
+{"include":"empty_include"}
+{"include":"single_include"}
+{"include":"custom_include"}
+{"include":"multi_include"}
+{"include":"test_include_2"}
+{"include":"edge_case_include"}
+{"include":"another_include"}
+{"include":"final_include"}
+{"include":"last_include"}
+{"name":"Collection1","source":"source1","type":"galaxy","version":"1.0"}
+{"name":"Collection2","source":"source2","type":"url","version":"2.0"}
+{"name":"Collection3","source":"source3","type":"file","version":"1.0.0"}
+{"name":"Collection4","source":"source4","type":"git","version":"master"}
+{"name":"Collection5","source":"source5","type":"dir","version":"latest"}
+{"name":"Collection6","source":"source6","type":"subdirs","version":"0.1"}
+{"name":"Collection7","source":"source7","type":"galaxy"}
+{"name":"Collection8","source":"source8","type":"url","version":"3.0"}
+{"name":"Collection9","source":"source9","type":"file"}
+{"name":"Collection10","source":"source10","type":"git","version":"2.1"}
+{"include":"file1.yml"}
+{"include":"file2.yml"}
+{"include":"file3.yml"}
+{"include":"file4.yml"}
+{"name":"Collection18","source":"source18","type":"git"}
+{"include":"file5.yml"}
+{"include":"file6.yml"}
+{"include":""}
+{"include":"file7.yml"}
+{"name":"Collection26","source":"source26","type":"subdirs"}
+{"include":"file8.yml"}
+{"name":"Collection29","source":"source29","type":"url","version":"3.2"}
+{"include":"file9.yml"}
+{"include":"file10.yml"}
+{"include":"file11.yml"}
+{"include":"file12.yml"}
+{"name":"Collection One","source":"source1","type":"url","version":"1.0"}
+{"name":"Collection Two","source":"source2","type":"file","version":"2.0"}
+{"name":"Collection Three","source":"source3","type":"git","version":"3.0"}
+{"name":"Collection Four","source":"source4","type":"dir","version":"4.0"}
+{"name":"Collection Five","source":"source5","type":"subdirs","version":"5.0"}
+{"include":"include.yml"}
+{"include":"include2.yml"}
+{"name":"Collection K","source":"sourceK","type":"git"}
+{"include":"include3.yml"}
+{"include":"include4.yml"}
+{"include":"include5.yml"}
+{"anyOf":[{"include":"includeA"}]}
+{"anyOf":[{"include":"includeB"}]}
+{"anyOf":[{"include":"includeC"}]}
+{"anyOf":[{"include":"includeD"}]}
+{"anyOf":[{"include":"includeE"}]}
+{"anyOf":[{"include":"includeF"}]}
+{"name":"Collection A","source":"https://example.com","type":"url","version":"1.0.0"}
+{"name":"Collection B","source":"file:///path/to/file","type":"file","version":"2.0.0"}
+{"name":"Collection C","source":"https://git.example.com/repo.git","type":"git","version":"latest"}
+{"name":"Collection D","source":"/local/dir","type":"dir","version":"1.5.1"}
+{"name":"Collection E","source":"subdirs","type":"subdirs","version":"0.1"}
+{"include":"some/include/path"}
+{"include":"path/to/include"}
+{"include":"path/to/include2"}
+{"include":"path/to/include3"}
+{"include":"path/to/somewhere"}
+{"include":"include/path"}
+{"include":"path/to/include4"}
+{"include":"path/to/include5"}
+{"include":"path/include"}
+{"include":"another/include/path"}
+{"include":"some_include_value"}
+{"include":"another_include"}
+{"include":"include_one","collections":[{"name":"collection4","source":"source4","type":"dir"}]}
+{"include":"include_two","roles":[{"name":"role5","scm":"hg"}]}
+{"include":"another_include_value","collections":[{"name":"collection6","type":"galaxy"}]}
+{"include":"include_three","collections":[{"name":"collection9","source":"source9","type":"file","version":"3.0"}]}
+{"include":"include_four"}
+{"include":"include_five","roles":[{"name":"role10","scm":"git"}]}
+{"include":"include_six"}
+{"include":"include_seven","roles":[]}
+{"include":"include_eight","collections":[{"name":"collection16"}]}
+{"include":"include_nine"}
+{"include":"include_ten","collections":[]}
+{"include":"include_eleven","roles":[{"name":"role17"}]}
+{"include":"include_twelve"}
+{"include":"include_thirteen","collections":[{"name":"collection21","source":"source21"}]}
+{"include":"include_fourteen"}
+{"include":"include_fifteen"}
+{"include":"include_sixteen","collections":[]}
+{"name":"Collection 1","source":"http://example.com","type":"url","version":"1.0"}
+{"name":"Collection 2","source":"local/file/path","type":"file","version":"2.0"}
+{"name":"Collection 3","source":"git@github.com:user/repo.git","type":"git","version":"master"}
+{"name":"Collection 4","source":"/dir/path","type":"dir","version":"1.0.0"}
+{"name":"Collection 5","source":"/subdirs/path","type":"subdirs","version":"0.1"}
+{"name":"Collection 6","source":"another/source","type":"galaxy","version":"3.2.1"}
+{"include":"another-file.yml"}
+{"name":"Collection 9","source":"http://example.com","type":"galaxy","version":"1.1"}
+{"include":"file.yml"}
+{"include":"another-collection.yml"}
+{"include":"include-file.yml"}
+{"include":"further-include.yml"}
+{"include":"file-1.yml"}
+{"include":"include-2.yml"}
+{"include":"final-include.yml"}
+{"include":"random-include.yml"}
+{"include":"one-more-include.yml"}
+{"include":"final-include-2.yml"}
+{"name":"Test Role 1","scm":"git","src":"https://example.com/repo1.git","version":"1.0.0"}
+{"name":"Test Role 2","scm":"hg","src":"https://example.com/repo2.hg"}
+{"include":"http://example.com/include"}
+{"include":"http://example.com/include2","roles":[{"name":"Role 3"}]}
+{"include":"http://example.com/include3","collections":[{"name":"Collection 4","source":"source4","type":"dir"}]}
+{"include":"http://example.com/include4","roles":[{"name":"Role 6","version":"1.0.0"}]}
+{"include":"http://example.com/include5","collections":[{"name":"Collection 7","source":"source7","type":"url"}]}
+{"include":"http://example.com/include6"}
+{"include":"http://example.com/include7","roles":[{"name":"Role 12"}]}
+{"include":"http://example.com/include8"}
+{"include":"http://example.com/include9","collections":[{"name":"Collection 15","source":"source15","type":"subdirs"}]}
+{"include":"http://example.com/include10","roles":[{"name":"Role 18"}]}
+{"include":"http://example.com/include11","roles":[{"name":"Role 20","scm":"hg","version":"latest"}]}
+{"include":"http://example.com/include12"}
+{"include":"http://example.com/include13","collections":[{"name":"Collection 20","source":"source20"}]}
+{"include":"http://example.com/include14"}
+{"include":"http://example.com/include15"}
+{"include":"http://example.com/include16","roles":[{"name":"Role 27","scm":"git"}]}
+{"include":"http://example.com/include17"}
+{"include":"http://example.com/include18","collections":[{"name":"Collection 26","source":"source26"}]}
+{"include":"http://example.com/include19"}
+{"include":"http://example.com/include20"}
+{"name":"my_collection","source":"https://example.com","type":"url","version":"1.0.0"}
+{"name":"another_collection","source":"/path/to/file","type":"file","version":"2.0.1"}
+{"name":"git_repo","source":"https://github.com/example/repo.git","type":"git"}
+{"name":"dir_collection","source":"/path/to/dir","type":"dir","version":"3.0.0"}
+{"name":"subdirs_collection","source":"/path/to/subdirs","type":"subdirs"}
+{"include":"some_include"}
+{}
+{"include":"include1","roles":[{"name":"role5"}]}
+{"include":"include2","collections":[{"name":"collection12","source":"url12","type":"url"}]}
+{"include":"include3","roles":[{"name":"role10","version":"2.0.0"}]}
+{"include":"include4"}
+{"include":"include5","roles":[{"name":"role13"}]}
+{"include":"include6","collections":[{"name":"collection18","source":"url18","type":"file"}]}
+{"include":"include7","roles":[{"name":"role16","scm":"git"}]}
+{"include":"include8","collections":[{"name":"collection22","source":"url22","type":"url"}]}
+{"include":"include9","roles":[{"name":"role20"}]}
+{"include":"include10"}
+{"include":"include11","collections":[{"name":"collection27","source":"url27","type":"subdirs"}]}
+{"include":"include12","roles":[{"name":"role25"}]}
+{"include":"include13","collections":[{"name":"collection29","source":"url29","type":"file"}]}
+{"include":"include14","roles":[{"name":"role28"}]}
+{"include":"include15","collections":[{"name":"collection30"}]}
+{"include":"example1"}
+{"include":"example2"}
+{"include":"example3"}
+{"include":"example4"}
+{"include":"example5"}
+{"include":"example6"}
+{"include":"example7"}
+{"include":"example8"}
+{"include":"example9"}
+{"include":"example10"}
+{"include":"edge_case_1"}
+{"include":"edge_case_2"}
+{"include":"edge_case_3"}
+{"include":"edge_case_4"}
+{"include":"edge_case_5"}
+{"include":"test_case_1"}
+{"include":"test_case_2"}
+{"include":"test_case_3"}
+{"include":"test_case_4"}
+{"include":"test_case_5"}
+{"include":"http://example.com/collection1"}
+{"include":"http://example.com/collection2"}
+{"include":"http://example.com/include1"}
+{"include":"http://example.com/include2"}
+{"include":"http://example.com/include3"}
+{"include":"http://example.com/include4"}
+{"include":"http://example.com/include5"}
+{"include":"http://example.com/include6"}
+{"include":"http://example.com/include7"}
+{"include":"http://example.com/include8"}
+{"include":"http://example.com/include9"}
+{"include":"http://example.com/include10"}
+{"include":"http://example.com/include11"}
+{"include":"http://example.com/include12"}
+{"include":"http://example.com/include13"}
+{"include":"some_include"}
+{"include":"another_include"}
+{"include":"special_include"}
+{"include":"include_with_special_chars_!@#$%^&*()"}
+{"include":null}
+{"include":""}
+{"include":"include_with_long_name_that_exceeds_normal_length_to_test_boundaries"}
+{"include":"include_with_spaces in the name"}
+{"include":"just_a_normal_include"}
+{"include":"another_include_with_special_chars_!@#"}
+{"include":"include_with_empty_value"}
+{"include":"a_valid_include"}
+{"include":"include_with_various_characters_1234567890"}
+{"include":"include_with_newline\ncharacter"}
+{"include":"another_valid_include"}
+{"include":"test_include_with_long_string_that_might_cause_issues"}
+{"include":"include_with_special_characters_!@#$%&*"}
+{"include":"simple_include"}
+{"include":"valid_include_string"}
+{"include":"long_include_name_that_tests_the_schema_capabilities"}
+{"include":"another_simple_include"}
+{"name":"Collection 1","source":"localhost","type":"git","version":"1.0"}
+{"name":"Collection 2","source":"http://example.com","type":"url","version":"2.0"}
+{"name":"Collection 3","source":"file:///path/to/file","type":"file","version":"3.0"}
+{"name":"Collection 4","source":"git://github.com/user/repo.git","type":"git"}
+{"name":"Collection 5","source":"/local/dir","type":"dir","version":"latest"}
+{"name":"Collection 6","source":"subdir","type":"subdirs"}
+{"name":"Collection 7","source":"https://repo.url","type":"url","version":""}
+{"name":"Collection 8","source":"file://another/path","type":"file"}
+{"name":"Collection 9","source":"git://repo.git","type":"git","version":"1.1"}
+{"name":"Collection 10","type":"galaxy"}
+{"include":"role1"}
+{"include":"role2"}
+{"name":"","source":"source","type":"git","version":"1.0"}
+{"name":"Collection 15","source":"source","type":"git","version":null}
+{"name":"Collection 18","source":"source","type":"dir"}
+{"name":"Collection 20","type":"git"}
+{"include":"role3"}
+{"name":"Collection 21","source":"source","type":"file","version":"0.1"}
+{"name":"Collection 22","source":"source","type":"dir","version":"2.0"}
+{"name":"Collection 23","source":"source","type":"git"}
+{"name":"Collection 24","source":"path/to/collection","type":"git","version":"latest"}
+{"include":"role4"}
+{"name":"Collection 27","source":"source","version":"0.0.1"}
+{"name":"Collection 28","source":"source","type":"git","version":"2.1"}
+{"include":"role5"}
+{"name":"Collection 30","source":"source","type":"subdirs"}
+{"include":"role6"}
+{"include":"role7"}
+{"name":"Collection 34","source":"source","type":"file"}
+{"include":"role8"}
+{"name":"Collection 35","source":"source","type":"galaxy"}
+{"include":"role9"}
+{"name":"Collection 37","source":"source","type":"git","version":"latest"}
+{"include":"role10"}
+{"include":"role11"}
+{"name":"Collection 41","source":"source","type":"file","version":"0.0.0"}
+{"include":"role12"}
+{"include":"module1"}
+{"include":"module2"}
+{"include":"module3"}
+{"include":"module4"}
+{"include":"module5"}
+{"include":"module6"}
+{"include":"module7"}
+{"include":"module8"}
+{"include":"module9"}
+{"include":"module10"}
+{"include":"module11"}
+{"name":"Collection1","source":"source1","type":"galaxy","version":"1.0.0"}
+{"name":"Collection2","source":"source2","type":"url","version":"2.0.0"}
+{"name":"Collection3","source":"source3","type":"file","version":"3.0.0"}
+{"name":"Collection4","source":"source4","type":"git","version":"4.0.0"}
+{"name":"Collection5","source":"source5","type":"dir","version":"5.0.0"}
+{"name":"Collection6","source":"source6","type":"subdirs","version":"6.0.0"}
+{"include":"include1"}
+{"include":"include3"}
+{"name":"Collection10","source":"source11","type":"url"}
+{"include":"include4"}
+{"name":"Collection13","source":"source14","type":"git","version":"1.1.0"}
+{"include":"include5"}
+{"include":"include6"}
+{"include":"include7"}
+{"include":"include8"}
+{"include":"include9"}
+{"include":"include10"}
+{"include":"include11"}
+{"include":"include12"}
+{"include":"include13"}
+{"include":"include14"}
+{"name":"Collection A","source":"Source A","type":"git","version":"1.0.0"}
+{"name":"Collection B","source":"Source B","type":"file","version":"2.0.0"}
+{"name":"Collection C","source":"Source C","type":"url","version":"3.0.0"}
+{"include":"Include A"}
+{"name":"Collection E","source":"Source E","type":"subdirs","version":"5.0.0"}
+{"name":"Collection H","source":"Source H","type":"galaxy","version":"7.0.0"}
+{"include":null}
+{"name":"","source":"Source I","type":"file","version":"8.0.0"}
+{"include":"Include B"}
+{"name":"Collection M","source":null,"type":"subdirs","version":"10.0.0"}
+{"roles":[{"name":"Role F","scm":"git","src":"src D","version":null}]}
+{"include":"Include C"}
+{"name":"Collection Q","source":"Source P","type":"dir"}
+{"include":""}
+{"name":"Collection S","source":"Source R","type":"git","version":"1.0.1"}
+{"include":"Include D"}
+{"collections":[{"name":null,"source":"Source S","type":"dir","version":"0.0.1"}]}
+{"include":"Include E"}
+{"roles":[{"name":"Role J","scm":"hg","src":"src G","version":null}]}
+{"name":"Collection U","source":"Source T","type":"url","version":"13.0.0"}
+{"include":"Include F"}
+{"name":"Collection X","source":"Source V","type":"file","version":"16.0.0"}
+{"include":"Include G"}
+{"include":"Include H"}
+{"name":"Collection1","source":"https://example.com","type":"url","version":"1.0"}
+{"name":"Collection2","source":"source_repo","type":"git","version":"2.1"}
+{"name":"Collection3","type":"file"}
+{"name":"Collection4","source":"folder","type":"dir","version":"3.0"}
+{"name":"Collection5","source":"subdir","type":"subdirs","version":"1.2"}
+{"name":"Collection6","source":"https://example.com/resource","type":"url"}
+{"name":"Collection7","type":"galaxy","version":"0.1"}
+{"name":"Collection8","source":"local","type":"file","version":"latest"}
+{"name":"Collection9","type":"git","version":"1.1"}
+{"name":"Collection10","source":"https://example.com/collection.zip","type":"file"}
+{"include":"path/to/include/file"}
+{"include":"path/to/another/include"}
+{"include":"invalid_path/include"}
+{"roles":[{"name":null,"scm":"hg"}]}
+{"include":"path/to/include/file1"}
+{"include":"path/to/include/file2"}
+{"attributes":"notAllowedKey"}
+{"include":"another/path/to/include"}
+{"include":"include_path"}
+{"include":"file_for_include"}
+{"include":"path/to/yet/another/include"}
+{"roles":[{"name":"Role25","scm":null}]}
+{"include":"nonexistent/file/path"}
+{"include":""}
+{"include":"some_include"}
+{"include":"another_include"}
+{"include":"single_include"}
+{"include":"multi_include"}
+{"include":"edge_case_include_1"}
+{"include":"include_with_special_chars_!@#$%^"}
+{"include":"leading_space include"}
+{"include":" "}
+{"include":"   another_include   "}
+{"include":"mixed_caseInclude"}
+{"include":""}
+{"include":"include_with_no_value"}
+{"include":{"include":"nested_include"}}
+{"include":" "}
+{"include":"include_with_empty_string"}
+{"include":"includeWithLongStringThatExceedsNormalLengthAndTestsTheValidator"}
+{"include":"include_with_null_value"}
+{"name":"example1","type":"galaxy"}
+{"name":"example2","type":"file","source":"local/path"}
+{"name":"example3","type":"git","source":"https://github.com/user/repo.git","version":"v1.0.0"}
+{"name":"example4","type":"url","source":"http://example.com"}
+{"name":"example5","type":"dir","source":"directory/path","version":"1.0.0"}
+{"name":"example6","type":"subdirs","source":"/path/to/subdirs"}
+{"name":"example7","type":"galaxy","source":"http://galaxy.example.com"}
+{"name":"collection-8","source":"source-8","type":"url"}
+{"name":"role-9","type":"git","source":"https://github.com/user/role-example.git","version":"main"}
+{"name":"simple-role","scm":"git"}
+{"name":"another-role","scm":"hg"}
+{"include":"example/include/path"}
+{"name":"empty-role","scm":"git","version":"","src":""}
+{"include":"test/include/path"}
+{"name":"full-collection","source":"http://example.com/collection","type":"galaxy","version":"latest"}
+{"name":"collection10","type":"file","source":"path/to/file"}
+{"name":"incomplete-role","scm":"git","version":"master"}
+{"collections":[{"name":"collection13","type":""}]}
+{"include":"another/include/path"}
+{"collections":[{"name":"collection19","type":""}]}
+{"include":"include/with/spaces"}
+{"include":"t-include/path"}
+{"include":""}
+{"include":"include/path/with/slashes"}
+{"include":"include / path / with / spaces"}
+{"include":"example_include.yaml"}
+{"include":"path/to/include.yaml"}
+{"include":"data_include.yaml"}
+{"include":"edge_case_include.yaml"}
+{"collections":[{"name":"notAllowedTypeCollection","source":"source5","type":"unknown"}]}
+{"include":"whitespace_include.yaml"}
+{"include":"random_include.yaml"}
+{"include":"some/dir"}
+{"include":"another/dir"}
+{"name":"Example Collection","source":"http://example.com","type":"url"}
+{"include":"custom/dir","roles":[]}
+{"include":"just-path"}
+{}
+{"include":"multi/level/path"}
+{"include":"collection/path"}
+{}
+{"collections":[{"name":"Collection F","source":"example.com","type":"url","version":null}]}
+{}
+{"include":"various/paths"}
+{"include":"missing/parameter"}
+{}
+{}
+{"include":"just-include"}
+{"collections":[{"name":"Collection J","source":"","type":"galaxy","version":null}]}
+{"include":"collections/path"}
+{"roles":[{"name":"Role 10","version":"1.0","scm":null}]}
+{}
+{"include":"path1/path2"}
+{"include":"complex/include/path"}
+{}
+{"include":"specific/path/that/may/fail"}
+{"collections":[{"name":"Collection O","source":null,"type":"galaxy","version":"1.0"}]}
+{"include":"another-level-include"}
+{"include":"root/path"}
+{"include":"nested/include"}
+{"roles":[{"name":"Role 17","version":null}]}
+{"include":"complex/include/path"}
+{"roles":[{"name":"Role 18","src":"src","version":null}]}
+{}
+{"include":"simple/path"}
+{"include":"empty/include"}
+{}
+{"collections":[{"name":"Collection U","source":"http://example.net","type":"url","version":null}]}
+{"include":{"include":"example-include"}}
+{"include":{"include":"edge-case-include-1"}}
+{"include":{"include":"another-include"}}
+{"include":{"include":"include-with-blank-name"}}
+{"collections":[{"name":"invalid-type-collection","source":"https://example.com","type":"invalidtype"}]}
+{"roles":[{"name":"invalid-scm-role","scm":"unsupported"}]}
+{"include":{"include":"conditional-include"}}
+{"include":"Include2"}
+{"include":"Include3"}
+{"include":"Include5"}
+{"include":"Include6"}
+{"collections":[{"name":"Collection16","type":"url","source":"http://test.com"}],"include":"Include7"}
+{"include":"Include8"}
+{"include":"Include9"}
+{"include":"Include10"}
+{"collections":[{"name":"Collection30","type":"file","version":"1.0.0"}],"include":"Include11"}
+{"include":"some/optional/path"}
+{"include":"another/path/to/include"}
+{"include":"folder/include"}
+{"include":"test/include/path"}
+{"include":"valid/include/path"}
+{"include":null}
+{"include":"path/with/spaces in it"}
+{"include":"path/to/include/with/spaces"}
+{"include":"valid/include/path"}
+{"include":"just/a/string"}
+{"include":"simple_include"}
+{"roles":[{"name":"role_with_null_scm","src":"url.git","scm":null}]}
+{"include":"path/with/1/number"}
+{"include":"valid/path!@#"}
+{"include":""}
+{"include":"another/valid/include/path"}
+{"include":"test/path/with/typos"}
+{"include":"normal/path/to/include"}
+{"include":"example_include_1"}
+{"include":"example_include_2"}
+{"include":"example_include_3"}
+{"include":"example_include_4"}
+{"include":"example_include_5"}
+{"methods":[]}
+{"include":"only_include"}
+{}
+{"include":"undefined_role"}
+{"include":"sample_include_1"}
+{"include":"sample_include_2"}
+{"include":"include_with_special_chars_!@#"}
+{"include":"edge_case_include"}
+{"include":"valid_include"}
+{"include":"repeat_include"}
+{"include":"new_include_test"}
+{"include":123}
+{"include":{"test":"object_instead_of_string"}}
+{"include":["list_instead_of_string"]}
+{"include":"optional"}
+{"include":"mandatory"}
+{"name":"Sample Collection","source":"http://example.com","type":"url","version":"1.0"}
+{"include":"include_1"}
+{"name":"Example Collection","source":"example_source","type":"url","version":"0.1"}
+{"include":"EdgeInclude"}
+{"name":"Temp Collection","source":"http://temp.com","type":"galaxy","version":"2.0"}
+{"include":"only_include"}
+{"include":"special_include","collections":["Collection5"]}
+{"name":"New Collection","type":"git"}
+{"include":"edge_case"}
+{"include":"complex_include","collections":["Collection7"]}
+{"name":"CollectionWithEmptySource","source":"","type":"file","version":"0.2"}
+{"include":"just_include","roles":[{"name":"RoleN"}]}
+{"include":"test_include"}
+{"collections":[{"name":"ComplexCollection","source":null,"type":"dir","version":"2.0"}]}
+{"include":"array_include"}
+{"include":"another_include","roles":[{"name":"","scm":"git"}]}
+{"include":"name_include"}
+{"include":"just_a_include"}
+{"include":"collection_include"}
+{"include":"optional_include"}
+{"include":"edge_case_include","roles":[{"name":"RoleY","scm":"git"}]}
+{"include":"multi_include"}
+{"include":"final_include"}
+{"name":"Collection A","source":"http://example.com","type":"url","version":"1.0"}
+{"name":"Collection B","source":"http://example.org","type":"galaxy","version":"2.5"}
+{"name":"Collection C","source":"file.txt","type":"file"}
+{"name":"Collection D","source":"https://github.com/user/repo.git","type":"git","version":"1.2.3"}
+{"name":"Collection E","source":"/path/to/dir","type":"dir","version":"0.9"}
+{"name":"Collection F","source":"/path/to/subdirs","type":"subdirs"}
+{"source":"http://example.net","type":"galaxy","version":"3.0"}
+{"name":"Collection G","type":"url"}
+{"name":"Collection H","source":"data.txt","version":"1.1"}
+{"name":"Collection I","source":"http://test.com","type":"file","version":"beta"}
+{"name":"Collection J","type":"git","source":"https://github.com/user/repo.git"}
+{"name":"Collection K","source":"zipfile.zip","type":"file","version":"1.0.1"}
+{"name":"Collection L","type":"dir"}
+{"name":"Collection M","type":"subdirs","source":"/home/user/subdir"}
+{"name":"Collection N","type":"galaxy","version":"5.1"}
+{"name":"Collection O","source":"http://new-example.com","type":"url","version":"4.0"}
+{"source":"config.yaml","type":"file","version":"1.0"}
+{"name":"Collection P","type":"git","source":"https://gitlab.com/user/repo.git"}
+{"name":"Collection Q","source":"/tmp/data","type":"file"}
+{"name":"Collection R","source":"https://example.com/repo.git","type":"git","version":"2.0.0"}
+{"name":"Collection S","source":"docs/","type":"dir"}
+{"name":"Collection T","source":"C:\\path\\to\\file.txt","type":"file"}
+{"source":"http://another-example.com","type":"url","version":"3.3"}
+{"name":"Collection U","source":"//other-example.com","type":"url"}
+{"name":"Collection V","type":"galaxy","source":"http://galaxy.example.com"}
+{"name":"Collection W","source":"/input/directory","type":"subdirs","version":"latest"}
+{"name":"Collection X","source":"https://another-github.com/user/repo.git","type":"git"}
+{"source":"netdata","type":"file"}
+{"name":"Collection Y","source":"/mnt/data","type":"dir","version":"1.0"}
+{"name":"Collection Z","type":"subdirs"}
+{"include":"dynamic_content.yml"}
+{"include":"static_content.yml"}
+{"include":"optional_content.yml"}
+{"include":"subdir/include_file.yml"}
+{"include":"http://example.com/include.yml"}
+{"include":"single_include.yml"}
+{"include":"multi_include.yml"}
+{"include":"nested/include.yml"}
+{"name":"Collection AH","source":"input.txt","type":"file","version":"0.1"}
+{"include":"empty_content.yml"}
+{"name":"Collection AJ","source":"path/to/file","type":"dir","version":null}
+{"name":null,"source":"http://chain-example.com","type":"url"}
+{"name":"Collection AL","type":"galaxy","version":"1.2"}
+{"include":"very_nested/structure.yml"}
+{}
+{}
+{"include":"Include this collection"}
+{"include":"Include this role"}
+{"include":"Test Include"}
+{"name":"Collection 1","source":"https://example.com","type":"url","version":"1.0"}
+{"name":"Collection 2","source":"file://data","type":"file","version":"1.2.3"}
+{"name":"Collection 3","source":"git://repo.git","type":"git","version":"latest"}
+{"name":"Collection 4","source":"http://dir","type":"dir","version":"0.1.0"}
+{"name":"Collection 5","source":"/subdirs","type":"subdirs","version":"2.0"}
+{"name":"Collection 6","source":"https://example.com/collection","type":"url","version":"1.0.0"}
+{"name":"Empty Collection","type":"git"}
+{"name":"Incomplete Collection","source":"file://data"}
+{"source":"https://example.com","type":"git","version":"1.1"}
+{"name":"collection1","source":"http://example.com","type":"url","version":"1.0"}
+{"include":"new_role"}
+{"name":"Collection G","source":"git://repository.git","type":"git","version":"stable"}
+{"version":"1.1"}
+{"name":"Collection H","source":"/some/path","type":"dir"}
+{"include":"role_version"}
+{"name":"Collection M","type":"git","version":"1.0"}
+{"include":"simple_include"}
+{"arrays":[{"include":"role_l"},{"include":"role_m"}]}
+{"include":"another_role"}
+{"name":"Test Collection","source":"file","type":"file"}
+{"include":"another-requirements.yml"}
+{"include":"requirements_2.yml","roles":[{"name":"role3","src":"https://github.com/user/another_repo.git"}]}
+{"include":"requirements_subset.yml"}
+{"collections":[{"name":"invalidType","source":"http://example.com","type":"invalid","version":"1.0.0"}]}
+{"include":"requirements_invalid.yml","roles":[{"name":"role8","src":"","version":""}]}
+{"roles":[{"name":"role9","scm":"","src":"https://github.com/user/repo5.git"}]}
+{"include":"valid_requirements.yml"}
+{"roles":[{"name":"role18","scm":"git","src":null,"version":"1.0.0"}]}
+{"include":"another_include.yml"}
+{"include":"requirements_set.yml"}
+{"include":"complex_requirements.yml"}
+{"roles":[{"name":"role27","scm":"","src":""}]}
+{"include":"example/include1"}
+{"include":"example/include2"}
+{"include":"example/include3"}
+{"include":"example/include4"}
+{"include":"example/include5"}
+{"include":"example/include6"}
+{"include":"example/include7"}
+{"include":"example/include8"}
+{"include":"example/include9"}
+{"include":"example/include10"}
+{"collections":[{"name":"collection_with_null_source","source":null,"type":"file","version":"0.0.1"}]}
+{"include":"example/include11"}
+{"include":"example/include12"}
+{"name":"example1","source":"repo1","type":"git","version":"1.0.0"}
+{"name":"example2","source":"repo2","type":"file","version":"1.2.3"}
+{"name":"example3","source":"repo3","type":"galaxy","version":"latest"}
+{"name":"example4","source":"repo4","type":"url","version":"0.1.0"}
+{"name":"example5","source":"repo5","type":"dir","version":"1.0.0"}
+{"name":"example6","source":"repo6","type":"subdirs","version":"1.1.0"}
+{"include":"include1"}
+{"include":"include2"}
+{"name":"minimal","source":"repo7","type":"git"}
+{"name":"minimal without version","source":"repo8","type":"url","version":""}
+{"name":"collection6","source":"source6","type":"file","version":"1.2.3"}
+{"roles":[{"name":"role7","scm":"git","src":"src8","version":null}]}
+{"include":"path/to/include"}
+{"name":"valid case","source":"source9","type":"git","version":"1.1.1"}
+{"name":"","source":"","type":"git","version":"master"}
+{"include":"include/with/path"}
+{"collections":[{"name":"collection9","source":"source14","type":"subdirs","version":null}]}
+{"include":"example/include"}
+{"roles":[{"name":null,"src":"src14"}]}
+{"name":"collection case","source":"source18","type":"subdirs","version":"latest"}
+{"include":"special/include/path"}
+{"roles":[{"name":"role18","scm":"git","src":null}]}
+{"include":"another/include"}
+{"include":{"include":"example_include"}}
+{"include":{"include":"complex_include_example"},"roles":[]}
+{"include":{"include":"test_include"}}
+{"include":{"include":"edge_case_include"},"roles":[]}
+{"include":{"include":"complex_nested_include"}}
+{"collections":[{"name":"Edge Case Collection with Null Source","type":"file","source":null,"version":"1.0.0"}]}
+{"roles":[{"name":"Role with Non-Standard SCM","scm":"unknown","src":"https://github.com/example/non-standard-role.git","version":"v1.0"}]}
+{"include":{"include":"include_with_spaces"}}
+{"roles":[{"name":"Role with Broken SCM","scm":"","src":"https://github.com/broken-scm-role.git"}]}
+{"include":{"include":"valid_include"}}
+{"roles":[{"name":"Invalid Role with No Name","src":null,"version":"1.0.0"}]}
+{"collections":[{"name":"Collection with Unused Properties","source":"https://example.com","type":"git","unusedProp":"value"}]}
+{"include":{"include":"valid(include)"},"roles":[]}
+{"collections":[{"name":"Collection with Type as Null","source":"https://example.com","type":null,"version":"2.0.0"}]}
+{"roles":[{"name":"Role with Mixed Case Fields","SCM":"git","src":"https://github.com/mixed-case-role.git"}]}
+{"include":"optional_include.yml"}
+{"include":"include_file.yml"}
+{"include":"single_include.yml"}
+{"include":"multiple_includes.yml"}
+{"responses":[{"collection_error":"invalid collection"},{"role_error":"invalid role"}]}
+{"include":"empty_include.yml"}
+{"include":"include_special_cases.yml"}
+{"include":"valid_name_include.yml"}
+{"include":"include_multi_file.yml"}
+{"include":"complex_include_structure.yml"}
+{"include":"include_with_special_characters.yml"}
+{"include":"empty_include_file.yml"}
+{"include":"include_file_with_invalid_name.yml"}
+{"include":"comprehensive_include.yml"}
+{"name":"Collection 1","source":"https://example.com","type":"url","version":"1.0.0"}
+{"name":"Collection 2","source":"path/to/collection","type":"file","version":"2.0.0"}
+{"name":"Collection 3","source":"git://github.com/example/repo.git","type":"git","version":"master"}
+{"name":"Collection 4","source":"directory/path","type":"dir"}
+{"name":"Collection 5","source":"","type":"subdirs","version":"1.2.3"}
+{"include":"additional_role.yml"}
+{"roles":[{"name":"Role 3","collection":"Collection 10"}]}
+{"name":"Collection 11","source":"https://example.com/collection","type":"url","version":"3.1.0"}
+{}
+{"include":"another_role.yml","roles":[{"name":"Role 5","src":"source"}]}
+{"include":"single_role.yml"}
+{"include":"no_src.yml"}
+{"name":"Role 9"}
+{"include":"many_roles.yml","roles":[{"name":"Role 11","src":"complex_path"}]}
+{"include":"role_collections.yml","roles":[]}
+{"include":""}
+{"include":"test.yml","roles":[{"name":"Role 17","src":"another_repo"}]}
+{"include":"include_path.yml"}
+{"collections":[null]}
+{"include":"complex_include.yml","collections":[{"source":"https://source.com","type":"git"}]}
+{"include":"collections.yml","roles":[{"name":"Role 24","scm":"git"}]}
+{"include":"null_include.yml","roles":[{"name":"Role 26","scm":"hg"}]}
+{"requirements":[{"include":"role_one"},{"include":"role_two"}]}
+{"include":"role_three"}
+{"include":"role_four"}
+{"collections":[{"name":null,"source":"source","type":"file"}]}
+{"include":"role_five"}
+{"include":"role_six"}
+{"requirements":[{"include":"single_include"}]}
+{"include":"role_seven"}
+{"requirements":[{"include":"role_eight"}]}
+{"include":"role_nine"}
+{"requirements":[{"include":"complex_include"}]}
+{"collections":[{"name":"minimal_collection","source":null,"type":"galaxy","version":null}]}
+{"include":"role_ten"}
+{"requirements":[{"include":"role_eleven"}]}
+{"include":"role_twelve"}
+{"include":"role_thirteen"}
+{"requirements":[{"include":"complicated_include"}]}
+{"include":"include_one"}
+{"include":"include_two"}
+{"include":"include_three"}
+{"include":"include_invalid_format"}
+{"name":"Invalid Structure Only Name"}
+{"collections":[{"name":"Invalid Type Collection","source":"invalid_type","type":"invalid","version":"1.0"}]}
+{"include":"last_include"}
+{"include":"another_include"}
+{"include":"include_example"}
+{"roles":[{"name":"Role with Bad Type","scm":"git","src":"bad_type_source","otherField":"extra"}]}
+{"include":"include_one_more"}
+{"roles":[{"name":"Role with Extra Fields","scm":"hg","src":"extra_field_src","extraField":"extra"}]}
+{"include":"just_for_test"}
+{"include":"test_include"}
+{"roles":[{"name":"Role with extra fields","scm":"git","src":"extra_fields_role_src","extraField":"extra"}]}
+{"name":"Role1","scm":"git","src":"https://example.com/repo1","version":"v1.0"}
+{"name":"Role2","scm":"hg","src":"https://example.com/repo2","version":"v2.0"}
+{"include":"https://example.com/include1"}
+{"include":"https://example.com/include2"}
+{"include":"https://example.com/include3","roles":[]}
+{"name":"Role7","scm":"git","src":"https://example.com/repo6","version":"1.2.3"}
+{"include":"https://example.com/include4","collections":[]}
+{"include":"https://example.com/include5"}
+{"include":"https://example.com/include6","roles":[{"name":"Role12"}]}
+{"name":"Role13","scm":"git"}
+{"include":"https://example.com/include7","collections":[{"name":"Collection8","type":"git","version":"2.0"}]}
+{"include":"https://example.com/include8"}
+{"include":"https://example.com/include9","roles":[]}
+{"include":"https://example.com/include10"}
+{"include":"https://example.com/include11"}
+{"include":"https://example.com/include12"}
+{"name":"Role20","scm":"hg","src":"https://example.com/repo12","version":"1.0.0"}
+{"include":"https://example.com/include13"}
+{"include":"https://example.com/include14","roles":[]}
+{"include":"https://example.com/include15"}
+{"name":"Role23","version":"v2.3.4"}
+{"include":"https://example.com/include16"}
+{"include":"https://example.com/include17","roles":[{"name":"Role26"}]}
+{"name":"Role27","scm":"hg","src":"https://example.com/repo15","version":"1.1.1"}
+{"include":"https://example.com/include18"}
+{"include":"https://example.com/include19"}
+{"include":"https://example.com/include20"}
+{"include":"https://example.com/include21"}
+{"name":"Sample Collection 1","source":"https://example.com","type":"url","version":"1.0.0"}
+{"name":"Sample Collection 2","source":"file","type":"file","version":"2.0.0"}
+{"name":"Sample Collection 3","source":"git@github.com:user/repo.git","type":"git","version":"1.1.0"}
+{"name":"Sample Collection 4","source":"/path/to/dir","type":"dir","version":"1.0.1"}
+{"name":"Sample Collection 5","source":"/path/to/subdirs","type":"subdirs","version":"1.2.0"}
+{"include":"some_include_item"}
+{"name":"Collection 9","source":"https://example3.com","type":"url","version":"1.0.0"}
+{"include":"distinct_include_item"}
+{"name":"Collection 14","source":"","type":"file"}
+{"include":"include_with_empty_value"}
+{"include":"include_case"}
+{"name":"Collection 18","source":"https://newexample.com","type":"url","version":"2.0"}
+{"include":"last_include_item"}
+{"include":"include_with_missing_source"}
+{"include":"unique_include_value"}
+{"include":"final_include_item"}
+{"include":"report_include"}
+{"name":"Sample Collection 1","source":"http://example.com","type":"url","version":"1.0.0"}
+{"name":"Sample Collection 2","source":"file_path","type":"file","version":"2.0.0"}
+{"name":"Sample Collection 3","source":"repo.git","type":"git","version":"1.1.1"}
+{"name":"Sample Collection 4","source":"dir_path","type":"dir","version":"3.0.0"}
+{"name":"Sample Collection 5","source":"subdirs_path","type":"subdirs","version":"1.5.5"}
+{"name":"Sample Collection 6","source":"http://example.org","type":"url","version":"2.1.0"}
+{"name":"Sample Collection 7","source":"another_repo.git","type":"git"}
+{"name":"Sample Collection 8","source":"local_file_path","type":"file","version":"5.0.0"}
+{"name":"Sample Collection 9","source":"","type":"dir","version":"0.0.1"}
+{"source":"some_source","type":"galaxy"}
+{"source":"missing_name_source","type":"url","version":"1.2.3"}
+{"name":"Sample Collection 10","source":"test_source","type":"file","version":"latest"}
+{"include":"other_file.yml"}
+{"name":"Exceedingly Long Collection Name Test That Exceeds Normal Lengths","source":"some/really/long/source","type":"subdirs","version":"3.1.4"}
+{}
+{"source":"https://valid.source.url","type":"git"}
+{}
+[{"name":"Invalid Role","scm":"unknown_scm"}]
+{"collections":[{"name":"Collection with No Version","source":"source","type":"dist"}]}
+{"roles":[{"name":"Role with Empty SCM","scm":"","src":"somewhere","version":"1.0.0"}]}
+{"collections":[{"name":"Collection E","source":"source_e","type":"request","version":null}]}
+{}
+{"include":"basic_include.yml"}
+{}
+{}
+{"source":"http://empty_source.url","type":"subdirs"}
+{"name":"Role P"}
+{"name":"Role Q","scm":"git","src":"src_q"}
+{}
+{"include":{"include":"true"}}
+{"collections":[{"name":"collection9","source":null,"type":"file","version":"2.3.0"}]}
+{"roles":[{"name":"role5","scm":"git","src":"src5","version":null}]}
+{"roles":[{"name":"role6","scm":"hg","src":null,"version":"1.5.0"}]}
+{"roles":[{"name":"role10","scm":"hg","src":"src9","version":null}]}
+{"include":{"include":"collection13"}}
+{"collections":[{"name":null,"source":"source18","type":"dir"}]}
+{"include":{"include":"ensemble"}}
+{"name":"Collection 1","source":"source_1","type":"galaxy","version":"1.0.0"}
+{"name":"Collection 2","source":"source_2","type":"url","version":"1.2.0"}
+{"name":"Collection 3","source":"source_3","type":"file","version":"2.0.0"}
+{"name":"Collection 4","source":"source_4","type":"git","version":"master"}
+{"name":"Collection 5","source":"source_5","type":"dir","version":"0.1.0"}
+{"name":"Collection 6","source":"source_6","type":"subdirs","version":"1.5.0"}
+{"include":"include_1"}
+{"include":"include_2"}
+{}
+{"collections":[{"name":"Collection with extra fields","source":"source_16","type":"url","version":"1.4.0","extra":"not allowed"}]}
+{"include":"include_3","extraField":"not allowed"}
+{"names":[{"name":"Role 13"}]}
+{"include":"include_4"}
+{"roles":[{"name":"Role 17","scm":"git","class":"not allowed"}]}
+{"include":"include_5","additional":"not allowed"}
+{"include":"include_6"}
+{"include":"include_7"}
+{"include":"include_8"}
+{"include":"include_9"}
+{"name":"Collection1","source":"http://example.com","type":"url","version":"1.0"}
+{"name":"Collection2","source":"https://github.com/user/repo","type":"git","version":"0.1"}
+{"name":"Collection3","source":"/path/to/file","type":"file"}
+{"name":"Collection4","source":"http://source.com","type":"galaxy","version":"1.2.3"}
+{"name":"Collection5","source":"some/directory","type":"dir","version":"2.0.0"}
+{"name":"Collection6","source":"subfolders","type":"subdirs","version":"latest"}
+{"include":"some_include.yaml"}
+{"include":"another_include.yaml","roles":[{"name":"Role5","scm":"git"}]}
+{"include":"collection_include.yaml"}
+{"include":"example_include.yaml","roles":[{"name":"Role8"}]}
+{"include":"just_include.yaml","collections":[{"name":"Collection10","source":"http://example.com","type":"url"}]}
+{"include":"coll_include.yaml"}
+{"versions":[{"name":"Role12","scm":"git","src":"http://repo.git","version":"+1.1"}]}
+{"include":"test_include.yaml","roles":[{"name":"Role14","version":"0.1"}]}
+{"include":"complex_include.yaml","roles":[{"name":"Role16"}]}
+{"include":"final_include.yaml"}
+{"collection":[{"name":"InvalidTypeCollection","type":"invalid_type"}]}
+{"include":"new_include.yaml","roles":[{"name":"Role19","scm":"git"}]}
+{"include":"optional_include.yaml","roles":[]}
+{"include":"only_include.yaml","collections":[]}
+{"include":"required_file.yml"}
+{"include":"file.yml"}
+{"include":"single_include.yml"}
+{"include":"partial_include.yml"}
+{"include":"requirement.yml"}
+{"includes":[{"include":"other_file.yml"}]}
+{"include":"main_include.yml"}
+{"include":"optional_file.yml"}
+{"include":"include_with_versioning.yml"}
+{"include":"another.galaxy"}
+{"roles":[{"name":"multi_source_role","scm":"hg","src":["html/role1","html/role2"],"version":"1.0"}]}
+{"include":"file_with_edge_case.yml"}
+{"include":"empty_include.yml"}
+{"roles":[{"name":"overlapping_roles","src":["url1.git","url2.git"],"scm":"hg","version":"1.1"}]}
+{"include":"recursive_include.yml"}
+{"include":"conditional_include.yml"}
+{"name":"Collection1","source":"http://example.com","type":"url","version":"1.0.0"}
+{"name":"Collection2","source":"file.txt","type":"file","version":"1.1.0"}
+{"name":"Collection3","source":"git@github.com:user/repo.git","type":"git","version":"v2.0.0"}
+{"name":"Collection4","source":"/path/to/dir","type":"dir","version":"0.1.0"}
+{"name":"Collection5","source":"subdir","type":"subdirs","version":"0.0.1"}
+{"include":"some_include"}
+{"name":"Collection8","source":"some_source","type":"galaxy","version":"2.0"}
+{"name":"Collection10","source":null,"type":"git","version":"latest"}
+{"roles":[{"name":"Role3","scm":"hg","src":null,"version":"develop"}]}
+{"include":"include1"}
+{"collections":[{"name":"Collection11","source":null,"type":"dir","version":"0.0.0"}]}
+{"name":"Collection12","type":"galaxy"}
+{"include":"include2"}
+{"include":"include3"}
+{"name":"Collection16","source":"source1","version":"v1.0.0"}
+{"include":"include4"}
+{"roles":[{"name":"Role12","scm":null,"src":"repo12.git"}]}
+{"include":"include5"}
+{"name":"Collection19"}
+{"roles":[{"name":"Role13","scm":"hg","src":"repo13.git","version":null}]}
+{"name":"Collection20","source":"source/path/to","type":"dir"}
+{"roles":[{"name":"Role14","src":null}]}
+{"include":"include6"}
+{"name":"Collection23","type":"galaxy","version":"1.0"}
+{"collections":[{"name":"Collection24","source":"source6","type":"git","version":null}]}
+{"name":"Collection25","source":"source7"}
+{"include":"include7"}
+{"name":"Collection26","source":"url://example.com","type":"url"}
+{"include":"include8"}
+{"name":"Collection27"}
+{"roles":[{"name":"Role20","src":null}]}
+{"include":"include9"}
+{"name":"Collection29","type":"galaxy"}
+{"roles":[{"name":"Role22","scm":null}]}
+{"include":"include10"}
+{"include":"dependency1"}
+{"include":"dependency2"}
+{"include":"dependency3"}
+{"include":"dependency4"}
+{"include":"dependency5"}
+{"collections":[null]}
+{"include":null}
+{"include":"dependency6"}
+{"include":"dependency7"}
+{"include":"dependency8"}
+{"include":"dependency9"}
+{"include":"another_dependency"}
+{"roles":[{"name":"role_with_null_fields","scm":null,"src":null,"version":null}]}
+{"name":"A","scm":"git","version":"1.0","src":"source1"}
+{"include":"module1"}
+{"include":"module2"}
+{"include":"module3"}
+{"datamodel":"json"}
+{"include":"module4"}
+{"include":"module5"}
+{"include":"module6"}
+{"include":"module7"}
+{"definitions":{"info":["A","B"]}}
+{"include":"module8"}
+{"names":["E1","E2"]}
+{"requirements":{"details":["A","B"]}}
+{"include":"module9"}
+{"versions":["latest"]}
+{"buyers":{"count":5}}
+{"names":["An example","Case Studies"]}
+{"included":["moduleA"]}
+{"formatting":[{"title":"format1"},{"title":"format2"}]}
+{"metrics":{"performance":"excellent"}}
+{"contacts":["support@org.com"]}
+{"include":"module10"}
+{"fields":["fieldA","fieldB"]}
+{"typeof":"role"}
+{"versions":[{"key":"1.0"},{"key":"2.0"}]}
+{"languages":["Python","Java"]}
+{"include":"module11"}
+{"contexts":[{"id":"context1"}]}
+{"details":{"id":1}}
+{"responses":[{"title":"title1"}]}
+{"requires":{"type":"integration"}}
+{"currency":"USD"}
+{"include":"module12"}
+{"name":"collection1","source":"source1","type":"galaxy","version":"1.0.0"}
+{"name":"collection2","source":"source2","type":"url","version":"1.2.0"}
+{"name":"collection3","source":"source3","type":"file","version":"0.1.0"}
+{"name":"collection4","source":"source4","type":"git","version":"2.0"}
+{"name":"collection5","source":"source5","type":"dir","version":"latest"}
+{"name":"collection6","source":"source6","type":"subdirs","version":"1.0.1"}
+{"include":"extra_requirements.yml"}
+{"name":"collection7","source":"source7","type":"url","version":"1.0.0"}
+{"name":"collection8","source":"source8","type":"file"}
+{"requirement":"UNSUPPORTED_FIELD"}
+{}
+{"include":null}
+{"name":"collection10","type":"dir"}
+{"include":"valid_requirements.yml"}
+{"name":"collection12","source":"source12","version":"1.4.3"}
+{"name":"collection13","type":"galaxy"}
+{"collection":"MISSING_FIELDS"}
+{"name":"collection-invalid","source":123,"type":"error","version":null}
+{"collections":[123]}
+{"name":"final_test_collection","type":"git","version":"v2.0","source":"source-final"}
+{"name":"collection-old_version","source":"old_source","version":"0.0.1"}
+{"name":"collection-int-complex-version","source":"not_a_numeric_version","type":"url","version":"version_1"}
+{"include":"nestedrequirements.yml"}
+{"name":"mixed_case_collection","source":"MixedSource","type":"FILE","version":"1.0"}
+{"roles":[{"name":"caseSensitiveRole","scm":"Git","src":"sensitiveurl.git"}]}
+{"include":"standard_reqs.yml"}
+{"name":"lowercase_collection_name","source":"lowercase-source","type":"dir","version":"2.0"}
+{"name":"special-char-collection-*","source":"src-spec","type":"url","version":"!@#"}
+{"name":"Example Role","scm":"git","src":"https://example.com/repo.git","version":"master"}
+{"name":"Example Role","scm":"hg","src":"https://example.com/repo.hg"}
+{"name":"Role with Missing Scm","src":"https://example.com/repo.git"}
+{"include":"https://another_repository.com/other_repo.yml"}
+{}
+{"name":"Role C","scm":"git"}
+{"include":"https://example.com/include.yml"}
+{"name":"Another Role","scm":"git","src":"https://anotherrepo.git","version":"develop"}
+{"include":12345}
+{"roles":[{"name":null,"scm":"git","src":"src.git","version":"1.0"}]}
+{"name":"Name With Special Characters","scm":"git","src":"https://&special#.com/repo.git"}
+{"include":" need_to_test () => \"an exception\"; "}
+{"include":{}}
+{"roles":[{"name":"Only Role","scm":null}]}
+{"include":"not_a_url"}
+{"name":"Role with Default SCM","src":"source.git"}
+{"collections":[{"name":"Edge Collection","source":"source_edge.com","type":"git"}],"roles":null}
+{}
+{"version":"3.0"}
+{"collections":[{"collection_name":"Invalid Structure"}]}
+{"include":"https://корректная!тестовая/репозитория"}
+{"collections":[{"name":"Improper Type Collection","source":"https://badtype.com","type":123456}]}
+{}
+{"include":"bananas"}
+{"name":"Multi-part-Role"}
+{"name":"Role Mixed With Include","scm":"hg"}
+{"name":"Edge Case 2","scm":{},"src":"just_source.git"}
+{"name":"","scm":{"unexpected":"here"},"src":"src.json"}
+{"include":["https://test.com/test.yml"]}
+{"collections":[{"name":"Unexpected Value With Source And Version","source":41,"type":"url"}]}
+{"updates":[{"version":"2.0"}]}
+{"include":"  "}
+{"name":"Race Condition Role","scm":"git","src":"https://race-condition.git"}
+{"collections":[{"name":"Incorrect Example Collection","source":99,"type":"dir"}]}
+{"include":"https://valid-url.com"}
+{"collections":[true]}
+{}
+{"name":"Collection 1","source":"source1","type":"url","version":"1.0.0"}
+{"name":"Collection 2","source":"source2","type":"git","version":"2.0.0"}
+{"name":"Collection 3","source":"source3","type":"file","version":"3.0.0"}
+{"include":"specific-package"}
+{"name":"Collection 7","type":"dir"}
+{"include":""}
+{"name":"Collection 9","source":"source9","type":"subdirs","version":"2.3.0"}
+{"version":"latest"}
+{"libraries":[]}
+{"alias":"roleAlias","roles":[{"name":"Role 8","scm":"hg","src":"repo8"}]}
+{"required":["collections"]}
+{"include":"default-package"}
+{"name":"Collection 13","source":"source13","type":"url","version":"1.0"}
+{"collections":[{"name":"Empty-Type-Collection","source":"default_src","type":"","version":""}]}
+{"include":null}
+{"name":"Collection 14","source":"source14","type":"file"}
+{"confidence":"PENDING"}
+{"include":"core-package"}
+{"name":"Collection 17","source":"source17","type":"subdirs"}
+{"roles":[{"name":"Role 11","scm":"hg","src":null}]}
+{"include":"internal-library"}
+{"collections":[{"name":"Collection 21","source":"source21","type":"file","version":null}]}
+{"heal":null}
+{"include":"empty-package"}
+{"collections":""}
+{"name":"Collection 22"}
+{"required":["roles"],"roles":[{"name":"Role 17"}]}
+{"version":"4"}
+{"include":"experiment-package"}
+{"include":"test-package"}
+{"inclusive":[]}
+{"include":""}
+{"name":"Collection 29","source":"","type":"galaxy"}
+{"name":"Collection 30","source":"source30","type":"url"}
+{"include":"special-package"}
+{"include":null}
+{"name":"Collection 33","type":"file"}
+{"include":"all"}
+{"include":"specifics"}
+{"include":"feature_x"}
+{"unknownProperty":"test"}
+{"include":"dependency1"}
+{"include":"global_dependencies"}
+{"include":"data_access"}
+{"include":""}
+{}
+{"include":"src_unconventional"}
+{"stack":[]}
+{"Collections":[{"name":"testing_case","type":"dir","source":"path_to_files"}]}
+{"include":"positive_case"}
+{"include":"testing"}
+{"name":"collection1","source":"source1","type":"galaxy","version":"1.0"}
+{"name":"collection2","source":"source2","type":"file","version":"2.0"}
+{"name":"collection3","source":"source3","type":"git","version":"3.0"}
+{"name":"collection4","source":"source4","type":"url","version":"4.0"}
+{"name":"collection5","source":"source5","type":"dir"}
+{"name":"collection6","source":"source6","type":"subdirs","version":"5.0"}
+{"included":["include1"]}
+{"include":"include2"}
+{"include":"include3"}
+{"role":[{"name":"role3"}]}
+{"include":""}
+{"name":"collection12","source":"source12","type":"git","version":"3.1"}
+{"name":"collection13","source":"source13","type":"dir","version":"2.1"}
+{"include":null}
+{}
+{"include":"plain text"}
+{"name":"collection16","type":"galaxy"}
+{"allow_empty_collection":[]}
+{"name":"collection18","type":"file","version":"1.0"}
+{"source":"source18","type":"git"}
+{"include":"include4"}
+{"red_flag":"potential_error"}
+{"name":"collection19","source":"source19","type":"url","version":"100.0"}
+{"name":1234,"source":"source20","type":"file"}
+{"error_role_definition":{"roles":[{"name":"role10"}]}}
+{"only_roles":[{"name":"role11"}]}
+{"extra_properties":{"name":"collection21"}}
+{"also_empty":{}}
+{"name":"collection22","type":"dir","version":"2.0"}
+{"include":"single entry"}
+{"debug":{"collected":[]}}
+{"roles":[{"name":"role14"}],"sub_error":{"flag":false}}
+{"edge_case_role_collection":[{"name":"collection24"}]}
+{"errors":[{"roles":[true]}]}
+{"child_collection":{"collections":[{"name":"collection25"}]}}
+{"missing_required":{"roles":["role15"]}}
+{"property_overload":{"unknown":"data"}}
+{"senior_role":{"roles":[{"name":"role17"}],"lead":true}}
+{"not_standard":{"collection":[{"name":"invalid-collection","type":5}]}}
+{"no_version":{"name":"collection27","type":"git"}}
+{"wrong_type_role":45}
+{"physical_role":[{"roles":[{"name":"role18"}]}]}
+{"collection_fixed_type":{"type":"git","version":"2.8"}}
+{"sub_collection":{"collections":[{"name":"collection30","type":"url"}],"all_clear":true}}
+{"version_flag":[{"role":"fixed_version"}]}
+{"include":"some_include"}
+{"include":"another_include"}
+{"name":"collection1","source":"source1","type":"git","version":"1.0.0"}
+{"name":"collection2","source":"source2","type":"url"}
+{"name":"collection5","type":"galaxy","version":"latest"}
+{"include":"complex/include/with_unicode_补充"}
+{"roles":[{"name":"invalid_scm","scm":"invalid_scm_type"}]}
+{"include":"safe_include"}
+{"name":"another_edge_case_collection","source":null,"type":"file"}
+{"categories":["NotAllowedField"]}
+{"name":"complete_collection","source":"good_source","type":"git","version":"1.2.3"}
+{"mini_roles":[{"name":"mini_role1"},{"name":"mini_role2","src":"abc.cr"}]}
+{"include":null}
+{"include":"simple_include"}
+{"name":"collection_as_role","type":"file","version":"1.0","source":"source1"}
+{"name":"extreme_skew_array_test","source":"source","type":"url","version":"1.0"}
+{"name":"same_fields_collection3","source":"some_src","type":"galaxy","version":"latest"}
+{"name":"validator_test","source":"src_url","type":"file"}
+{"include":"更复杂的集成测试"}
+{"name":"short_name","type":"git","source":"short_src"}
+{"version":"0.1","collections":["some_string_collection"]}
+{"include":"simple"}
+{"roles":null}
+{"include":"case_for_inclusion","some_invalid_field":"not_allowed"}
+{"include":"with_extra_fields","extra_field":"extra"}
+{"invalid_filed":"test"}
+{"simple_role":true}
+{"あるテストinclude":"test_in_locale"}
+{"name":"","type":"url","source":"no_source","version":"none"}
+{"include":{"nested_example":"nested_test"}}
+{"small_array":[{"name":"nameless_role","version":"latest"}]}
+{"mystery_field":[]}
+{"collection_data":["standard"]}
+{"include":{"deeper_structure":{"with_more":"complexity","yet_more":"nested"}}}
+{}
+{"forbidden_property":{"role":"test_role"}}
+{"valid_completion":[{"name":"some_valid_name","type":"subdirs"}]}
+{"invalid_inner_name":{"collections":[{"name":"inner"}]}}
+{"parent":{"name":"test1","source":"source1","nested":{"name":"test_nested"}}}
+{"taggedAs":["edge_case"]}
+{"include_optional":"value"}
+{"nested_array":{"deep":[{"name":"deep_role_segment","src":"http://url_path/path"}]}}
+{"self_reference":{"this":"shouldn't_ccurm"}}
+{"name":"collectionA","source":"sourceA","type":"url","version":"1.0"}
+{"name":"collectionB","source":"sourceB","type":"file","version":"2.0"}
+{"name":"collectionC","source":"sourceC","type":"git","version":"3.1"}
+{"include":"includeA"}
+{"roles":[{"name":"roleD","scm":"git","src":null},{"name":"roleE"}]}
+{"include":"includeC"}
+{"colprest }":[{"name":"","type":""}]}
+{"roles":[{"name":"roleH","scm":"hg","src":null}]}
+{"name":"collectionO","source":"","version":"2.4","type":"file"}
+{"name":"collectionQ","source":"sourceP"}
+{"include":"includeF"}
+{"name":"","version":"1.0"}
+[{"name":"roleF","version":null}]
+{"collections":[{"name":"collectionU","source":null}]}
+{"include":"includeG"}
+{"values":["valueWithSpecialCharacters@123"]}
+{}
+{"include":"additional-file.yaml"}
+{"include":"another-file.yml"}
+{"include":"one-more-file.yaml"}
+{"requirements":[{"collections":[{"name":"csv-type","source":"fileWithData.csv","type":"file","version":"0.1"},{"name":"all-type-collection","source":"second-source","type":"dir","version":"1.2.1"}]},{"include":"periodfile.include"}]}
+{"include":"test_include_v2.yaml"}
+{"include":"edge-infrastructure-file.yml"}
+{"include":"template.yml"}
+{"roles":[{"name":"null-version-role","scm":"git","src":"src-goes-here.rar","version":null}]}
+{"roles":[{"name":"simple-galaxy-role-shell","src":"http://example.com/repo.git","version":10}]}
+{"include":"data.yml"}
+{"requirements":[{"roles":[{"name":"name-can-be-empty-for-life","scm":"git","src":"http://example.com/.../level3"}]}]}
+{"include":"custom.yml"}
+{"roles":[{"name":"invalid-role","scm":"invalid"}]}
+{"collections":[{"name":"","source":null,"type":"git"}]}
+{"roles":[{"name":"null-version-role","src":"https://github.com/example/null-version.git","version":null}]}
+{"regions":[{"type":"data-empty"}]}
+{"roles":[{"name":"fake-scm-role","scm":"not-git-or-hg","src":"https://example.com/fake-role.git"}]}
+{"queries":[{"type":"bad-types-combinations"}]}
+{"collections":[{"name":null,"type":null,"source":null}]}
+{"collections":[{"name":null,"type":"subdirs","source":"source-example"}]}
+{"roles":[{"name":"role5","sr":"https://github.com/example/role5.git","version":"1.0.0"}]}
+{"queries":[{"type":"not-an-array"}]}
+{"additional_documents":[{"name":"role-custom-path","src":"https://github.com/custom-path/role.git","version":"1.0.0"}]}
+{"films":[{"type":"actor"}]}
+{"mobile_apps":[{"name":"mobile-app-1","type":"file/app-store","command":"Download now!"}]}
+{"groups":[{"type":"testing","settings":{"version":"1.0.1","layout":"header + body"}}]}
+{"tags":[{"label":"example"}]}
+{"settings":[{"version":"1.0","language":"Javascript"}]}
+{"regions":[{"name":"cluster-regions","output":"mapDataIfPresent","response":"values"}]}
+{"tags":[{"name":"test-single"}]}
+{"properties":[{"key":"type"}]}
+{"tags":[{"name":"important-field"}]}
+{"import_data":[{"name":"oneshot","type":"subsistant","usr_key":"d-ref:node:getSingle"}]}
+{"weak_points":[],"pallete_path":["none"]}
+{"name":"collection1","source":"src1","type":"git","version":"1.0"}
+{"name":"collection2","source":"src2","type":"file","version":"1.1"}
+{"name":"collection3","source":"src3","type":"url","version":"1.2"}
+{"name":"collection4","source":"src4","type":"dir","version":"1.3"}
+{"name":"collection5","source":"src5","type":"subdirs","version":"1.4"}
+{"include":"inc1"}
+{"include":"inc2"}
+{"include":"inc3"}
+{"name":"boundary","type":"dir"}
+{"scm":"hg"}
+{"include":"relative/include/path"}
+{"src":"source1","name":"name1","scm":"git"}
+{"name":"only-name","type":"git","version":"latest"}
+{"include":"some/path/include"}
+{"include":"another/path/include"}
+{"collections":[{"name":"edge-uri","source":"hardened_test","type":"svn"}]}
+{"include":"mix/incl"}
+{"collections":[{"name":"allslugs-collection","source":"empty.jar","type":"glimmer"}]}
+{"name":"effective-version","type":"file","source":"need/clarenty.org","version":"2.2"}
+{"include":"jobs/collection_job.yml"}
+{"name":"zero_case","version":""}
+{"roleRoles":[]}
+{"industria":"file/0.2"}
+{"name":"nub(new piece)","type":"galaxy","version":"latest"}
+{"roles":[{"name":"_new-name_","scm":{},"src":"ig:/targets/role"}]}
+{}
+{"messages":["message one","message two"]}
+{"branches":[{"name":"dev"}]}
+{"header":"optional"}
+{"name":"edge-double'/basicUseSubdir#","source":{},"type":"dir","version":"2022"}
+{"name":"Collection A","source":"https://example.com/collection-a","type":"git","version":"1.0.0"}
+{"include":"additional_roles.yml"}
+{"name":"Collection G","source":"folder/in/dir","type":"dir","version":"3.0.0"}
+{"include":"requirementsERT.yaml"}
+{"name":"Collection K","source":"http://example.com/k","type":"file","version":"4.0.0"}
+{"include":"rolesDb.json"}
+{"name":"Collection P","source":"/path/to/local","version":"5.0"}
+{"roll":[],"collections":[{"name":"Collection R"}]}
+{"role":[{"name":"Role M","scm":"git","src":"https://github.com/example/role-m"}]}
+{"include":"https://path.to/include"}
+{"name":"Collection U"}
+{"name":"Collection X","type":"file"}
+{"name":"Collection Y","source":"","type":"git","version":"beta"}
+{"include":"Roles.include"}
+{"name":"Collection AB","type":"file","source":"samples/"}
+{"include":"2022-roles.yml"}
+{"availabilities":{"collections":[{"source":"path/a/"}]}}
+{"name":"Collection AD","type":"dir"}
+{"include":"2021_migration.yml"}
+{"names":[{"collection":"Collection OE"}]}
+{"collections":[{"type":""}]}
+{"include":"moduleA"}
+{"include":"moduleB"}
+{"name":"Collection1","source":"sourceA","type":"file","version":"1.0.0"}
+{"name":"Collection2","source":"sourceB","type":"url","version":"1.1.0"}
+{"comes":"key","other":"value"}
+{"crow":"machine"}
+{}
+{"name":"SingleRole","source":"srcC","type":"galaxy"}
+{"name":"Example role","version":"0.1.0"}
+{"additions_multivalued":["test"]}
+{"name":null,"source":"","type":"url","version":"1.0"}
+[1,2,3]
+{"roles":[{"name":"RoleEz"},{"role":"undefined"}]}
+{"include":"IncludeModelA"}
+{"include":""}
+{"collections":[{"name":"CollectionNull","version":null}]}
+{}
+{"name":"RoleSingle","type":"dir"}
+{"name":"NettyDependency","source":"http://example.com","type":"url","version":"1.0.0"}
+{"include":"LibIncludeB"}
+{"name":"DarkRole","scm":"hg"}
+{"include":"namespace/module"}
+[{"collections":[{"name":"Foobar"}]}]
+{"branches":["release"]}
+{"character":"importAnt"}
+{"source":"http://contrib.eu/files","included":true}
+{"families":false}
+{"name":" col1 ","source":"coll_source","type":"url","version":"1.0"}
+{"anotherField":"data"}
+{"name":"tri_collection","type":"subdirs","source":"sourceTri"}
+{"name":"GenRole","scm":"git"}
+{"source":"bootable_url","version":"master"}
+{"names":[]}
+{"include":"PluginInclude"}
+{"linked":{"any required here":true}}
+[{"roles":[{"name":"minium_"},{"invalid fields":1}]}]
+{"dependencies":{"otherModel":{"file":"top.values/1.0/{validation_rq.}"}}}
+[{"collections":[{"name":"OK_COV_51"}]}]
+{"include":"_submodule/13-1-m error variant"}
+{"roles":[{"invalid":"data"}]}
+{"additional_data":"here"}
+{}
+{"name":"Test Collection","source":"http://example.com","type":"url","version":"1.0.0"}
+{"name":"Test File","source":"file.txt","type":"file","version":"1.0.0"}
+{"name":"Test Git","source":"https://github.com/example/repo.git","type":"git","version":"master"}
+{"name":"Test Directory","source":"/var/test/","type":"dir","version":"1.2.3"}
+{"name":"My Galaxy Collection","source":"galaxy.example","type":"galaxy","version":"2.0"}
+{"include":"other-requirements.yml"}
+{"name":"","source":"http://emptyname.com","type":"url","version":"1.0.0"}
+{}
+{"include":"include-file.yml"}
+{}
+{}
+{"include":"optional-required-file.yml"}
+{"name":"Test Source Only","source":"http://test.com","type":"url"}
+{"name":"Dir Collection","type":"dir"}
+{"roles":[{"name":"RoleWithEmptyScm","scm":""}]}
+{"name":"Empty Collection","type":"galaxy"}
+{"include":"new-include.yml"}
+{"name":"TooMuchSource","source":"thisisaverylongsource.com/with/too/many/segments","type":"url"}
+{"name":"ValidCustomCollection","source":"custom.source","type":"url","version":"3.0"}
+{"name":"Collection45","source":"http://collection45.com","type":"dir"}
+{"build":"wrongComponent","test":123}
+{"include":"file_with_sp_chars@!#$%^&*().yml"}
+{"erroneous-component":"shouldn't appear"}
+{"fields_not_allowed":"no"}
+{"type":12346}
+{"exampleInvalidRole":"notAllowedHere"}
+{"name":"OnlyVersion","version":"1.22.0"}
+{"unsupportedFieldsAdded":"value"}
+{"name":"Reflective Collection Name","source":"reflective-source.com","type":"url","version":"1.0"}
+{"role":"missing_required_field"}
+{"source":"random.file.location","type":"file"}
+{"extraField":"shouldNotBeThere"}
+{"include":{"file":"subDir/myFile.yml"}}
+{"owner":"someOwner"}
+{"source":"http://source/comes/here/car.jpeg","type":"url","collections":[]}
+{"include":{"name":"specific_handlers.yml"}}
+{"temporary_field":"extra_value"}
+{"invalidField":"random"}
+{"nicknamed_property":"similarToRole"}
+{"includes":"wrongly_named.yml"}
+{"sources":[]}
+{"model":"incorrect_structure"}
+{"name":"EmptyRolesFocused","roles":[]}
+{"source":"malformed_structure"}
+{"custom_key সহজ":"ভুলে לא תקין"}
+{"name":"","type":"file"}
+{"unique-token_source":"token+='source'"}
+{"gaming":[{}]}
+{"always_void_field":null}
+{}
+{}
+{}
+{"name":"Collection X","source":"Source X","type":"url","version":"1.0"}
+{"name":"Collection Y","source":"Source Y","type":"file","version":"1.1"}
+{"name":"Collection Z","source":"Source Z","type":"git","version":"2.0"}
+{"name":"Collection A","source":"Source A","type":"galaxy","version":"0.1"}
+{"name":"Collection B","source":"Source B","type":"dir","version":"0.2"}
+{"name":"Collection C","source":"Source C","type":"subdirs","version":"0.3"}
+{"name":"Collection D","source":"Source D","type":"url","version":"2.0"}
+{"name":"Collection E","source":"Source E","type":"file"}
+{"name":"Collection F","source":"Source F","type":"git","version":"master"}
+{"name":"Collection G","source":"Source G","type":"galaxy","version":"latest"}
+{"name":"Collection H","source":"Source H"}
+{"include":"include.yml"}
+{"collections":[{"name":"Null Source","source":null,"type":"url"}]}
+{}
+{"name":"Role 8"}
+{"include":"  "}
+{"name":"Role 10"}
+{"roles":[{"name":"","src":"","scm":" "}]}
+{"include":null}
+{}
+{"collections":{}}
+{"include":"example.yml"}
+{"collections":[{"name":"Empty Collection","source":"","type":"","version":""}]}
+{"name":"role1","scm":"git","src":"https://example.com/repo.git","version":"1.0"}
+{"name":"role2","scm":"hg","src":"http://example.com/repo.hg","version":"2.0"}
+{"include":"library"}
+{"name":"role3","scm":"git","src":"git@example.com:repo.git"}
+{"include":"subdir","source":"path/to/dir"}
+{"include":"some/path/file"}
+{"name":"emptyRole","version":""}
+{"name":"","src":"string"}
+{"name":"string","scm":"git"}
+{"versions":[],"roles":[]}
+{"roles":["role9"]}
+{"type":"galaxy"}
+{"type":"url"}
+{"ellipses":[{}]}
+{"except":[{"name":"role"},{"name":"role10"}]}
+{"include":"this.inc"}
+{"collections":"[\"string\"]"}
+{"roles":{"name":"singleRole"}}
+{"name":"VeryLongRoleNameThatExceedsStandardLimits"}
+{"role":{}}
+{"name":"validName","source":"path/to/resource"}
+{"roles":["anotherRole"]}
+{"include":"include_this_role"}
+{"include":1}
+{"source":"onlySource"}
+{"type":"subdirs","version":null}
+{"legacy":"only"}
+{"version":0}
+{"add_parameters":"not_existing_field"}
+{"anyKey":"randomValue"}
+{"version":"{}"}
+{"name":null,"version":"+"}
+{"name":"operational","source":"validsource"}
+{"optionalField":"extraField"}
+{"type":"git","src":"pathCID"}
+{"type":"url","source":"http://example.com/resource"}
+{"roles":["stringComponentOnly"]}
+{"include":"nonexistent"}
+{"name":"defaultRole","version":"1.0"}
+{"details":"unexpectedField"}
+{"include":"somepath"}
+{"collections":[123]}
+{"roles":["multipleRole","singleRole"],"collections":[{}]}
+{"toInclude":{"name":"name13"}}
+{"type":"file","source":"someSource"}
+{"noOp":true}
+{"destination":"some_trait"}
+{"role1":{},"include":{}}
+{"emptyValuesRole":{"name":"","scm":null}}
+{"additionalAllocatedRoles":["string/ports/data"]}
+{"extension":{}}
+{"roles":[{"include":false}]}
+{"include":"common-roles.yml"}
+{"include":"dev-roles.yml","roles":[{"name":"database","scm":"hg","src":"https://example.com/database.hg","version":"0.9"}]}
+{"include":"extra-roles.yml"}
+{"roles":[{"name":"special-role@1.0"}],"include":"roles.yml"}
+{"anyKey":"extraneous data"}
+{"include":"include-file.yml","roles":[{"name":"caching","scm":"git","src":"https://example.com/caching.git"},{"name":"network","scm":"hg"}]}
+{"collections":[{"name":"Bad Type","source":"https://InvalidType.com","type":"unsupported_type"}]}
+{"roles":[{"name":"nginx","scm":"git","version":"v1.9"},{"name":"rabbitmq","scm":"hg"}],"include":"compatibility.yml"}
+{"roles":null}
+{"include":"someinclude.yml","collections":[]}
+{"roles":[{"name":"base","scm":"git"}],"duplicate":"data"}
+{"include":"staff-roles.yml","roles":[{"name":"cache","scm":"git","src":"repo/cache"}]}
+{"collections":[{"name":null,"type":"galaxy","source":"galaxy"}]}
+{"roles":[{"name":"test-role","scm":"git","src":"https://example.com/test-role.git","version":"0.1"},{"name":"another-role","scm":"hg"}],"include":""}
+{"include":"my_include.yml"}
+{"roles":[{"name":"role with extras","scm":"git"},{"name":"role2","scm":"hg"}],"include":""}
+{"collections":[{"name":"One Item","source":"item.git","type":"git","version":"1.0"}],"num_key":"extraneous"}
+{"roles":[],"include":"only-collection.yml"}
+{"roles":[{"name":"another-feature","scm":"hg"}],"exclude":"invalid-data"}
+{"roles":[{"name":"feature-role","scm":"git"}],"include":null}
+{"collections":[],"include":"only_include.yml"}
+{}
+{"collections":[{"name":{"text":"Nested Name"},"source":"src","type":"file"}]}
+{"roles":[{"name":null,"scm":"git"}]}
+{"roles":[{"name":"Uppercase Role","scm":"GIT"}]}
+{"collections":[null,{"name":"Col X"}]}
+{"roles":[{"name":"Role with undefined src","version":"1.1.0"}],"collections":[{"name":"Collection A","type":""}]}
+{"roles":[],"collections":[null]}
+{"include":"simple inclusion"}
+{"roles":["Role String"]}
+{"collections":[{}],"roles":[{"what":"invalid key"}]}
+{}
+{"include":"dependencies.yml"}
+{"include":"includedfile.yml"}
+{"include":"extra-dependencies.yml"}
+{"include":"dependencies.yml"}
+{"roles":[{"name":"Mixed SCM Role","scm":"hg","version":"asdf"}],"include":"mix.yml"}
+{"versions":[{"name":"Versioned Role","version":"3.0.1"}]}
+{"include":"allfiles.yml"}
+{"include":"test_incl.yml"}
+{"include":"extensions.yml"}
+{"include":"backslashes.yml"}
+{"include":"mixed_including.yml"}
+{"inserted_roles":[{"name":"New Role","version":"000","src":"http://myrepo.com/%28somepath"}]}
+{"name":"test","source":"https://example.com","type":"url","version":"1.0.0"}
+{"name":"sample","source":"local_file.txt","type":"file","version":"2.1.5"}
+{"name":"another","source":"github","type":"git","version":"3.0"}
+{"include":"/something/path"}
+{"name":"","source":"empty_name","type":"file","version":"0.1"}
+{"collections":[{"name":"test","type":"url","source":null}]}
+{"type":"git","source":"https://github.com/repo.git"}
+{"include":"project/intra/config"}
+{"name":"development","source":"constant","type":"galaxy","version":"3.3.1"}
+{"rows":[{"name":"user_role"}]}
+{"roles":[{"name":"admin","scm":null,"src":"/src/path"}]}
+{"collections":null}
+{"collections":[{"name":"async","type":"https","source":"https://example.org"}],"roles":[]}
+{"name":"basic_name","source":"https://single_source.url","type":"url"}
+{"mockdata":[{"example":"data"}]}
+{"name":"gathering_curves","type":"dir"}
+{"collections":[{"type":"zip","name":"Package_x27","version":"v3.5"}]}
+{"include":"subdirectory/testing"}
+[{"name":"simple_merge","source":"basic","type":"url","version":"1.0"}]
+{"src":"generic_src","roles":[{"name":"unassigned_name"}]}
+{"valid_test":[{"name":"test_case","type":"file","version":"1.1"}]}
+{"data":[{"name":"unspecified","type":"dir"}]}
+{"include":"valid_path/register"}
+{"type":"subdirs"}
+{"include":"repo/testdir"}
+{"name":"temp","source":"my_temp.git","type":"git","version":"temporary"}
+{"name":"sv_versioned","source":"version_alias","type":"file","version":null}
+{"source":"http://src_url.org"}
+{"name":"stack_test","source":null,"type":"git"}
+{"params":[{"role_name":"user1"}]}
+{"basename":[{"src":"/data/name/top-level","version":"1.1.1"}]}
+{"name":"connected_set","source":"/import/data_none","type":"dir"}
+{"scope":[{"role_name":"development_plan","src":"dev_1.5"}]}
+{"name":"example_role"}
+{"include":"path/to/include"}
+{"next_collections":["collection_one",{"name":"complex_test","version":"y1_mod"}]}
+{"key_pairs":[{"key":"rugged/_marathon/","value":"multigide"}]}
+{"name":"pring_role","source":"source_name.git","type":"git"}
+{"source":"/malfunction/source.do","versions":"end_user"}
+{"name":null}
+{"name":"complex_case"}
+{"dependencies":{"roles":[{"name":"sub_main_call","scm":"git"}]}}
+{"name":"xyz_complex_test"}
+{"products":[{"categories":["tools","config"],"tags":["dev","frontend"]}]}
+{"include":{"include":"another_included_item"}}
+{"coll":[{"name":"my_coll","source":"https://source.com","version":"2.0"}]}
+{"versions":[{"name":"v1","version":"1.0"},{"name":"v2","version":"2.0"}]}
+{"versions":[{"name":"deprecated_item","version":"0.->see>here"}]}
+{"include":{"include":"single_item"}}
+{"include":{"include":"docs"}}
+{"ignore_case":[{"collections":[]},{"collections":["hello ROLE"]}]}
+{"roles":[{"name":"custom_name","scm":"git"},{"name":null}]}
+{"include":{"include":""}}
+{"requirements":[{"versions":["latest",{"version":null}]}]}
+{"multiple_scm":[{"name":"combo_role","scm":"git","src":"my_repos","version":"1.x"},{"name":"node_role","scm":"hg"}]}
+{"include":{"include":"selected"}}
+{"formatted":[{"name":"MyJSON_COLLECTION","type":"git","source":"my_source"}]}
+{"multiple_links":[{"name":"pi","source":"zero.com","type":"git"},{"name":"dual.x","source":"advanced.work"}]}
+{"special_items":[{"name":"null_handler","source":"ustate.org","type":"file"},{"name":"default_git_role","version":"1.0.0"}]}
+{"usage":[{"version":"","include":"configs/global.json"}]}
+{"exposed_format":[{"name":"UTF_header","source":"parsable.com","version":"utf8_path"}]}
+{"start_sets":[{"name":"start","scm":"git"}]}
+{"extraneous_formats":[{"name":"A_collection","scm":"git"}]}
+{"minimum_data_now":[{},{"name":"sun","version":"1.1","type":"file"}]}
+{"role_models":[{"name":"unscoped_role"}]}
+{"hide_keys":[{"assert":[{"key":false}]}]}
+{"double_params":[{"scm":"git","src":"new_repo.org","version":""},{"name":"second_array_placeholder","extent":"20kb"}]}
+{"lambdas":[{"name":"arduino_test_io","src":"classification.com"}]}
+{"parameters":[{"items":["aggregation"]}]}
+{"variables":["curl -X GET",{"url":"optional.go","version":"5.0","github":true}]}
+{"parameters":[{"refers_to":"group_roles","conditions":"base_area"}]}
+{"spec_move_many":[{"test_target":"empty_pattern","file_url":"FileName"}]}
+{"task_result":{"role_name":"xyz","scm":"git"}}
+{"empty_string":[{"name":"","source":"global_stack.com"}]}
+{"scenarios_stretch":[{"default":"unified_test","desc":"Tests configure strings"}]}
+{"temporary_collection":[{"temp_set":[{"label":"unknown where"}]}]}
+{"invalid_url":[{"source":"","name":"/"}]}
+{"coming_witness":[{"role_name":"///"}]}
+{"intricate_paths":[{"edges":[{"pos":0}]}]}
+{"versions":[{"most":{"level":2500}}]}
+{"decades":[{"notes":"nd*checksum","active_role":"-"}]}
+{"duplicate_role":[{"name":"duplicate_1","scm":"git","src":"duplicate_repo.com"}]}
+{"name":"Sample Collection","source":"repo","type":"git","version":"1.0.0"}
+{"name":"Another Collection","source":"url","type":"url","version":"0.1"}
+{"name":"Example Collection","source":"source File","type":"file","version":"2.0.5"}
+{"name":"My Collection","source":"path/to/dir","type":"dir","version":"latest"}
+{"name":"Collection 1","source":"source1","type":"galaxy","version":"2.1.1"}
+{"include":"some_resource.yaml"}
+{"name":"Empty Version","type":"url","version":""}
+{"type":"dir"}
+{"name":null,"source":"empty_name","type":"galaxy","version":"1.0"}
+{"include":"file.yaml"}
+{"version":"2.0","type":"galaxy"}
+{"documents":[],"roles":[]}
+{"include":"include_file.yml","not_required_field":"extra_field"}
+{"versions":[],"collections":[]}
+{"name":"special_col","type":"url"}
+{"include":{"name":"include_test_file"}}
+{"rows":"example"}
+{"fields":"something","empty":""}
+{"name":"name_col","type":"galaxy","source":"source"}
+{"version":"latest"}
+{"sources":[],"roles":[]}
+{"name":""}
+{"name":"auth\\name","scm":"git"}
+{"type":"galaxy","version":"3.0-rc"}
+{"collectionNo":1}
+{"without":"schema"}
+{"include":"requires_a_file"}
+{"exclusive_key":"value"}
+{"main_collection":[{"name":"the_name","source":"the_source","type":"url"}]}
+{"rows":12}
+{"name":"scm_test","version":"1.0"}
+{"books":[]}
+{"heroes":[]}
+{"bare_roles":[{"name":"baseline","version":"1.2.1"}]}
+{"exceptions":[{"name":"catch_me_fly","source":"to_no"}]}
+{"include":"path1"}
+[{"collections":["collection_string1","collection_string2"]}]
+{"include":"path5"}
+[{"collections":["collection_string3"]}]
+[{"include":"include_path2"},{"roles":[{"name":"role_i"}]}]
+[{"collections":[{"name":"collection6"}]}]
+{"include":"path6"}
+[{"roles":[]}]
+{"include":"path8"}
+{"include":"include_path1"}
+[{"roles":[{"name":"role_l","scm":"git","version":"2.1"}]}]
+[{"collections":[{"name":"collection10","type":"subdirs"}]}]
+[{"roles":[{"name":"role_o","src":""}]}]
+{"include":"simple_path"}
+[{"roles":[{"name":"role_q","scm":"git","src":"url_g","version":"4.0"}]}]
+{"include":"edge_path1"}
+[{"includes":["include_path11","include_path12"]}]
+[{"roles":[{"name":"role_u","scm":"git"}]}]
+[{"include":"path10"},{"collections":[{"name":"collection11"}]}]
+[{"include":null}]
+[{"source":"source5"}]
+{"collections":[{"name":"collection12","type":"url","source":null}]}
+[{"roles":[{"name":"  "}]}]
+[""]
+[{"include":"path12"},{"collections":[{"name":"collection_string4"}]}]
+{"roles":[null]}
+{}
+[{"classes":["custom"]}]
+{"include":"include_path13"}
+[{"collections":[{"name":"collection13"}]}]
+[{"include":123}]
+[{"roles":[{"name":"    "}]},{}]
+{"include":"path13"}
+[{"roles":[{"name":" }"}]}]
+{"include":true}
+[{},{"roles":[]}]
+[{"collections":[{}]}]
+[{"scm":"invalid_scm"}]
+{"include":{"include":"file_name.yml"}}
+{"include":{"include":"demo.yml"}}
+{"include":{"include":"inclusion_file.yml"}}
+{"collections":[{"name":"edge_case_source","source":".","type":"directory"}],"roles":[]}
+{"include":{"include":"includeative_file.yml"}}
+{"include":{"include":"include_pattern_file.yml"}}
+{"name":"Sample Collection 1","source":"http://example.com","type":"url","version":"1.0.0"}
+{"name":"Sample Collection 2","source":"file://path/to/file","type":"file","version":"2.0.1"}
+{"name":"Sample Collection 3","source":"git://github.com/example/repo.git","type":"git","version":"master"}
+{"name":"Sample Collection 4","source":"dir:///some/directory","type":"dir","version":"3.0.0"}
+{"name":"Sample Collection 5","source":"subdirs://subdir/path","type":"subdirs","version":"4.0.0"}
+{"include":"common_role"}
+{"include":"error_role"}
+{}
+{"name":"Empty Type","source":"http://sampleurl.com","version":"v1.0"}
+{"name":"roll With Mandatory SCM Only","scm":"hg"}
+{"include":"validated_role"}
+{}
+{"include":"global_include"}
+{}
+{"name":"Edge Case Role 1","source":"http://resource","type":"subdirs"}
+{"name":"low version =>","source":"versionzero","type":"url","version":"0.0.1"}
+{"collections":[{"name":"OftenMissingDataCollection","source":"genSource","type":"","version":""}]}
+{"include":"yet another role"}
+{}
+{"name":"Another Collection Name","source":"wwww.enjoy.com","version":"3.5"}
+{"include":"hey_mimic_role"}
+{"collections":[{"name":"Spooky Music!","type":"Gal_x###xy","version":"horrify, yet_valid"}]}
+{}
+{"roles":[{"0name":"<RoleError>","id":"invalid order museum role"}]}
+{"include":"heavyrole*invalid"}
+{}
+{"include":"Example Inc"}
+{"name":"","source":"xyz://abc","type":"subdirs","version":"last"}
+{"name":"collection1","source":"source1","type":"file","version":"1.0"}
+{"name":"collection2","source":"source2","type":"url","version":"2.0"}
+{"name":"collection3","source":"source3","type":"git","version":"3.0"}
+{"name":"collection4","source":"source4","type":"galaxy","version":"4.0"}
+{"name":"collection5","source":"source5","type":"dir","version":"5.0"}
+{"name":"collection6","source":"source6","type":"subdirs","version":"6.0"}
+{"name":"collection7","source":"source1","type":"file","version":"1.1"}
+{"name":"collection8","source":"source2","type":"url","version":"2.1"}
+{"include":"include_file.yml"}
+{"source":"source7","type":"url","version":"2.2"}
+{}
+{"include":"include_pallet.yml"}
+{"collections":[{"name":"collectionX","version":null}]}
+{"name":"collection10","source":"source10","type":"dir","version":"9.0"}
+{"include":"include_sample.yml"}
+{"countries":["collection_key1","collection_key2"]}
+{"collections":[{"name":null,"source":"source12","type":"file","version":null}]}
+{"names":["collectionX","roleY"]}
+{"roles":[{"name":null,"scm":"git"}]}
+{"name":"collection_sparse","source":"sparse_source"}
+{"include":"specific_role.yml"}
+{}
+{"collections":[{"type":"non_existent_type","name":"invalidCollection"}]}
+{"include":"empty.yml"}
+{"name":123,"source":"sourceLiteral","type":"file"}
+{"file-path":"not_a_valid_collection"}
+{"include":"include_file_with_metadata.yml"}
+{"name":"ShortName"}
+{"tests":["test1"]}
+{"string_property_name":"collection_string_example"}
+{"reference":"application/xml"}
+{"name":"test-collection-1","source":"http://example.com","type":"url","version":"1.0.0"}
+{"name":"test-collection-2","source":"http://example.com","type":"file","version":"2.0.0"}
+{"include":"other-requirements.yml"}
+{"name":"test-collection-3","source":"git@github.com:test/repo.git","type":"git","version":"v1.0.1"}
+{"name":"conditional-collection","source":"empty","type":"url"}
+{"include":"second-requirements.yml"}
+{"name":"my-collection","source":"git@my.git","type":"git","version":"master"}
+{"include":"include-file.yml"}
+{"name":"all-options-collection","source":"git_repo","type":"git","version":"1.1.1"}
+{"name":"tabbed-collection","source":"\thttp://url.com","type":"url"}
+{"include":""}
+{"roles":[{"name":"just-a-role","version":"0.0.1","scm":""}]}
+{"name":null}
+{"roleA":{"name":"roleA","sfm":"git"}}
+{"name":true,"source":"valid","version":"2.1.3"}
+{"values":[{"name":"extraTest","unsupportedProperty":"should failures be ignored?"}]}
+{"collections":[1,2,3]}
+{"roles":["just-string"]}
+{"name":"complete","source":"https://source.url","type":"dir","version":"v1.3.2"}
+{"include":"formatted.yml"}
+{"roles":[{"name":"structured-role","version":"2010","scm":"git remote url"}]}
+{"parameters":[{"scm":{"not":"permitted"}}]}
+{"properties":{"kat1":{"vegetables":"heat","languages":"strict"}}}
+{"type":{"value":"uniquestringinajsonstructure"}}
+{"collection_kat":"values-optional","aspect":null,"abc":[25]}
+{"observations":[{"data":"adjustability"}]}
+{}
+{"successfulRoleNames":[{"name":"tech"},{"name²":"moreThings"}]}
+{"structures":[{"benefit":"access"},{}]}
+[{"test-git":{"source":"http://link1.com"}}]
+[{"collections":[{"isOnSale":true,"amount":null,"type":"galaxy"}]}]
+{"duplicatesHandlingArray":[]}
+{"validationNotesArray":["Tomatoes should appear later"]}
+{"twists":["why did i put flowering plants here?"]}
+[{"exclusiveItemsCritical":true}]
+{"species":["does",null]}
+{"name":"MainCollection","type":"git","version":"1.0.0","source":"https://github.com/user/repo"}
+{"name":"DataCollection","type":"url","version":"1.0.1","source":"http://example.com"}
+{"name":"FileCollection","type":"file","version":"2.0","source":"./path/to/file"}
+{"name":"GalaxyCollection","type":"galaxy","version":"3.0"}
+{"name":"SubdirsCollection","type":"subdirs","version":"1.0.0","source":"/path/to/dir"}
+{"include":"other-collection.yml"}
+{"name":"CollectionWithExtraField","source":"http://example.com","type":"url","version":"2.1","extra":"error"}
+{"name":"","type":"git"}
+{"collections":[{"source":null,"type":"galaxy"}]}
+{"name":"NameWithoutVersion","type":"git"}
+{"name":"MultiRoleTest","roles":[{"name":"RoleF","version":"2.0"}]}
+{"versions":[{"name":"VersionedRole","version":"1.0.0"}]}
+{"type":"invalid"}
+{"source":"missingNAmeToCreateRole"}
+[{"yes":"no"},{"collections":[{}]}]
+{"name":"C1","type":"subdirs","version":"0.1.0"}
+{"collections":[{"name":"CollectionC","type":"git"},{"name":"ServerRole","scm":null}]}
+{"include":""}
+{"write":"json"}
+{"allocated":true}
+{"name":null}
+{"collections":[{"name":"BC","version":"3.0.0","type":"jlob"},{"11":"12"}]}
+{"roles":[{},{"name":"FullRole","src":"src/path","version":555}]}
+[{"collections":["NotEvenAnObject"]}]
+{"include":"😀"}
+{"name":"Name1","type":"git","source":"valid_git_source.com"}
+{"collectionOmitted":true}
+{"name":"a","source":"a","type":"a","version":"b"}
+{"include":"hudson"}
+{"include":"acceptable yaml"}
+{"names":[]}
+{"include":"new_inclusion.yml"}
+{"include":"/dir/readpip"}
+{"include":"."}
+{"name":"FieldNameWithDash","type":"dir","version":"v5.4"}
+{"roles":{"source":null}}
+{"name":"RoleZ","collections":[{}]}
+{"version":{},"collections":[]}
+{"name":"ExtremelyLongNameTermDeviceForTestingLengths","type":"file","version":"1.23.1453_opt"}
+{"roles":[{"name":["IncorrectNameType"]}]}
+{"name":"DefaultGitRole","scm":"git","version":"main"}
+{"iterations":[{"name5234":"701"}]}
+{"alias":"string","games":["game"]}
+{"include":"whitespaces anywhere      "}
+{"name":"God","type":"dir","source":"file path"}
+{"above":[{"sad":1}],"وكأن":true," यूनिक्स|":["as"]}
+{"include":{"include":"extra_roles.yml"}}
+{"roles":[{"name":"role6","scm":"baka","src":"https://example.com/repo6.git"}]}
+{"collections":[{"name":"collection7","type":"git","version":"latest"}],"include":{"include":"info.yml"}}
+{"roles":[{"name":"role7","version":"stable"}],"classes":[]}
+{"include":{"include":"all_roles.yml"}}
+{"collections":[{"name":"collection9","type":"hyper","version":"0.0.1-alpha"}]}
+{"include":{"include":"roles.yml"}}
+{"roles":[{"name":"role12"}],"classes":[]}
+{"include":{"include":"dependencies.yml"}}
+{"include":{"include":"multiple_includes.yml"}}
+{"Collections":[{"name":"all_caps","source":"example.com","type":"DIR","version":"2.2"}]}
+{"collections":[{"name":"case_sensitive","source":"path","type":"Subdirs","version":"1.2.3"}]}
+{"include":{"include":""}}
+{"roles":[{"name":"role21","scm":"git","src":"https://example.com/role21","version":"3.0.0"}],"collections":[{"name":"mixedcase","type":"GiT","source":"url","version":"0.9.9"}]}
+{"collections":[{"name":"fix_exists.error","source":"dir","type":"File","version":"patch_v1"}]}
+{"exclude":{"exclude":"roles/groups.yml"}}
+{"roles":[{"name":"highkey"},{"name":"lowkey","scm":"subsonic","src":""}]}
+{"assets":{}}
+{"clusters":[]}
+{"dependencies":{"aDependency":"1.2.3"}}
+{"redundancy":{}}
+{"node":[{"auth":"alongwithOK_urivoq99"}]}
+{"multiple":["collection18","collection19"]}
+{"include":"include1.yml"}
+{"include":"include2.yml"}
+{"include":"include_with_nonexistent_source.yml"}
+{"any":[{"include":"empty_include"}]}
+{"incomplete":{"collections":[{"name":"incomplete_collection"}]}}
+{"include":"nested/include.yml"}
+{"include":"complex/include.yml"}
+{"collections":[{"name":"with_null_scm_role","source":"role_source_null_scm","type":"git","version":null}]}
+{"include":"ranged_version_include"}
+{"include":"day:include.yml"}
+{"collections":[{"name":"edge_prefix_collection_name_prefix_bare","source":"unknown_source","type":"git_abcdef","version":"2.X.X"}]}
+{"collections":[{"name":"example_collection","source":"mid_source","type":"subdirs"},{"name":"column_ignore_property","type":"example"}]}
+{"collections":[{"name":"very_long_collection_name_with_edge_case_properties","source":"param_case_revolving_source","type":"that includes that category"}],"roles":[]}
+{"include":"agenda.include"}
+{"roles":[{"name":"nested_array_as_collection","scm":"hg","src":{"sub":"role_source_as_inner_object"}}]}
+{"collections":[{"name":"different_type_name","source":"undefined_source_object_in_array - "},{"length_is_ignore":true}]}
+{}
+{"include":"index.yaml"}
+{"tempField":"error"}
+{"include":"settings.yml"}
+{"include":"examples.yml"}
+{"include":"requirement.yml"}
+{"include":"../../wrong_path.yml"}
+{"include":"anything.yml"}
+{"include":"module1"}
+{"include":"module3"}
+{"include":"module19"}
+{"include":"directory_module"}
+{"include":"module20"}
+{}
