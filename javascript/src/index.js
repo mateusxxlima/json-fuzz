@@ -7,10 +7,10 @@ import * as Hyperjump from '@hyperjump/json-schema/draft-07';
 import AJS from 'another-json-schema';
 import SV from 'schema-validator';
 
-import OpenAI from 'openai';
+import OpenAI from 'openai/index.mjs';
 import dotenv from 'dotenv';
 import fs from 'fs';
-import { DateTime } from 'luxon';
+import { DateTime } from '../node_modules/@types/luxon/index.js';
 import { systemContent } from './prompts.js';
 
 //######################################################

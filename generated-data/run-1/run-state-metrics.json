@@ -1,0 +1,199 @@
+{
+  "completed": true,
+  "schemas": [
+    {
+      "schemaName": "aerleon-policies.schema.json",
+      "completed": true,
+      "metrics": {
+        "startTime": "2026-07-16T20:12:06.703-03:00",
+        "endTime": "2026-07-16T23:01:46.328-03:00",
+        "totalRequestsMadeToLLM": 172,
+        "totalParseableJsonResponses": 168,
+        "totalUnparseableJsonResponses": 4,
+        "generatedDocuments": 14063,
+        "totalValidDocuments": 13669,
+        "totalInvalidDocuments": 394,
+        "totalConflictDocuments": 0,
+        "maxGeneratedDocumentsPerBatch": 290,
+        "minGeneratedDocumentsPerBatch": 43,
+        "maxLLMResponseTimeMinutes": 3.0874166666666665
+      }
+    },
+    {
+      "schemaName": "aiconfig-1.0.json",
+      "completed": true,
+      "metrics": {
+        "startTime": "2026-07-16T23:08:34.232-03:00",
+        "endTime": "2026-07-17T10:53:34.790-03:00",
+        "totalRequestsMadeToLLM": 505,
+        "totalParseableJsonResponses": 194,
+        "totalUnparseableJsonResponses": 311,
+        "generatedDocuments": 10003,
+        "totalValidDocuments": 9138,
+        "totalInvalidDocuments": 865,
+        "totalConflictDocuments": 0,
+        "maxGeneratedDocumentsPerBatch": 117,
+        "minGeneratedDocumentsPerBatch": 10,
+        "maxLLMResponseTimeMinutes": 7.84675
+      }
+    },
+    {
+      "schemaName": "ansible-lint-config.json",
+      "completed": true,
+      "metrics": {
+        "startTime": "2026-07-17T10:53:34.793-03:00",
+        "endTime": "2026-07-17T12:00:51.612-03:00",
+        "totalRequestsMadeToLLM": 158,
+        "totalParseableJsonResponses": 119,
+        "totalUnparseableJsonResponses": 39,
+        "generatedDocuments": 10038,
+        "totalValidDocuments": 6316,
+        "totalInvalidDocuments": 3722,
+        "totalConflictDocuments": 0,
+        "maxGeneratedDocumentsPerBatch": 173,
+        "minGeneratedDocumentsPerBatch": 11,
+        "maxLLMResponseTimeMinutes": 2.7528333333333332
+      }
+    },
+    {
+      "schemaName": "aspire-8.0.json",
+      "completed": true,
+      "metrics": {
+        "startTime": "2026-07-17T12:00:51.613-03:00",
+        "endTime": "2026-07-17T15:11:17.168-03:00",
+        "totalRequestsMadeToLLM": 211,
+        "totalParseableJsonResponses": 175,
+        "totalUnparseableJsonResponses": 36,
+        "generatedDocuments": 10058,
+        "totalValidDocuments": 9075,
+        "totalInvalidDocuments": 983,
+        "totalConflictDocuments": 0,
+        "maxGeneratedDocumentsPerBatch": 107,
+        "minGeneratedDocumentsPerBatch": 21,
+        "maxLLMResponseTimeMinutes": 5.66915
+      }
+    },
+    {
+      "schemaName": "azure-devops-extension-manifest-1.0.json",
+      "completed": true,
+      "metrics": {
+        "startTime": "2026-07-17T15:11:17.169-03:00",
+        "endTime": "2026-07-17T23:41:15.451-03:00",
+        "totalRequestsMadeToLLM": 440,
+        "totalParseableJsonResponses": 264,
+        "totalUnparseableJsonResponses": 176,
+        "generatedDocuments": 10007,
+        "totalValidDocuments": 9225,
+        "totalInvalidDocuments": 782,
+        "totalConflictDocuments": 0,
+        "maxGeneratedDocumentsPerBatch": 100,
+        "minGeneratedDocumentsPerBatch": 4,
+        "maxLLMResponseTimeMinutes": 8.108333333333333
+      }
+    },
+    {
+      "schemaName": "bigquery-table.json",
+      "completed": true,
+      "metrics": {
+        "startTime": "2026-07-17T23:41:15.452-03:00",
+        "endTime": "2026-07-18T00:53:01.624-03:00",
+        "totalRequestsMadeToLLM": 187,
+        "totalParseableJsonResponses": 178,
+        "totalUnparseableJsonResponses": 9,
+        "generatedDocuments": 10000,
+        "totalValidDocuments": 8479,
+        "totalInvalidDocuments": 1521,
+        "totalConflictDocuments": 0,
+        "maxGeneratedDocumentsPerBatch": 84,
+        "minGeneratedDocumentsPerBatch": 19,
+        "maxLLMResponseTimeMinutes": 0.9082
+      }
+    },
+    {
+      "schemaName": "boyka-config.json",
+      "completed": true,
+      "metrics": {
+        "startTime": "2026-07-18T00:53:01.624-03:00",
+        "endTime": "2026-07-18T03:17:08.493-03:00",
+        "totalRequestsMadeToLLM": 266,
+        "totalParseableJsonResponses": 188,
+        "totalUnparseableJsonResponses": 78,
+        "generatedDocuments": 10060,
+        "totalValidDocuments": 2868,
+        "totalInvalidDocuments": 7192,
+        "totalConflictDocuments": 0,
+        "maxGeneratedDocumentsPerBatch": 585,
+        "minGeneratedDocumentsPerBatch": 11,
+        "maxLLMResponseTimeMinutes": 2.61095
+      }
+    },
+    {
+      "schemaName": "build.json",
+      "completed": true,
+      "metrics": {
+        "startTime": "2026-07-18T03:17:08.494-03:00",
+        "endTime": "2026-07-18T07:00:22.217-03:00",
+        "totalRequestsMadeToLLM": 309,
+        "totalParseableJsonResponses": 193,
+        "totalUnparseableJsonResponses": 116,
+        "generatedDocuments": 10001,
+        "totalValidDocuments": 9377,
+        "totalInvalidDocuments": 624,
+        "totalConflictDocuments": 0,
+        "maxGeneratedDocumentsPerBatch": 130,
+        "minGeneratedDocumentsPerBatch": 7,
+        "maxLLMResponseTimeMinutes": 4.23655
+      }
+    },
+    {
+      "schemaName": "pre-commit-hooks.json",
+      "completed": true,
+      "metrics": {
+        "startTime": "2026-07-18T07:00:22.218-03:00",
+        "endTime": "2026-07-18T08:40:09.397-03:00",
+        "totalRequestsMadeToLLM": 127,
+        "totalParseableJsonResponses": 102,
+        "totalUnparseableJsonResponses": 25,
+        "generatedDocuments": 10001,
+        "totalValidDocuments": 4770,
+        "totalInvalidDocuments": 5231,
+        "totalConflictDocuments": 0,
+        "maxGeneratedDocumentsPerBatch": 100,
+        "minGeneratedDocumentsPerBatch": 52,
+        "maxLLMResponseTimeMinutes": 2.32415
+      }
+    },
+    {
+      "schemaName": "requirements.json",
+      "completed": true,
+      "metrics": {
+        "startTime": "2026-07-18T08:40:09.397-03:00",
+        "endTime": "2026-07-18T09:55:43.924-03:00",
+        "totalRequestsMadeToLLM": 223,
+        "totalParseableJsonResponses": 139,
+        "totalUnparseableJsonResponses": 84,
+        "generatedDocuments": 10054,
+        "totalValidDocuments": 7195,
+        "totalInvalidDocuments": 2859,
+        "totalConflictDocuments": 0,
+        "maxGeneratedDocumentsPerBatch": 239,
+        "minGeneratedDocumentsPerBatch": 43,
+        "maxLLMResponseTimeMinutes": 1.2867333333333333
+      }
+    }
+  ],
+  "generalMetrics": {
+    "startTime": "2026-07-16T20:12:06.685-03:00",
+    "endTime": "2026-07-18T09:55:43.924-03:00",
+    "totalRequestsMadeToLLM": 2598,
+    "totalParseableJsonResponses": 1720,
+    "totalUnparseableJsonResponses": 878,
+    "generatedDocuments": 104285,
+    "totalValidDocuments": 80112,
+    "totalInvalidDocuments": 24173,
+    "totalConflictDocuments": 0,
+    "maxGeneratedDocumentsPerBatch": 585,
+    "minGeneratedDocumentsPerBatch": 4,
+    "maxLLMResponseTimeMinutes": 8.108333333333333
+  }
+}
