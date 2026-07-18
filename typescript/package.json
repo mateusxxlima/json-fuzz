@@ -1,0 +1,40 @@
+{
+  "name": "json-fuzz-typescript",
+  "version": "1.0.0",
+  "description": "Data generation using TypeScript",
+  "homepage": "https://github.com/mateusxxlima/json-fuzz#readme",
+  "bugs": {
+    "url": "https://github.com/mateusxxlima/json-fuzz/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mateusxxlima/json-fuzz.git"
+  },
+  "license": "ISC",
+  "author": "Mateus de Lima",
+  "type": "module",
+  "main": "main.ts",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "test": "tsx --test",
+    "start:dev": "tsx --env-file=.env src/main.ts",
+    "build": "tsc",
+    "start": "node --env-file=.env dist/main.js"
+  },
+  "devDependencies": {
+    "@types/luxon": "^3.7.2",
+    "@types/node": "^26.1.1",
+    "tsx": "^4.23.0"
+  },
+  "dependencies": {
+    "@cfworker/json-schema": "^4.1.1",
+    "@exodus/schemasafe": "^1.3.0",
+    "@hyperjump/json-schema": "^1.17.7",
+    "ajv": "^8.20.0",
+    "json-schema-library": "^11.6.1",
+    "luxon": "^3.7.2",
+    "openai": "^6.46.0"
+  }
+}
