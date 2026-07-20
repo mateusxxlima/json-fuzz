@@ -93,7 +93,8 @@ export class App {
       directory = 'conflict-docs';
     }
 
-    const filePath = `${this.stateService.runPath}/${directory}/${schema.schemaName}.jsonl`;
+    const jsonLineDoc = schema.schemaName.replace('.json', '.jsonl');
+    const filePath = `${this.stateService.runPath}/${directory}/${jsonLineDoc}`;
 
     fs.appendFileSync(filePath, `${JSON.stringify(doc)}\n`, 'utf8');
     schema.metrics.generatedDocuments += 1;
