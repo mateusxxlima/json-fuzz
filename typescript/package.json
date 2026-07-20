@@ -18,10 +18,10 @@
     "node": ">=24"
   },
   "scripts": {
-    "test": "tsx --test",
+    "test": "tsx --test test/**/*",
     "start:dev": "tsx --env-file=.env src/main.ts",
     "build": "tsc",
-    "start": "node --env-file=.env dist/main.js"
+    "start": "node --env-file=.env dist/src/main.js"
   },
   "devDependencies": {
     "@types/luxon": "^3.7.2",
